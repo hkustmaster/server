@@ -13,13 +13,18 @@ block content
 					.col-sm-10
 						input#inputTitle.form-control(type="text",name="id")
 				.form-group
-					label.col-sm-2.control-label(for="inputTime") TIME
+					label.col-sm-2.control-label(for="inputTime") begin
 					.col-sm-10
-						input#inputTitle.form-control(type="text",name="time")
+						input#inputTitle.form-control(type="text",name="begin")
+				.form-group
+					label.col-sm-2.control-label(for="inputTime") end
+					.col-sm-10
+						input#inputTitle.form-control(type="text",name="end")
 				.form-group
 					label.col-sm-2.control-label(for="inputType") Type
 					.col-sm-10
 						input#inputTitle.form-control(type="text",name="type")
+
 				button.btn.btn-primary(type="submit") submit
 	
 				button.btn.btn-danger(type="button") cancel

@@ -14,6 +14,5 @@ router.post('/signin', User.signin)
 router.get('/signin', User.showSignin)
 router.get('/signup', User.showSignup)
 router.get('/logout', User.logout)
-router.get('/admin/user/list', User.signinRequired, User.adminRequired, User.list)
 
 module.exports = router;

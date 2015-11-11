@@ -9,13 +9,18 @@ block content
 						th id
 						th name
 						th host
-						th time
+						th participants
 						th type
+						th status
+						th beginAt
+						th endAt
 				tbody
-					each item in act
-						tr
-							td #{item.id}
-							td #{item.name}
-							td #{item.host}
-							td #{item.time}
-							td #{item.type}
+					tr
+						td #{id}
+						td #{name}
+						td #{host}
+						td #{participants}
+						td #{type}
+						td #{status}
+						td #{begin}
+						td #{end}

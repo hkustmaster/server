@@ -42,7 +42,7 @@ app.use('/', routes);
 app.use(function(req,res,next){
     if(req.session.user){
       app.locals.user=req.session.user
-      next
+      next();
     }
     else{
       res.redirect('/signin');
