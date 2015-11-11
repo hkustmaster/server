@@ -1,0 +1,21 @@
+extends layout
+
+block content
+	.container
+		.row
+			table.table.table-hover.table-bordered
+				thead
+					tr
+						th id
+						th name
+						th host
+						th time
+						th type
+				tbody
+					each item in activities
+						tr
+							td #{item.id}
+							td #{item.name}
+							td #{item.host}
+							td #{item.time}
+							td #{item.type}

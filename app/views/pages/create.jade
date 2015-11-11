@@ -1,0 +1,26 @@
+extends layout
+
+block content
+	.container
+		.row
+			form.form-horizontal(method="post", action="new")
+				.form-group
+					label.col-sm-2.control-label(for="inputTitle") Name
+					.col-sm-10
+						input#inputTitle.form-control(type="text",name="name")
+				.form-group
+					label.col-sm-2.control-label(for="inpuId") ID
+					.col-sm-10
+						input#inputTitle.form-control(type="text",name="id")
+				.form-group
+					label.col-sm-2.control-label(for="inputTime") TIME
+					.col-sm-10
+						input#inputTitle.form-control(type="text",name="time")
+				.form-group
+					label.col-sm-2.control-label(for="inputType") Type
+					.col-sm-10
+						input#inputTitle.form-control(type="text",name="type")
+				button.btn.btn-primary(type="submit") submit
+	
+				button.btn.btn-danger(type="button") cancel
+
