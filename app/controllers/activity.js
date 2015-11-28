@@ -1,13 +1,14 @@
 var mongoose = require('mongoose')
 var activity = require('../models/activity');
 var ObjectId =mongoose.Schema.Types.ObjectId
+var Hashids=require('hashids')
+var hashids = new Hashids("together");
 // signup
 exports.showAll = function(req, res ,next) {
   activity.find({},function(err,act){
     if(err)
       console.log(err);
-    console.log(act); 
-    res.render('list', { title:"ALL", activities:act});
+      res.json({message:"Succeed",act:act});
   });
 }
 
@@ -34,13 +35,13 @@ exports.postEdit = function(req, res,next) {
   if(!kick&&!invite){
     activity.findOneAndUpdate({id:id},{name:name,time:time,type:type},function(err,act){
       if (err){
-        res.redirect("/");
+        res.json({message:"Server Error"});
       }
-      else if (!act){
-        res.render('edit',{title: "Not Exist"});
-      } 
+      else if(!act){
+        res.json({message:"Activity Not Exist"});
+      }
       else{
-        res.render('edit', { title: 'Success!' });
+        res.json({message:"Succeed"});
       }
     });
   }
@@ -78,11 +79,11 @@ exports.postEdit = function(req, res,next) {
 exports.delete = function(req, res,next) {
   var id=req.params.id;
   activity.findOneAndRemove({id:id},function(err,doc){
-          console.log(doc);
+    console.log(doc);
     if (err)
-      console.log(err)
+      res.json({message:"Server Error"});
     else
-      res.render('delete', { title: 'Success', obj: JSON.stringify(doc) });
+      res.json({message:"Succeed",act:doc});
   });
 }
 
@@ -101,10 +102,23 @@ exports.new = function(req, res, next) {
   var beginDate=new Date(begin)
   var endDate=new Date(end)
   activity.create({id:id,name:name,type:type,time:{beginAt:beginDate,endAt:endDate}},function(err,act){
-    if (err)
+    if (err){
       res.redirect("/");
-    else
-      res.render('create', { title: 'Success' });
+    }
+    else{
+      var hid=hashids.encodeHex(act._id)
+      console.log(hid);
+      activity.findOneAndUpdate({_id:act._id},{$set:{hashid:hid.toString()}},function(err,before,after){
+        if(err){
+          console.log(err)
+        }
+        else{
+          console.log(get);
+          res.render('create', { title: 'Success' });
+        }
+      });
+     
+    }
   });
 }
 
@@ -116,8 +130,13 @@ exports.showDetail = function(req, res, next) {
       console.log(err)
     }
     else{
-      console.log(doc.participants);
-      res.render('detail', { title: 'showActivity',id:"test",name:doc.name,time:doc.time,type:doc.type,begin:doc.time.beginAt,end:doc.time.endAt,participants:doc.participants});
+      if(doc.participants){
+        console.log(doc.participants);
+        res.render('detail', { title: 'showActivity',id:"test",name:doc.name,time:doc.time,type:doc.type,begin:doc.time.beginAt,end:doc.time.endAt,participants:doc.participants});
+      }
+      else{
+        console.log("No participants!");
+      } 
     }
       
   })

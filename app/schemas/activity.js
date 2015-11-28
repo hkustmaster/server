@@ -7,6 +7,9 @@ var activitySchema = new mongoose.Schema({
 	host:String,
 	type:String,
 	status:String,
+	hashid:String,
+	size:{ type: Number, default: 100 },
+	quota:{ type: Number, default: 100 },
 	news:[
 		{
 			content:String

@@ -27,7 +27,9 @@ var userSchema = new mongoose.Schema({
       default: Date.now()
     }
   },
-  email:String
+  email:String,
+  avatar:String
+
 })
 
 userSchema.pre('save',function(next){

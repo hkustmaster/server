@@ -35,20 +35,19 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'bower_components')));
 
-//check if logged in 
-
 
 app.use('/', routes);
+//check if logged in 
+
 app.use(function(req,res,next){
     if(req.session.user){
       app.locals.user=req.session.user
       next();
     }
     else{
-      res.redirect('/signin');
+      res.json({message:"Not Signed In"})
     }
-
-   })
+})
 app.use('/activity',activity);
 
 

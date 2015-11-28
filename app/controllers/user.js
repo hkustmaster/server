@@ -24,7 +24,7 @@ exports.signup = function(req, res) {
     }
 
     if (user) {
-      return res.redirect('/signin')
+      return res.json({message:"User Exists"});
     }
     else {
       var _user={
@@ -32,14 +32,14 @@ exports.signup = function(req, res) {
         name:req.body.name,
         password:req.body.password
       }
-      console.log(_user)
       user = new User(_user)
       user.save(function(err, user) {
         if (err) {
-          console.log(err)
+          res.json({message:"Server Error"});
         }
-
-        res.redirect("/signin");
+        else{
+          res.json({message:"Succeed",user:user});
+        }
       })
     }
   })
@@ -52,21 +52,21 @@ exports.signin = function(req, res) {
 
   User.findOne({name: name}, function(err, user) {
     if (err) {
-      console.log(err)
+      res.json({message:"Server Error"});
     }
 
     if (!user) {
-      return res.redirect('/signup')
+      return res.json({message:"User Not Exists"});
     }
 
     user.comparePassword(password, function(err, isMatch) {
       if (err) {
-        console.log(err)
+        res.json({message:"Server Error"});
       }
 
       if (isMatch) {
         req.session.user = user
-
+        console.log(req.session.user)
         return res.redirect('/')
       }
       else {
