@@ -3,7 +3,6 @@ var router = express.Router();
 var activity = require('../controllers/activity');
 var intereact = require('../controllers/intereact');
 
-
 /* GET all list page. */
 router.get('/all', activity.showAll);
 /* GET all list page. */
@@ -23,4 +22,5 @@ router.get('/detail/:id', activity.showDetail);
 router.get('/join/:id',intereact.joinActivity);
 
 router.get('/leave/:id',intereact.leaveActivity);
+
 module.exports = router;

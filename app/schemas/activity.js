@@ -20,8 +20,10 @@ var activitySchema = new mongoose.Schema({
 		name:String
 	},
 
-	participants:[{type: ObjectId, ref: 'user'}],
-
+	participants:[{
+		id:{type: ObjectId, ref: 'user'},
+		availdableAt:String,
+	}],
 	time:{
 		beginAt:{
 			type: Date

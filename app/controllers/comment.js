@@ -2,9 +2,9 @@ var mongoose = require('mongoose')
 var Comment = mongoose.model('Comment')
 
 // comment
-exports.save = function(req, res) {
+exports.post = function(req, res) {
   var _comment = req.body.comment
-  var movieId = _comment.movie
+  var activityId = _comment.activity
 
   if (_comment.cid) {
     Comment.findById(_comment.cid, function(err, comment) {
@@ -21,7 +21,7 @@ exports.save = function(req, res) {
           console.log(err)
         }
 
-        res.redirect('/movie/' + movieId)
+        es.json({message:"Succeed"})
       })
     })
   }
@@ -33,7 +33,17 @@ exports.save = function(req, res) {
         console.log(err)
       }
 
-      res.redirect('/movie/' + movieId)
+      res.json({message:"Succeed"})
     })
   }
+}
+//get comments of an activity
+exports.getComments=function(req,res){
+  var activityId=req.params.id
+  comment.find({activity:activityId},function(err,comments){
+    if(err)
+      console.log(err)
+    else
+      res.json({message:"Succeed",comments:comments})
+  })
 }

@@ -16,6 +16,9 @@ mongoose.connect(dburl)
 // view engine setup
 app.set('views', path.join(__dirname, 'views/pages'));
 app.set('view engine', 'jade');
+
+
+
 app.use(session({
   secret: 'together',
   resave:false,
@@ -39,15 +42,15 @@ app.use(express.static(path.join(__dirname, 'bower_components')));
 app.use('/', routes);
 //check if logged in 
 
-app.use(function(req,res,next){
-    if(req.session.user){
-      app.locals.user=req.session.user
-      next();
-    }
-    else{
-      res.json({message:"Not Signed In"})
-    }
-})
+// app.use(function(req,res,next){
+//     if(req.session.user){
+//       app.locals.user=req.session.user
+//       next();
+//     }
+//     else{
+//       res.json({message:"Not Signed In"})
+//     }
+// })
 app.use('/activity',activity);
 
 

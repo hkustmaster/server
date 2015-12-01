@@ -107,17 +107,17 @@ exports.new = function(req, res, next) {
     }
     else{
       var hid=hashids.encodeHex(act._id)
-      console.log(hid);
       activity.findOneAndUpdate({_id:act._id},{$set:{hashid:hid.toString()}},function(err,before,after){
         if(err){
           console.log(err)
         }
         else{
-          console.log(get);
           res.render('create', { title: 'Success' });
         }
       });
-     
+      //var temp={activityID:act._id,candidates:[{date:Date.parse("6/15/2008").toString(),count:0},{date:Date.parse("7/15/2008").toString(),count:0},{date:Date.parse("8/15/2008").toString(),count:0}]}
+       //console.log("2!!!!!"+JSON.stringify(temp))
+      
     }
   });
 }
@@ -141,5 +141,9 @@ exports.showDetail = function(req, res, next) {
       
   })
  
+}
+
+exports.hostbyme=function(req, res, next){
+  
 }
 
