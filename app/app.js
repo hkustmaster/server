@@ -8,6 +8,7 @@ var mongoose =require('mongoose');
 var routes = require('./routes/index');
 var activity = require('./routes/activity');
 var session = require('express-session');
+var jwt = require('jwt-simple');
 var mongoStore = require('connect-mongo')(session)
 var dburl = 'mongodb://localhost:27017/app'
 var app = express();
@@ -16,7 +17,7 @@ mongoose.connect(dburl)
 // view engine setup
 app.set('views', path.join(__dirname, 'views/pages'));
 app.set('view engine', 'jade');
-
+app.set('jwtTokenSecret', 'together');
 
 
 app.use(session({

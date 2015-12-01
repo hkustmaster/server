@@ -67,10 +67,10 @@ exports.signin = function(req, res) {
       if (isMatch) {
         req.session.user = user
         console.log(req.session.user)
-        return res.redirect('/')
+        return res.json({message:"Succeed"})
       }
       else {
-        return res.redirect('/signin')
+        return res.json({message:"Wrong Password"})
       }
     })
   })
