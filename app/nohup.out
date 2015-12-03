@@ -1,0 +1,68 @@
+[0mPOST /activity/all [32m200 [0m33.241 ms - 191[0m
+[0mPOST /activity/all [32m200 [0m6.122 ms - 191[0m
+[0mGET /activity/all [32m200 [0m4.713 ms - 25[0m
+[0mPOST //signin [32m200 [0m2.721 ms - 25[0m
+[0mPOST /activity/all [32m200 [0m9.962 ms - 191[0m
+[0mPOST /signin [32m200 [0m2.719 ms - 29[0m
+[0mPOST /signin [32m200 [0m1.711 ms - 29[0m
+[0mPOST /signup [32m200 [0m3.227 ms - 25[0m
+password=undefined
+salt=$2a$10$jBLAIQ2nFJZpLh5Fpugek.
+[0mPOST /signup [32m200 [0m8.817 ms - 26[0m
+password=undefined
+salt=$2a$10$tsTbfYYETHDR0JJUQ/jyuO
+[0mPOST /signup [32m200 [0m8.900 ms - 26[0m
+[0mPOST /signin [32m200 [0m5.349 ms - 29[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI1NjVmZmFlNTMxYTliMTVhMDg0NzVjYTgiLCJleHAiOjE0NDk3NDI5MjM2MTV9.3tmiEzARp_TkrKFrNCxxdrqoHl4yijp4AfBufwpaxXg
+[0mPOST /signin [32m200 [0m111.197 ms - 185[0m
+[0mGET /activity/all?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI1NjVmZmFlNTMxYTliMTVhMDg0NzVjYTgiLCJleHAiOjE0NDk3NDI5MjM2MTV9.3tmiEzARp_TkrKFrNCxxdrqoHl4yijp4AfBufwpaxXg [32m200 [0m3.102 ms - 25[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI1NjVmZmFlNTMxYTliMTVhMDg0NzVjYTgiLCJleHAiOjE0NDk3NDMwMDY1NTh9.Gi_jucW6XlV0R5Ev_HdJ_FFqC3XjyLFmtpk00o-70GM
+[0mPOST /signin [32m200 [0m111.164 ms - 185[0m
+[0mPOST /activity/all [32m200 [0m4.782 ms - 191[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI1NjVmZmFlNTMxYTliMTVhMDg0NzVjYTgiLCJleHAiOjE0NDk3NDM3NjkxMDV9.WjcV5wa361PhCwrwvJ7QeIpTcvyGafyDuj_WecQsdi4
+[0mPOST /signin [32m200 [0m101.041 ms - 185[0m
+[0mPOST /activity/all [32m200 [0m6.346 ms - 191[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI1NjVmZmFlNTMxYTliMTVhMDg0NzVjYTgiLCJleHAiOjE0NDk3NDM5NTgzNDB9.OGUf0wtPjtIpxgWxyKZbIazLDrZiaOZoBXYGvPtL7Sw
+[0mPOST /signin [32m200 [0m106.565 ms - 185[0m
+[0mPOST /activity/all [32m200 [0m19.985 ms - 191[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI1NjVmZmFlNTMxYTliMTVhMDg0NzVjYTgiLCJleHAiOjE0NDk3NDQxODkzNzV9.h33n0_b19EemugyaJYHyGqzVHSupc7yhEnPawKzckvo
+[0mPOST /signin [32m200 [0m102.233 ms - 185[0m
+[0mPOST /activity/all [32m200 [0m18.397 ms - 191[0m
+[0mPOST /activity/all [32m200 [0m5.344 ms - 191[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI1NjVmZmFlNTMxYTliMTVhMDg0NzVjYTgiLCJleHAiOjE0NDk3NDQ2NzE5Mzd9.933kdBvzfy0Rw-4NZwIz5nGqzIglS63J4Ep67zOx9xc
+[0mPOST /signin [32m200 [0m101.860 ms - 185[0m
+[0mPOST /activity/all [32m200 [0m6.759 ms - 191[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI1NjVmZmFlNTMxYTliMTVhMDg0NzVjYTgiLCJleHAiOjE0NDk3NDQ3Njc1NDd9._VIeK9lSr2d7_Pt87hW9t2gnkfcY30QckLcatUS3Ln0
+[0mPOST /signin [32m200 [0m108.604 ms - 185[0m
+[0mPOST /activity/all [32m200 [0m5.796 ms - 191[0m
+[0mPOST /activity/all [32m200 [0m8.294 ms - 191[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI1NjVmZmFlNTMxYTliMTVhMDg0NzVjYTgiLCJleHAiOjE0NDk3NDQ5MjA3Nzh9.CRkX9Ar2FbRZqmOHySV_H8Fq7j_tv42b3YmNLSE_474
+[0mPOST /signin [32m200 [0m103.719 ms - 185[0m
+[0mPOST /activity/all [32m200 [0m6.475 ms - 191[0m
+[0mPOST /activity/new [32m200 [0m1.826 ms - 25[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI1NjVmZmFlNTMxYTliMTVhMDg0NzVjYTgiLCJleHAiOjE0NDk3NDUwNjM4ODZ9.2z4iut9MTmwJXHozTRgldxc7jkwE7bN42bo3kH2NkfA
+[0mPOST /signin [32m200 [0m105.290 ms - 185[0m
+[0mPOST /activity/all [32m200 [0m10.478 ms - 191[0m
+[0mPOST /activity/new [32m200 [0m29.528 ms - 21[0m
+[0mPOST /activity/all [32m200 [0m9.604 ms - 411[0m
+[0mPOST /activity/new [32m200 [0m12.866 ms - 21[0m
+[0mPOST /activity/all [32m200 [0m9.530 ms - 617[0m
+[0mPOST /activity/all [32m200 [0m7.075 ms - 617[0m
+[0mGET /activity/all?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI1NjVmZmFlNTMxYTliMTVhMDg0NzVjYTgiLCJleHAiOjE0NDk3NDI5MjM2MTV9.3tmiEzARp_TkrKFrNCxxdrqoHl4yijp4AfBufwpaxXg [32m200 [0m3.357 ms - 25[0m
+[0mGET /activity/all?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI1NjVmZmFlNTMxYTliMTVhMDg0NzVjYTgiLCJleHAiOjE0NDk3NDI5MjM2MTV9.3tmiEzARp_TkrKFrNCxxdrqoHl4yijp4AfBufwpaxXg [32m200 [0m3.468 ms - 25[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI1NjVmZjA0MjMxYTliMTVhMDg0NzVjYTQiLCJleHAiOjE0NDk3NDU4NTY2ODF9.fGCsrE21p9eMFdCUF2oYJo9IUjYlVMd-lYCHjrc6nO4
+[0mPOST /signin [32m200 [0m104.307 ms - 185[0m
+[0mGET /activity/all?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI1NjVmZjA0MjMxYTliMTVhMDg0NzVjYTQiLCJleHAiOjE0NDk3NDU4NTY2ODF9.fGCsrE21p9eMFdCUF2oYJo9IUjYlVMd-lYCHjrc6nO4 [32m200 [0m1.073 ms - 25[0m
+[0mGET /activity/all?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI1NjVmZjA0MjMxYTliMTVhMDg0NzVjYTQiLCJleHAiOjE0NDk3NDU4NTY2ODF9.fGCsrE21p9eMFdCUF2oYJo9IUjYlVMd-lYCHjrc6nO4 [32m200 [0m1.313 ms - 25[0m
+[0mGET / [31m500 [0m342.503 ms - 2162[0m
+[0mGET /bootstrap/dist/bootstrap.min.js [32m200 [0m2.438 ms - 25[0m
+[0mGET /jquery/dist/jquery.min.js [36m304 [0m4.040 ms - -[0m
+[0mGET /bootstrap/dist/css/bootstrap.min.css [36m304 [0m1.346 ms - -[0m
+[0mGET / [31m500 [0m33.672 ms - 2162[0m
+[0mGET /bootstrap/dist/bootstrap.min.js [32m200 [0m1.291 ms - 25[0m
+[0mGET /jquery/dist/jquery.min.js [36m304 [0m0.851 ms - -[0m
+[0mGET /bootstrap/dist/css/bootstrap.min.css [36m304 [0m1.158 ms - -[0m
+[0mGET /activity/all [32m200 [0m0.707 ms - 25[0m
+[0mPOST /activity/all [32m200 [0m11.436 ms - 617[0m
+[0mPOST /activity/all [32m200 [0m9.023 ms - 617[0m
+[0mPOST /activity/all [32m200 [0m7.476 ms - 617[0m

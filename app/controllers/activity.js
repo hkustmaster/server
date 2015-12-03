@@ -82,7 +82,8 @@ exports.new = function(req, res, next) {
   })
   temp.save(function(err,act){
     if (err){
-      res.redirect("/");
+	console.log(err)
+      res.json({message:"Server Error"})
     }
     else{
       var hid=hashids.encodeHex(act._id)
@@ -94,8 +95,6 @@ exports.new = function(req, res, next) {
           res.json({message:"Succeed",act:after});
         }
       });
-      //var temp={activityID:act._id,candidates:[{date:Date.parse("6/15/2008").toString(),count:0},{date:Date.parse("7/15/2008").toString(),count:0},{date:Date.parse("8/15/2008").toString(),count:0}]}
-       //console.log("2!!!!!"+JSON.stringify(temp))
       
     }
   })
