@@ -25,15 +25,15 @@ exports.editOne = function(req, res,next) {
 }
 exports.postEdit = function(req, res,next) {
   var temp=new activity({
-    time:req.body.time;
-    name:req.body.name;
-    type:req.body.type;
-    host:req.user._id;
-    status:req.body.status;
-    location:req.body.location;
-    description:req.body.description;
-    tbdtime :req.body.tbdtime;
-    size :req.body.size;
+    time:req.body.time,
+    name:req.body.name,
+    type:req.body.type,
+    host:req.user._id,
+    status:req.body.status,
+    location:req.body.location,
+    description:req.body.description,
+    tbdtime :req.body.tbdtime,
+    size :req.body.size
   })
     activity.findOneAndUpdate({id:req.body.id,"host.id": user._id},{$set:temp},function(err,act){
       if (err){
@@ -69,15 +69,15 @@ exports.createPage =  function(req, res, next) {
 // new an activity
 exports.new = function(req, res, next) {
   var temp=new activity({
-    time:req.body.time;
-    name:req.body.name;
-    type:req.body.type;
-    host:req.user._id;
-    status:req.body.status;
-    location:req.body.location;
-    description:req.body.description;
-    tbdtime :req.body.tbdtime;
-    size :req.body.size;
+    time:req.body.time,
+    name:req.body.name,
+    type:req.body.type,
+    host:req.user._id,
+    status:req.body.status,
+    location:req.body.location,
+    description:req.body.description,
+    tbdtime :req.body.tbdtime,
+    size :req.body.size,
     quota: req.body.size-1
   })
   temp.save(function(err,act){
