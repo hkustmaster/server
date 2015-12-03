@@ -28,6 +28,8 @@ var userSchema = new mongoose.Schema({
     }
   },
   email:String,
+  gender:String,
+  phone:String,
   avatar:String
 
 })

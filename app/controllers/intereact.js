@@ -8,9 +8,9 @@ var hashids = new Hashids("together");
 
 exports.joinActivity=function(req,res,next){
 	var activityId=req.params.id
-	var user=req.session.user
+	var user=req.user
 
-	activity.findOneAndUpdate({hashid:activityId,quota:{$gt:0}},{$addToSet:{participants:user._id},$inc:{quota:-1}},function(err,act){
+	activity.findOneAndUpdate({hid:activityId,quota:{$gt:0}},{$addToSet:{participants:{id:user._id,availdableAt:""}},$inc:{quota:-1}},function(err,act){
 		if(err){
 			console.log(err)
 		}
@@ -26,9 +26,9 @@ exports.joinActivity=function(req,res,next){
 
 exports.leaveActivity=function(req,res,next){
 	var activityId=req.params.id
-	var user=req.session.user
+	var user=req.user
 
-	activity.findOneAndUpdate({hashid:activityId,$where:"this.quota<this.size"},{$pull:{participants:user._id},$inc:{quota:1}},function(err,act){
+	activity.findOneAndUpdate({hid:activityId,$where:"this.quota<this.size"},{$pull:{participants:user._id},$inc:{quota:1}},function(err,act){
 		if(err){
 			console.log(err)
 		}
@@ -41,3 +41,47 @@ exports.leaveActivity=function(req,res,next){
 	})
 
 }
+
+exports.vote=function(req,res){
+	var actid=req.body.actid
+	var thevote=req.body.vote
+
+	activity.findOneAndUpdate({hid:actid,"participants.id":uid},{"participants.$.availdableAt":thevote},function(err,act){
+		if(err)
+			res.json({message:"Server Error"})
+		else
+			res.json({message:"Succeed"})
+	})
+}
+
+exports.kick=function(req,res){
+    if(kick){
+      activity.findOneAndUpdate({id:id}, {$pull:{participants:invite} },function(err,act){
+        if (err){
+          res.redirect("/");
+        }
+        else if (!act){
+          res.render('edit',{title: "Not Exist"});
+        } 
+        else{
+          res.render('edit', { title: 'Kicked!' });
+        }
+      });
+    }
+    else{
+      activity.findOneAndUpdate({id:id}, {$push:{participants:invite} },function(err,act){
+        if (err){
+          console.log(err)
+        }
+        else if (!act){
+          res.render('edit',{title: "Not Exist"});
+        } 
+        else{
+          res.render('edit', { title: 'ADDed!' });
+        }
+      });
+    }
+}
+
+
+

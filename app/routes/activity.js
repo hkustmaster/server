@@ -11,13 +11,13 @@ router.get('/edit/:id', activity.editOne);
 router.post('/postEdit', activity.postEdit);
 
 //delete by id
-router.get('/delete/:id', activity.delete);
+//router.get('/delete/:id', activity.delete);
 //create a activity
 router.get('/create', activity.createPage);
 
 router.post('/new', activity.new);
 
-router.get('/detail/:id', activity.showDetail);
+router.post('/detail/:id', activity.showDetail);
 
 router.get('/join/:id',intereact.joinActivity);
 

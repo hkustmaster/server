@@ -2,12 +2,14 @@ var mongoose = require('mongoose')
 var ObjectId =mongoose.Schema.Types.ObjectId
 
 var activitySchema = new mongoose.Schema({
-	id:String,
 	name:String,
-	host:String,
 	type:String,
 	status:String,
-	hashid:String,
+	id:String,
+	location:[{type:String}],
+	description:String,
+	time:String,
+	tbdtime:[{type:String}],
 	size:{ type: Number, default: 100 },
 	quota:{ type: Number, default: 100 },
 	news:[
@@ -23,15 +25,7 @@ var activitySchema = new mongoose.Schema({
 	participants:[{
 		id:{type: ObjectId, ref: 'user'},
 		availdableAt:String,
-	}],
-	time:{
-		beginAt:{
-			type: Date
-  		},
-  		endAt:{
-  			type: Date
-  		}
-	}
+	}]
 })
 
 activitySchema.set('collection', 'activity');

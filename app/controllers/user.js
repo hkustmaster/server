@@ -1,8 +1,9 @@
 var mongoose = require('mongoose')
 var userSchema = require('../schemas/user')
 var User = mongoose.model('user',userSchema)
-
-
+var jwt = require('jwt-simple');
+var moment=require('moment')
+var tokenKey='together';
 // signup
 exports.showSignup = function(req, res) {
   res.render('signup', {
@@ -38,7 +39,7 @@ exports.signup = function(req, res) {
           res.json({message:"Server Error"});
         }
         else{
-          res.json({message:"Succeed",user:user});
+          res.json({message:"Succeed"});
         }
       })
     }
@@ -47,10 +48,12 @@ exports.signup = function(req, res) {
 
 // signin
 exports.signin = function(req, res) {
-  var name = req.body.name
+  var email = req.body.email
   var password = req.body.password
-
-  User.findOne({name: name}, function(err, user) {
+  if(req.user){
+    return res.json({message:'Already Signed in as'+req.user})
+  }
+  User.findOne({email: email}, function(err, user) {
     if (err) {
       res.json({message:"Server Error"});
     }
@@ -65,9 +68,10 @@ exports.signin = function(req, res) {
       }
 
       if (isMatch) {
-        req.session.user = user
-        console.log(req.session.user)
-        return res.json({message:"Succeed"})
+        var expires = moment().add(7,'days').valueOf();
+        var token = jwt.encode({iss: user.id,exp: expires}, tokenKey);
+        console.log(token)
+        return res.json({message:"Succeed",token:token})
       }
       else {
         return res.json({message:"Wrong Password"})
@@ -77,12 +81,11 @@ exports.signin = function(req, res) {
 }
 
 // logout
-exports.logout =  function(req, res) {
-  delete req.session.user
-  //delete app.locals.user
-
-  res.redirect('/')
-}
+// exports.logout =  function(req, res) {
+//   delete req.user
+//   //delete app.locals.user
+//   res.redirect('/')
+// }
 
 // userlist page
 exports.list = function(req, res) {
@@ -100,8 +103,7 @@ exports.list = function(req, res) {
 
 // midware for user
 exports.signinRequired = function(req, res, next) {
-  var user = req.session.user
-
+  var user = req.user
   if (!user) {
     return res.redirect('/signin')
   }
@@ -110,7 +112,7 @@ exports.signinRequired = function(req, res, next) {
 }
 
 exports.adminRequired = function(req, res, next) {
-  var user = req.session.user
+  var user = req.user
 
   if (user.role <= 10) {
     return res.redirect('/signin')

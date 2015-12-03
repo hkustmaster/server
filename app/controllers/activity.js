@@ -8,7 +8,7 @@ exports.showAll = function(req, res ,next) {
   activity.find({},function(err,act){
     if(err)
       console.log(err);
-      res.json({message:"Succeed",act:act});
+    res.json({message:"Succeed",act:act});
   });
 }
 
@@ -24,55 +24,29 @@ exports.editOne = function(req, res,next) {
   });
 }
 exports.postEdit = function(req, res,next) {
-  var id=req.body.id
-  var name=req.body.name
-  var time=req.body.time
-  var type=req.body.type
-  var begin=req.body.begin
-  var end=req.body.end
-  var kick=req.body.kick
-  var invite=req.body.invite
-  if(!kick&&!invite){
-    activity.findOneAndUpdate({id:id},{name:name,time:time,type:type},function(err,act){
+  var temp=new activity({
+    time:req.body.time;
+    name:req.body.name;
+    type:req.body.type;
+    host:req.user._id;
+    status:req.body.status;
+    location:req.body.location;
+    description:req.body.description;
+    tbdtime :req.body.tbdtime;
+    size :req.body.size;
+  })
+    activity.findOneAndUpdate({id:req.body.id,"host.id": user._id},{$set:temp},function(err,act){
       if (err){
         res.json({message:"Server Error"});
       }
       else if(!act){
-        res.json({message:"Activity Not Exist"});
+        res.json({message:"Unauthorized or Activity Not Exist"});
       }
       else{
         res.json({message:"Succeed"});
       }
     });
-  }
-  else{
-    if(kick){
-      activity.findOneAndUpdate({id:id}, {$pull:{participants:invite} },function(err,act){
-        if (err){
-          res.redirect("/");
-        }
-        else if (!act){
-          res.render('edit',{title: "Not Exist"});
-        } 
-        else{
-          res.render('edit', { title: 'Kicked!' });
-        }
-      });
-    }
-    else{
-      activity.findOneAndUpdate({id:id}, {$push:{participants:invite} },function(err,act){
-        if (err){
-          console.log(err)
-        }
-        else if (!act){
-          res.render('edit',{title: "Not Exist"});
-        } 
-        else{
-          res.render('edit', { title: 'ADDed!' });
-        }
-      });
-    }
-  }
+  
   
 }
 
@@ -94,56 +68,60 @@ exports.createPage =  function(req, res, next) {
 
 // new an activity
 exports.new = function(req, res, next) {
-  var id=req.body.id;
-  var name=req.body.name;
-  var type=req.body.type;
-  var begin=req.body.begin
-  var end=req.body.end
-  var beginDate=new Date(begin)
-  var endDate=new Date(end)
-  activity.create({id:id,name:name,type:type,time:{beginAt:beginDate,endAt:endDate}},function(err,act){
+  var temp=new activity({
+    time:req.body.time;
+    name:req.body.name;
+    type:req.body.type;
+    host:req.user._id;
+    status:req.body.status;
+    location:req.body.location;
+    description:req.body.description;
+    tbdtime :req.body.tbdtime;
+    size :req.body.size;
+    quota: req.body.size-1
+  })
+  temp.save(function(err,act){
     if (err){
       res.redirect("/");
     }
     else{
       var hid=hashids.encodeHex(act._id)
-      activity.findOneAndUpdate({_id:act._id},{$set:{hashid:hid.toString()}},function(err,before,after){
+      activity.findOneAndUpdate({_id:act._id},{$set:{id:hid.toString()}},function(err,before,after){
         if(err){
-          console.log(err)
+          res.json({message:"Server Error"});
         }
         else{
-          res.render('create', { title: 'Success' });
+          res.json({message:"Succeed",act:after});
         }
       });
       //var temp={activityID:act._id,candidates:[{date:Date.parse("6/15/2008").toString(),count:0},{date:Date.parse("7/15/2008").toString(),count:0},{date:Date.parse("8/15/2008").toString(),count:0}]}
        //console.log("2!!!!!"+JSON.stringify(temp))
       
     }
-  });
+  })
 }
 
 // show activity details
 exports.showDetail = function(req, res, next) {
   var id=req.params.id;
-  activity.findOne({id:id}).populate("participants").exec(function(err,doc){
+  var user=req.user
+  activity.findOne({$and: [
+          {id:id},
+          {$or: [{"host.id": user._id}, {"participants.id": user._id}] }
+      ]}).populate("participants").exec(function(err,doc){
     if(err){
-      console.log(err)
+      res.json({message:"Server Error"});
+    }
+    if(!doc){
+      res.json({message:"Unauthorized or No such Activity"});
     }
     else{
-      if(doc.participants){
-        console.log(doc.participants);
-        res.render('detail', { title: 'showActivity',id:"test",name:doc.name,time:doc.time,type:doc.type,begin:doc.time.beginAt,end:doc.time.endAt,participants:doc.participants});
-      }
-      else{
-        console.log("No participants!");
-      } 
+      res.json({message:"Succeed",act:doc});
     }
       
   })
  
 }
 
-exports.hostbyme=function(req, res, next){
-  
-}
+
 

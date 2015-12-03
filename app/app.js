@@ -17,7 +17,6 @@ mongoose.connect(dburl)
 // view engine setup
 app.set('views', path.join(__dirname, 'views/pages'));
 app.set('view engine', 'jade');
-app.set('jwtTokenSecret', 'together');
 
 
 app.use(session({
@@ -52,6 +51,31 @@ app.use('/', routes);
 //       res.json({message:"Not Signed In"})
 //     }
 // })
+app.use(function(req,res,next){
+  var token = req.body.token
+  //decode the token
+  if(!token)
+    res.json({message:'Not Sign In'})
+  var decoded = jwt.decode(token, app.get('jwtTokenSecret'));
+  if (decoded.exp <= Date.now()) {
+    res.json({message:'Access token has expired,sign in again'});
+  }
+  else
+    User.findOne({ _id: decoded.iss }, function(err, user) {
+      if (err){
+        res.json({message:'Sever Error'})
+      }
+      else if(!user){
+        res.json({message:'Invaild Token'})
+      }
+      else{
+        req.user = user;
+        next()
+      }
+    });
+
+})
+
 app.use('/activity',activity);
 
 
