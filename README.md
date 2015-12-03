@@ -7,7 +7,7 @@ GET /activity/all
 注册：
 POST /signup {name:String,password:"",email:String} return {message:String}
 
-登陆：
+登陆：需返回user信息
 POST /signin {email:String, password:String} return {message:String,token:String}
 
 查询活动详情：
@@ -49,3 +49,20 @@ return {message:String,act:activity}
 POST /activity/showmine
 	{token:String}  
 return {message:String,act:activity}
+
+
+TBD:
+修改密码：
+
+
+修改用户名字和电话：
+
+参加活动：1.创建participant记录
+
+退出活动：1.删除participant记录
+
+投票：1.创建participant记录   2. 更新participant记录
+
+view message： 
+
+
