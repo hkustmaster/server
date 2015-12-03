@@ -72,7 +72,7 @@ exports.new = function(req, res, next) {
     time:req.body.time,
     name:req.body.name,
     type:req.body.type,
-    host:req.user._id,
+    host:{id:req.user._id,name:req.user.name},
     status:req.body.status,
     location:req.body.location,
     description:req.body.description,
@@ -107,7 +107,7 @@ exports.showDetail = function(req, res, next) {
   activity.findOne({$and: [
           {id:id},
           {$or: [{"host.id": user._id}, {"participants.id": user._id}] }
-      ]}).populate("participants").exec(function(err,doc){
+      ]}).lean().populate("participants","host").exec(function(err,doc){
     if(err){
       res.json({message:"Server Error"});
     }
@@ -115,6 +115,7 @@ exports.showDetail = function(req, res, next) {
       res.json({message:"Unauthorized or No such Activity"});
     }
     else{
+      delete doc.password
       res.json({message:"Succeed",act:doc});
     }
       

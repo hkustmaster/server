@@ -17,11 +17,8 @@ var activitySchema = new mongoose.Schema({
 			content:String
 		}
 	],
-	host:{
-		id:{type: ObjectId, ref: 'user'},
-		name:String
-	},
-
+	host:{id:{type: ObjectId, ref: 'user'},
+	      name:{type:String, ref:'user'}},
 	participants:[{
 		id:{type: ObjectId, ref: 'user'},
 		availdableAt:String,

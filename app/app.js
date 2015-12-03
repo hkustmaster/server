@@ -63,7 +63,7 @@ app.use(function(req,res,next){
     res.json({message:'Access token has expired,sign in again'});
   }
   else
-    User.findOne({ _id: decoded.iss }, function(err, user) {
+    User.findOne({ _id: decoded._id }, function(err, user) {
       if (err){
         return res.json({message:'Sever Error'})
       }
