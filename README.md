@@ -46,7 +46,7 @@ POST /activity/edit
 	quota:Number,token:String}  
 return {message:String,act:activity}
 
-查询我的活动：
+查询我的所有活动包括自己发起的和参加的：
 POST /activity/showmine
 	{token:String}  
 return {message:String,act:activity}
