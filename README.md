@@ -1,21 +1,20 @@
 # server
 
-//
 
-
-//json testing
+查询所有的活动：
 GET /activity/all
 
-// route user
+注册：
+POST /signup {name:String,password:"",email:String} return {message:String}
 
-/
-POST /signup {name:String,password:"",email:String}     return {message:String}
-POST /signin {email:String, password:String}  return {message:String,token:String}
+登陆：需返回user信息
+POST /signin {email:String, password:String} return {message:String,token:String}
 
-/#
+查询活动详情：
 POST /activity/detail/:id {id:String,token:String}   
 	 return {message:String,act:activity}
 
+新建活动：
 POST /activity/new 
 	{name:String,
 	host:String,
@@ -30,6 +29,7 @@ POST /activity/new
 
 return {message:String,act:activity}
 
+修改活动：
 POST /activity/edit
 	{
 	id:String,
@@ -45,7 +45,26 @@ POST /activity/edit
 	quota:Number,token:String}  
 return {message:String,act:activity}
 
-
+查询我的活动：
 POST /activity/showmine
 	{token:String}  
 return {message:String,act:activity}
+
+
+TBD:
+
+
+修改密码：
+
+
+修改用户名字和电话：
+
+参加活动：1.创建participant记录
+
+退出活动：1.删除participant记录
+
+投票：1.创建participant记录   2. 更新participant记录
+
+view message： 
+
+
