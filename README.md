@@ -50,8 +50,7 @@ POST /activity/showmine
 	{token:String}  
 return {message:String,act:activity}
 
-
-TBD:
+To Do:
 
 
 修改密码：
