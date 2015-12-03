@@ -2,10 +2,12 @@
 
 //
 
+
 //json testing
 GET /activity/all
 
-//#route user
+// route user
+
 /
 POST /signup {name:String,password:"",email:String}     return {message:String}
 POST /signin {email:String, password:String}  return {message:String,token:String}
