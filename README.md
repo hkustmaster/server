@@ -1,20 +1,15 @@
 # server
 
-//
 
-
-//json testing
+查询所有的活动：
 GET /activity/all
 
-// route user
-
-/
 注册：
-POST /signup {name:String,password:"",email:String}     return {message:String}
-登陆：
-POST /signin {email:String, password:String}  return {message:String,token:String}
+POST /signup {name:String,password:"",email:String} return {message:String}
 
-/#
+登陆：
+POST /signin {email:String, password:String} return {message:String,token:String}
+
 查询活动详情：
 POST /activity/detail/:id {id:String,token:String}   
 	 return {message:String,act:activity}
