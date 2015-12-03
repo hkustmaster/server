@@ -4,7 +4,7 @@ var activity = require('../controllers/activity');
 var intereact = require('../controllers/intereact');
 
 /* GET all list page. */
-router.get('/all', activity.showAll);
+router.post('/all', activity.showAll);
 /* GET all list page. */
 router.get('/edit/:id', activity.editOne);
 //post an edit

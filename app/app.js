@@ -11,6 +11,8 @@ var session = require('express-session');
 var jwt = require('jwt-simple');
 var mongoStore = require('connect-mongo')(session)
 var dburl = 'mongodb://localhost:27017/app'
+var tokenKey='together';
+var User=require('./models/user')
 var app = express();
 
 mongoose.connect(dburl)
@@ -56,7 +58,7 @@ app.use(function(req,res,next){
   //decode the token
   if(!token)
     return res.json({message:'Not Sign In'})
-  var decoded = jwt.decode(token, app.get('jwtTokenSecret'));
+  var decoded = jwt.decode(token, tokenKey);
   if (decoded.exp <= Date.now()) {
     res.json({message:'Access token has expired,sign in again'});
   }

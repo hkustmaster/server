@@ -69,7 +69,7 @@ exports.signin = function(req, res) {
 
       if (isMatch) {
         var expires = moment().add(7,'days').valueOf();
-        var token = jwt.encode({iss: user.id,exp: expires}, tokenKey);
+        var token = jwt.encode({iss: user._id,exp: expires}, tokenKey);
         console.log(token)
         return res.json({message:"Succeed",token:token})
       }
