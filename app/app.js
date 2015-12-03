@@ -55,7 +55,7 @@ app.use(function(req,res,next){
   var token = req.body.token
   //decode the token
   if(!token)
-    res.json({message:'Not Sign In'})
+    return res.json({message:'Not Sign In'})
   var decoded = jwt.decode(token, app.get('jwtTokenSecret'));
   if (decoded.exp <= Date.now()) {
     res.json({message:'Access token has expired,sign in again'});
@@ -63,10 +63,10 @@ app.use(function(req,res,next){
   else
     User.findOne({ _id: decoded.iss }, function(err, user) {
       if (err){
-        res.json({message:'Sever Error'})
+        return res.json({message:'Sever Error'})
       }
       else if(!user){
-        res.json({message:'Invaild Token'})
+        return res.json({message:'Invaild Token'})
       }
       else{
         req.user = user;

@@ -123,5 +123,23 @@ exports.showDetail = function(req, res, next) {
  
 }
 
+exports.showMine = function(req, res, next) {
+  var user=req.user
+  activity.find({$or: [{"host.id": user._id}, {"participants.id": user._id}]}).populate("participants").exec(function(err,doc){
+    if(err){
+      res.json({message:"Server Error"});
+    }
+    if(!doc){
+      res.json({message:"Unauthorized or No such Activity"});
+    }
+    else{
+      res.json({message:"Succeed",act:doc});
+    }
+      
+  })
+ 
+}
+
+
 
 

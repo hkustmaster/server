@@ -30,7 +30,7 @@ POST /activity/new
 
 return {message:String,act:activity}
 
-POST /activity/edit/:id
+POST /activity/edit
 	{
 	id:String,
 	name:String,
@@ -43,4 +43,9 @@ POST /activity/edit/:id
 	tbdtime:[{String}],
 	size:Number,
 	quota:Number,token:String}  
+return {message:String,act:activity}
+
+
+POST /activity/showmine
+	{token:String}  
 return {message:String,act:activity}

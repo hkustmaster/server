@@ -17,7 +17,9 @@ router.get('/create', activity.createPage);
 
 router.post('/new', activity.new);
 
-router.post('/detail/:id', activity.showDetail);
+router.post('/detail', activity.showDetail);
+
+router.post('/showmine', activity.showMine);
 
 router.get('/join/:id',intereact.joinActivity);
 
