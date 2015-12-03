@@ -72,6 +72,7 @@ app.use(function(req,res,next){
       }
       else{
         req.user = user;
+	delete req.body.token
         next()
       }
     });

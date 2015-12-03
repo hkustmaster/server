@@ -29,10 +29,11 @@ exports.postEdit = function(req, res,next) {
     name:req.body.name,
     type:req.body.type,
     host:req.user._id,
+    startAt:req.body.startAt,
+    endAt:req.body.endAt,
     status:req.body.status,
     location:req.body.location,
     description:req.body.description,
-    tbdtime :req.body.tbdtime,
     size :req.body.size
   })
     activity.findOneAndUpdate({id:req.body.id,"host.id": user._id},{$set:temp},function(err,act){
@@ -68,11 +69,12 @@ exports.createPage =  function(req, res, next) {
 
 // new an activity
 exports.new = function(req, res, next) {
+console.log("fuck you"+req.user)
   var temp=new activity({
     time:req.body.time,
-    name:req.body.name,
+    title:req.body.name,
     type:req.body.type,
-    host:{id:req.user._id,name:req.user.name},
+    host:req.user._id,
     status:req.body.status,
     location:req.body.location,
     description:req.body.description,
@@ -125,7 +127,7 @@ exports.showDetail = function(req, res, next) {
 
 exports.showMine = function(req, res, next) {
   var user=req.user
-  activity.find({$or: [{"host.id": user._id}, {"participants.id": user._id}]}).populate("participants").exec(function(err,doc){
+  activity.find({$or: [{"host": user._id}, {"participants.id": user._id}]}).populate("host","name").exec(function(err,doc){
     if(err){
       res.json({message:"Server Error"});
     }
