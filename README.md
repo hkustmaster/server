@@ -1,5 +1,6 @@
 # server
-
+1. 登陆返回user信息
+2. tbdTime改为startAt endAT
 
 查询所有的活动：
 GET /activity/all
@@ -17,15 +18,15 @@ POST /activity/detail/:id {id:String,token:String}
 新建活动：
 POST /activity/new 
 	{name:String,
-	host:String,
 	type:String,
 	status:String,
-	location:String,
+	location:String,[longtitude,latitude]    "location":"[12312.2131, 12312313]"
 	description:String,
 	time:String,
-	tbdtime:[{String}],
+	startAt:String,
+	endAt:String,
 	size:Number,
-	quota:Number,token:String} 
+token:String} 
 
 return {message:String,act:activity}
 
