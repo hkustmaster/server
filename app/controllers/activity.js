@@ -12,6 +12,15 @@ exports.showAll = function(req, res ,next) {
   });
 }
 
+exports.showAround=function(req,res){
+  var distance=req.body.distance
+  var limit=req.body.limit
+  activity.find({type:"public",location:{$near:req.body.location}}).limit(limit).exec(function(err,act){
+   if(err) return res.json({message:"System Error"})
+   else res.json() 
+  })
+}
+
 exports.editOne = function(req, res,next) {
   var getid=req.params.id;
   activity.findOne({id:getid},function(err,doc){
