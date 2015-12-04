@@ -60,10 +60,11 @@ userSchema.methods = {
       if(err)
         return  next(err)
       bcrypt.hash(password,salt,function(err,hash){
-        console.log('newpassword='+user.password)
+        console.log('newpassword='+req.body.password)
         console.log('salt='+salt)
-      if (err) return next(err)
-        return hash
+      if (err) 
+        return next(err)
+      else return hash
     })
 
   })
