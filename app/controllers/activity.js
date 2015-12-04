@@ -5,7 +5,7 @@ var Hashids=require('hashids')
 var hashids = new Hashids("together");
 // signup
 exports.showAll = function(req, res ,next) {
-  activity.find({},function(err,act){
+  activity.find({}).populate("host","name").exec(function(err,act){
     if(err)
       console.log(err);
     res.json({message:"Succeed",act:act});
@@ -29,13 +29,15 @@ exports.postEdit = function(req, res,next) {
     name:req.body.name,
     type:req.body.type,
     host:req.user._id,
+    startAt:req.body.startAt,
+    endAt:req.body.endAt,
     status:req.body.status,
     location:req.body.location,
     description:req.body.description,
-    tbdtime :req.body.tbdtime,
     size :req.body.size
   })
-    activity.findOneAndUpdate({id:req.body.id,"host.id": user._id},{$set:temp},function(err,act){
+    temp=req.body
+    activity.findOneAndUpdate({id:req.body.id,"host": req.user._id},{$set:temp},function(err,act){
       if (err){
         res.json({message:"Server Error"});
       }
@@ -68,18 +70,9 @@ exports.createPage =  function(req, res, next) {
 
 // new an activity
 exports.new = function(req, res, next) {
-  var temp=new activity({
-    time:req.body.time,
-    name:req.body.name,
-    type:req.body.type,
-    host:{id:req.user._id,name:req.user.name},
-    status:req.body.status,
-    location:req.body.location,
-    description:req.body.description,
-    tbdtime :req.body.tbdtime,
-    size :req.body.size,
-    quota: req.body.size-1
-  })
+console.log(req.body)
+  req.body.host=req.user
+  var temp=new activity(req.body)
   temp.save(function(err,act){
     if (err){
 	console.log(err)
@@ -102,12 +95,12 @@ exports.new = function(req, res, next) {
 
 // show activity details
 exports.showDetail = function(req, res, next) {
-  var id=req.params.id;
+  var id=req.body.id
   var user=req.user
   activity.findOne({$and: [
           {id:id},
-          {$or: [{"host.id": user._id}, {"participants.id": user._id}] }
-      ]}).lean().populate("participants","host").exec(function(err,doc){
+          {$or: [{"host": user._id}, {"participants.id": user._id}] }
+      ]}).populate("host","name").populate("participants").exec(function(err,doc){
     if(err){
       res.json({message:"Server Error"});
     }
@@ -125,7 +118,7 @@ exports.showDetail = function(req, res, next) {
 
 exports.showMine = function(req, res, next) {
   var user=req.user
-  activity.find({$or: [{"host.id": user._id}, {"participants.id": user._id}]}).populate("participants").exec(function(err,doc){
+  activity.find({$or: [{"host": user._id}, {"participants.id": user._id}]}).populate("host","name").exec(function(err,doc){
     if(err){
       res.json({message:"Server Error"});
     }

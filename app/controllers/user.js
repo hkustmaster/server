@@ -28,14 +28,11 @@ exports.signup = function(req, res) {
       return res.json({message:"User Exists"});
     }
     else {
-      var _user={
-        email:req.body.email,
-        name:req.body.name,
-        password:req.body.password
-      }
-      user = new User(_user)
+      user = new User(req.body)
+	console.log(JSON.stringify(req.body))
       user.save(function(err, user) {
         if (err) {
+console.log(err)
           res.json({message:"Server Error"});
         }
         else{
@@ -71,7 +68,7 @@ exports.signin = function(req, res) {
         var expires = moment().add(7,'days').valueOf();
         var token = jwt.encode({_id: user._id,exp: expires}, tokenKey);
         console.log(token)
-        return res.json({message:"Succeed",token:token})
+        return res.json({message:"Succeed",token:token,user:user})
       }
       else {
         return res.json({message:"Wrong Password"})
