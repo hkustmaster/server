@@ -3,15 +3,17 @@ var Comment = mongoose.model('Comment')
 
 // comment
 exports.post = function(req, res) {
-  var _comment = req.body.comment
-  var activityId = _comment.id
-
-  if (_comment.cid) {
-    Comment.findById(_comment.cid, function(err, comment) {
+  var content= req.body.content
+  var cid=req.body.cid
+  var tid=req.body.tid
+  var activityId = req.body.id
+  var user=req.user
+  if (cid) {
+    Comment.findById(cid, function(err, comment) {
       var reply = {
-        from: _comment.from,
-        to: _comment.tid,
-        content: _comment.content
+        from: user._id,
+        to: tid,
+        content: content
       }
 
       comment.reply.push(reply)
@@ -26,7 +28,12 @@ exports.post = function(req, res) {
     })
   }
   else {
-    var comment = new Comment(_comment)
+    var comment = new Comment({
+       content: req.body.content,
+       cid:req.body.cid,
+       tid:req.body.tid,
+       activityId : req.body.id
+    }})
     comment.save(function(err, comment) {
       if (err) {
         console.log(err)

@@ -18,11 +18,12 @@ var activitySchema = new mongoose.Schema({
 		}
 	],
 	host:{id:{type: ObjectId, ref: 'user'},
-	      name:{type:String, ref:'user'}},
+	      name:String}},
 	participants:[{
 		id:{type: ObjectId, ref: 'user'},
 		availdableAt:String,
-	}]
+	}],
+	comments:[{type:ObjectId,ref:'comment'}]
 })
 
 activitySchema.set('collection', 'activity');
