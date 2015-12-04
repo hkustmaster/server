@@ -98,3 +98,1606 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI1NjVmZjA0MjMxYTliMTVhMDg0NzVjYTQ
 [0mGET /bootstrap/dist/css/bootstrap.min.css [32m200 [0m3.276 ms - 122540[0m
 [0mGET /jquery/dist/jquery.min.js [32m200 [0m3.308 ms - 84380[0m
 [0mGET /bootstrap/dist/bootstrap.min.js [32m200 [0m1.417 ms - 25[0m
+[0mPOST /signin [33m400 [0m499.692 ms - 1056[0m
+[0mPOST /signin [33m400 [0m35.234 ms - 1103[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjVmZmFlNTMxYTliMTVhMDg0NzVjYTgiLCJleHAiOjE0NDk3OTk1MjQzMTh9.n-F6f9wNAI9m6JF-TSbyBD22EO7aqwmT2FlNT6WU3E8
+[0mPOST /signin [32m200 [0m142.039 ms - 436[0m
+password=123456
+salt=$2a$10$plxEqS/.9.GvoYhsfKmLI.
+[0mPOST /signup [32m200 [0m125.813 ms - 26[0m
+password=123456
+salt=$2a$10$wtJY2igyhwQ6936b7CRXpe
+[0mPOST /signup [32m200 [0m112.693 ms - 26[0m
+password=123456
+salt=$2a$10$/VtVP5mgqGGMBs.mNGvW3O
+[0mPOST /signup [32m200 [0m111.036 ms - 26[0m
+password=123456
+salt=$2a$10$KM6OUcdSFcjjZah44bf.XO
+[0mPOST /signup [32m200 [0m112.679 ms - 26[0m
+password=123456
+salt=$2a$10$BsZeNluHTFbDZMbkiwG7gu
+[0mPOST /signup [32m200 [0m112.623 ms - 26[0m
+password=123456
+salt=$2a$10$dnMs60YAltNVFYB9a0bS2.
+[0mPOST /signup [32m200 [0m175.340 ms - 26[0m
+password=123456
+salt=$2a$10$XKOHPEE91nrEGSUHtOC/Ou
+[0mPOST /signup [32m200 [0m165.105 ms - 26[0m
+password=123456
+salt=$2a$10$y9ukDPClmX47sLJa.tVJwO
+[0mPOST /signup [32m200 [0m112.049 ms - 26[0m
+password=123456
+salt=$2a$10$fPRkUtIFMPyzT3be5hI1Ju
+[0mPOST /signup [32m200 [0m110.239 ms - 26[0m
+password=123456
+salt=$2a$10$XMKMJjcPzt6BUK3GQZKX0O
+[0mPOST /signup [32m200 [0m107.466 ms - 26[0m
+password=undefined
+salt=$2a$10$2bZ9CH8yWZaiw9wNAstza.
+[0mPOST /signup [32m200 [0m7.138 ms - 26[0m
+password=undefined
+salt=$2a$10$5V1bc8MasihYTbZR/zfzW.
+[0mPOST /signup [32m200 [0m3.610 ms - 26[0m
+password=undefined
+salt=$2a$10$vkmktt0Zs2nlLoG4qp5U6u
+[0mPOST /signup [32m200 [0m6.790 ms - 26[0m
+password=undefined
+salt=$2a$10$N9JFitramrDJ9VeDC5ilyu
+[0mPOST /signup [32m200 [0m4.306 ms - 26[0m
+[0mPOST /signup [33m400 [0m43.263 ms - 1056[0m
+password=123456
+salt=$2a$10$NDmOvGQclD466TR5oFKfX.
+[0mPOST /signup [32m200 [0m127.921 ms - 26[0m
+password=123456
+salt=$2a$10$Rm1wIugrfSn4QmIV9ee0aO
+[0mPOST /signup [32m200 [0m106.293 ms - 26[0m
+[0mPOST /signin [32m200 [0m105.439 ms - 28[0m
+[0mPOST /signin [32m200 [0m105.888 ms - 28[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjVmZmFlNTMxYTliMTVhMDg0NzVjYTgiLCJleHAiOjE0NDk4MDEwNDUwMDF9.uFhMTm7twOgi9BfFmK8GZijPtYEm6K9bj47W2raOlUA
+[0mPOST /signin [32m200 [0m96.870 ms - 436[0m
+[0mGET /activity/all?token=default [32m200 [0m5.861 ms - 25[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjVmZmFlNTMxYTliMTVhMDg0NzVjYTgiLCJleHAiOjE0NDk4MDEwNzAyNzR9.4uu-5rtnWhvJKUKGx-9_yGR938Wn2x4ejFnfaPvdB8Q
+[0mPOST /signin [32m200 [0m95.009 ms - 436[0m
+[0mGET /activity/all?token=default [32m200 [0m2.152 ms - 25[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjVmZmFlNTMxYTliMTVhMDg0NzVjYTgiLCJleHAiOjE0NDk4MDExODI4MzV9.eBygN6IdLl12eFhFPiwYeXNCO0j-ih7_o6Vu8K6QGOQ
+[0mPOST /signin [32m200 [0m95.987 ms - 436[0m
+[0mGET /activity/all?token=default [32m200 [0m1.224 ms - 25[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjVmZmFlNTMxYTliMTVhMDg0NzVjYTgiLCJleHAiOjE0NDk4MDE1MzE2NTB9.6EiT2oS1XjccPotp8WgHLxR8fBQW2rWZvSCzFt2WSrI
+[0mPOST /signin [32m200 [0m104.987 ms - 436[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjVmZjA0MjMxYTliMTVhMDg0NzVjYTQiLCJleHAiOjE0NDk4MDE4MDkzMzd9.QR6C0ityM_4olMg1ouUFmrqsX6mSt_GVIcono3ShETs
+[0mPOST /signin [32m200 [0m111.653 ms - 442[0m
+[0mPOST /activity/all [32m200 [0m4.366 ms - 27[0m
+password=123456
+salt=$2a$10$Kc9vbLuRUanrAO21PmrtWu
+[0mPOST /signup [32m200 [0m126.310 ms - 26[0m
+password=123456
+salt=$2a$10$G3Z7ULBBqi.QyMFyWiaXY.
+[0mPOST /signup [32m200 [0m106.860 ms - 26[0m
+password=123456
+salt=$2a$10$82ONxX573hh41rL.jsW6uu
+[0mPOST /signup [32m200 [0m118.334 ms - 26[0m
+password=123456
+salt=$2a$10$WqnCm8pL6nUaIUrmBlI6te
+[0mPOST /signup [32m200 [0m106.671 ms - 26[0m
+password=123456
+salt=$2a$10$0cYShvNNfsJuU3QMSJ1r1u
+[0mPOST /signup [32m200 [0m105.406 ms - 26[0m
+password=123456
+salt=$2a$10$79vBCf9l03bX0ppNfy/FVe
+[0mPOST /signup [32m200 [0m108.747 ms - 26[0m
+[0mPOST /signup [33m400 [0m432.851 ms - 1103[0m
+[0mPOST /signup [33m400 [0m31.693 ms - 1103[0m
+[0mPOST /signup [33m400 [0m18.554 ms - 1103[0m
+[0mPOST /signup [33m400 [0m21.740 ms - 1103[0m
+[0mPOST /signup [33m400 [0m17.483 ms - 1103[0m
+[0mPOST /signup [33m400 [0m12.186 ms - 1103[0m
+{"email":"test2222@m.com","gender":"Male","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$UOKiiqbPaF9XJMCTDORnX.
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m142.958 ms - 26[0m
+[0mPOST /signup [32m200 [0m6.362 ms - 25[0m
+{"email":"test123@m.com","gender":"Male","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$aSR//aSzmwIuHf6iCtJx/e
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m113.070 ms - 26[0m
+[0mPOST /signin [32m200 [0m6.075 ms - 29[0m
+[0mPOST /signin [32m200 [0m6.051 ms - 29[0m
+[0mPOST /signin [32m200 [0m2.254 ms - 29[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MDQ0MDUwOTd9.1VS6uX2OX0JOU73hKKhMHeohB6M7vmdq8PQUU6zVJeo
+[0mPOST /signin [32m200 [0m99.023 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m7.870 ms - 27[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MDQ0MjkxMDh9.8ylIQ7aRThrAIHHZjf43bN1w3Hscm5TAoya30eSdy4U
+[0mPOST /signin [32m200 [0m100.930 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m2.396 ms - 27[0m
+{"email":"test123@m.com","gender":"Male","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$WY7ZYdP1CAaLcqZSFq3fA.
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m108.046 ms - 26[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MDQ1MzQ0OTV9.7wj9CFOKnzJYQaDMxmGAjWbtgJbd9WhNDx9zMzIKqjI
+[0mPOST /signin [32m200 [0m94.991 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m2.145 ms - 27[0m
+{"email":"test123@m.com","gender":"Male","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$/drq4My8NzXptgony5SUke
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m108.638 ms - 26[0m
+{"email":"test123@m.com","gender":"Male","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$CJ/Slhs9mkHQiGsxWL4eOe
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m107.022 ms - 26[0m
+{"email":"test11@m.com","gender":"Male","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$uRk4aOaBHCid2BVVYl/naO
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m111.704 ms - 26[0m
+{"email":"test11@m.com","gender":"Male","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$GfwauWAQsCR8tM7pB2rSXu
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m122.448 ms - 26[0m
+{"email":"test11@m.com","gender":"Male","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$sp6sj.W1r1rjnFXKXAMQLu
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m108.437 ms - 26[0m
+{"email":"test11@m.com","gender":"Male","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$kDJz4IcyKZHHSSGiGVHr4e
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m116.233 ms - 26[0m
+{"email":"test11@m.com","gender":"Male","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$j33BC3cjh1avHxGSI4JZ4u
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m106.252 ms - 26[0m
+[0mPOST /signup [32m200 [0m6.823 ms - 25[0m
+{"email":"132@m.com","gender":"Male","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$9Cf/T0T48zEFf0GhWY/AuO
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m106.339 ms - 26[0m
+[0mPOST /signup [32m200 [0m3.105 ms - 25[0m
+{"email":"dbc@m.com","gender":"Male","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$wizqjpqfJE/1fWMgRZJg/O
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m104.859 ms - 26[0m
+[0mPOST /signup [32m200 [0m4.375 ms - 25[0m
+{"email":"123@m.com","gender":"Male","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$F8fKlsWUue0xc.pHJv54hO
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m107.206 ms - 26[0m
+[0mPOST /signup [32m200 [0m2.847 ms - 25[0m
+{"email":"ab@m.com","gender":"Male","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$BhjTndTWRHkWvNpWjI5sf.
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m106.529 ms - 26[0m
+{"email":"ab@m.com","gender":"Male","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$wEqpLaa27yoP.2xMfOk96e
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m108.118 ms - 26[0m
+[0mPOST /signup [32m200 [0m2.831 ms - 25[0m
+{"email":"ab123@m.com","gender":"Male","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$bXPTMIpfIFxaJgzIj..coO
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m105.910 ms - 26[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MDU0OTEzNjd9.QlOPmHF8vaNKbjNg9ATVvlikOsFB0Dt1rRsWi58-nyU
+[0mPOST /signin [32m200 [0m103.641 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m3.333 ms - 27[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MDU1MDUxMzV9.LebK51BtR4zDYkAL63Qc3QuHqOuPaxNLHayXNhkmy-A
+[0mPOST /signin [32m200 [0m98.182 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m2.733 ms - 27[0m
+[0mPOST /activity/all [32m200 [0m3.986 ms - 27[0m
+[0mPOST /activity/all [32m200 [0m3.939 ms - 27[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MDU1OTE5MzN9.ZVNPmeKmdFtwmpbR8jU7U6Are2_nHGt6gR6w3kvB1os
+[0mPOST /signin [32m200 [0m121.914 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m5.473 ms - 27[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MDU2MDEwMDd9.wwClusc6fmn0fcCkS4lihDg_T7C8-xjLnmsX6Ec8IzU
+[0mPOST /signin [32m200 [0m118.996 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m3.929 ms - 27[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MDU2MjAzMzN9.nEmmWMT3jrLNOwje4ulaiEaVtPtANTMucGVQ44nx3ig
+[0mPOST /signin [32m200 [0m107.825 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m2.725 ms - 27[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MDU2NDU5MzZ9.0k83TaPcN9yT9l8bBdCRriWnkrIwgnxWMdyW6a0S4T4
+[0mPOST /signin [32m200 [0m106.394 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m2.374 ms - 27[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MDU2NjE2Njl9.PYs5JZFjOYfrvK7QDD3t285z-zoPzRT4TZxLJOy0BOQ
+[0mPOST /signin [32m200 [0m107.650 ms - 472[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MDU2NjQzMzV9.YUDRSrsKbua0aqgFhOkLVtDhktNkcZC94rhvV4UNGsk
+[0mPOST /signin [32m200 [0m105.257 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m2.599 ms - 27[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MDU2ODI3MzV9.QBXHjqm9SlZeejP6g9tazxyNecjznMrY-dIsUXe1Ty4
+[0mPOST /signin [32m200 [0m118.310 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m2.709 ms - 27[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MDU2ODk3NjR9.RfX2OPIAp8oBhI2Rvzo9pGkfo9B3-D7ZEDl3qTd9EAA
+[0mPOST /signin [32m200 [0m107.535 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m2.841 ms - 27[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MDU2OTg3MTd9.Tz7l6UfrmkilocDx3AD4Iwoy-ZVZp8Mf4lOy2MdYBzg
+[0mPOST /signin [32m200 [0m105.677 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m4.150 ms - 27[0m
+[0mPOST /activity/all [32m200 [0m3.611 ms - 27[0m
+[0mPOST /activity/all [32m200 [0m4.035 ms - 27[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MDU3MTU4NTZ9.ogHzDI-Qkj1V4yYAfUV6gsE9TI_-C402j5VeS45wn7M
+[0mPOST /signin [32m200 [0m103.162 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m3.300 ms - 27[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MDU3NzU0MzN9.pm062a6X87BgqVhEeCnE4P4gDAS9kp_ywNYQwbNpJ14
+[0mPOST /signin [32m200 [0m123.189 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m4.943 ms - 27[0m
+{"email":"ab123@m.com","gender":"Male","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$lIS9RAjsYvWcf5D.gkf6L.
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m125.578 ms - 26[0m
+[0mPOST /signup [33m400 [0m469.361 ms - 1103[0m
+[0mPOST /signup [33m400 [0m27.458 ms - 1103[0m
+[0mPOST /signup [33m400 [0m17.489 ms - 1103[0m
+[0mPOST /signup [33m400 [0m18.483 ms - 1103[0m
+[0mPOST /signup [33m400 [0m15.281 ms - 1103[0m
+[0mPOST /signup [32m200 [0m4.184 ms - 25[0m
+{"email":"abc1@m.com","gender":"Male","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$7hvoU3kwMCtirHXnhr5i5u
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m112.082 ms - 26[0m
+{"email":"abc12@m.com","gender":"Male","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$2VNvGMqGPHy8ElyUzok7i.
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m107.203 ms - 26[0m
+{"email":"abc12@m.com","gender":"Male","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$0jp3mB0xRTsafYFBx9FvPu
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m98.989 ms - 26[0m
+[0mPOST /activity/all [32m200 [0m1.041 ms - 25[0m
+[0mPOST /signin [33m400 [0m12.499 ms - 1103[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MDYyNDQ2ODR9.ocpc2iwz2yMUiWXmTIRGKmvpIsde55vJnn1f8HcSpLE
+[0mPOST /signin [32m200 [0m94.946 ms - 472[0m
+[0mPOST /activity/all [33m400 [0m13.802 ms - 1056[0m
+[0mPOST /activity/all [32m200 [0m17.301 ms - 1213[0m
+{"email":"abc12@m.com","gender":"Male","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$vBjtZZgPX8tFWO6yIuafuO
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m105.564 ms - 26[0m
+{"email":"abc1209900909090099090009@m.com","gender":"Male","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$Duym8t2A.hGmB.VhQTAez.
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m106.587 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$/49hkUIyOOsDjFF5Y0xepO
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m105.010 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$M/bmRUpubZu1rlaxkcvXku
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m104.070 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$FB7gHlmyyb9TjTERcQjF1e
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m112.659 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$Y0MscBP0YE6eUPRSNe.P/e
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m106.582 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$f/NADdGju4QxzUYrLoTyt.
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m106.721 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$HVl6AAJfFToWkuweUkEuUe
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m106.618 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$NTa7EcxQpFbsnHfmKzumPu
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m105.469 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$Zt6RaF9e.6JhAJZTtePRYO
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m113.871 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$aCsRW1OZ8bfLq8BTDSPWlO
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m108.162 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$SQFIlPbEkSjHr0AG9tFJE.
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m107.997 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$t6kJ.P33pAY/FVcV.jEpru
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m111.582 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$dGfsevYMM8AgV.Z4bVxbou
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m115.797 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$oSrqHt2uoxt1UOvRd7VLYO
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m107.859 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$GBaOJ90I.HaPJKcFJC4g4u
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m105.474 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$GvDWIwWeBO7pPlBsRi.PCu
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m106.842 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$TziVVHkLx11w4tcGiJLB8O
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m117.748 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$udksx5bSQfDeumr6lZKQ..
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m110.835 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$LNINVDmymKmYKEXBCEO2D.
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m114.509 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$Bkbd3qY7ZkOhmXCoJvt0Ze
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m110.307 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$mB8kDsowtZyFtgdsBRCFju
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m117.434 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$i.TsO9NAik5qbQPsQwSlLe
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m109.764 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$Iqoiu04aLADvBV.umzedc.
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m110.178 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$OshyeeSa000ETnhwBXCHn.
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m108.415 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$lIlAn7P3TLonxX4Eas52NO
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m108.120 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$Zp461VF9Pf8jQBAtF.lua.
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m107.868 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$WBGijMa5whturhddA/ACv.
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m107.269 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$3BFm/9e3ervbK9TUoAhD2O
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m106.103 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$itjhcTJq8tnRWkY9YtVzk.
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m115.894 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$.mtnCIbiYcXqu1fWA8JlEe
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m112.217 ms - 26[0m
+[0mPOST /signin [32m200 [0m10.503 ms - 29[0m
+[0mPOST /signin [32m200 [0m2.827 ms - 29[0m
+[0mPOST /activity/all [32m200 [0m22.824 ms - 1213[0m
+[0mPOST /activity/all [32m200 [0m26.018 ms - 1213[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$/1NTE6ZKs/TlYnHezWUl8e
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m111.995 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$E03vfgYikvZwIs12TpVpge
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m109.521 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$ATNxB8LoRU.r3VYlYY4Hl.
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m101.802 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$xCOEUgr2F82rOp/76UfgAe
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m107.860 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$393HRA.WLKmzb1GSvQOSve
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m102.231 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$LWJ7LJpWFwpH73Mvwb6Vnu
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m110.980 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$FLHK.n2FmvVCuxQJ0icHUO
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m111.607 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$rrvyCzgkGrh6NUUcpaP/pO
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m100.518 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$ngKsylkvg3zKrKzXledNSe
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m104.092 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$DFdYXsho8fdlqDtAUghS0.
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m100.942 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$iZf1CfaBYYz6rxeymA62uu
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m109.084 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$OjAWrvJyulNChvd9JrZiVu
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m102.915 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$D3bBgQkQxPn1YFwHGzE41u
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m107.105 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$L1VmPNbXAEZO9PLZQo/XUu
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m110.772 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$Qs8SYEvIRsEqWuLqRNbDB.
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m107.213 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$eSJ18Np.IgjO7REl2zGrU.
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m98.858 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$ls2FMbTAIpIMAo993EgL6u
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m100.698 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$nu7zaWpCH1olq//5IJgszO
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m109.831 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$stHO0OrG/N51bnLGXTudyO
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m125.904 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$p3AI4vDoKV4cnXGIOp4lV.
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m124.845 ms - 26[0m
+password=123456
+salt=$2a$10$dn4SlcGdUIThz5c2dYG7SO
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m122.547 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$Sq4czFGhWMvd4FP3fBH2Ae
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m223.529 ms - 26[0m
+password=123456
+salt=$2a$10$xNmNxkj6KgJQ4vTYQQ8Fye
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m225.315 ms - 26[0m
+password=123456
+salt=$2a$10$iVM.ECS2q.jvFELAIVJhZu
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m152.393 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$FWxh/rG3RUSACjiYyuVKE.
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m110.000 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$fLkNX9Sc8dzuyR0MwMNSyu
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m108.713 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$QXKZOrHXmZuXPaWQbRhKJu
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m111.080 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$jVjNMgqQf0PNsMXO6K.ORO
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m113.143 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$mVbiY2yEe7hqMVsMNmfu2u
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m143.509 ms - 26[0m
+password=123456
+salt=$2a$10$I6PhN/DV6Qt2UPNjDIuBJ.
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m138.731 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$NUbMNhTxw05SK96STa044u
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m112.145 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$fXZmPU8JcaoeaK38NUeqx.
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m99.641 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$o9XwB9UUhn1UKO2XINEokO
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m108.572 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$Aw3RBbM1nkj9Q0SJibEVyu
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m97.457 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$FBYrvu84QZcm689.jDJN.u
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m100.390 ms - 26[0m
+[0mPOST /activity/signup [32m200 [0m2.709 ms - 25[0m
+{"{\"email\" : \"mmmmm@m.com\", \"gender\" : \"Male\", \"name\" : \"mav\", \"password\" : \"111\", \"phone\" : \"123456789\"}":""}
+password=undefined
+salt=$2a$10$j3ZzDIMspr01hw3Te5lEh.
+[Error: data and salt arguments required]
+[0mPOST /signup [32m200 [0m12.556 ms - 26[0m
+{"{\"email\":\"mmmmm@m.com\", \"gender\":\"Male\", \"name\":\"mav\", \"password\":\"111\", \"phone\":\"123456789\"}":""}
+password=undefined
+salt=$2a$10$DC8QwS60Q0WDIahnAyL0/u
+[Error: data and salt arguments required]
+[0mPOST /signup [32m200 [0m6.328 ms - 26[0m
+{"email":"mmmmm@m.com","gender":"Male","name":"mav","password":"111","phone":"123456789"}
+password=111
+salt=$2a$10$dVGRzD6LSGAPbdQhh1Doxe
+[0mPOST /signup [32m200 [0m106.994 ms - 21[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$4gP.94N3X1cKXgiqmPi/8u
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m109.110 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$t4EWE5YLBvY9/XpfGfupz.
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m113.108 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$6mV/ydLW/Dz7o4ichYmyDu
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m108.095 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$lmdR3cSMhnkWcs3AM1ac6.
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m129.158 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$20hUsMVT/6yDkpAWsHnPDO
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m108.688 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$sb1ZLNch7zpas9dh0lUEfO
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m106.136 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$vziiSejm/y4R9An61GSZLu
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m106.599 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$WiSxHPgLidVVS.XJPP3snu
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m107.600 ms - 26[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$UZBvjuyVRyBq70NrCwR9yu
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m106.121 ms - 26[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MDg3NTE0ODZ9.XkMS_2faPL3sEHWxMSpK1EGktH_TNmmDtZBYTnIQDYQ
+[0mPOST /signin [32m200 [0m105.407 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m2.700 ms - 27[0m
+fuck you{ role: 0,
+  meta: 
+   { createAt: Thu Dec 03 2015 22:09:02 GMT-0500 (EST),
+     updateAt: Thu Dec 03 2015 22:09:02 GMT-0500 (EST) },
+  __v: 0,
+  phone: '123456789',
+  password: '$2a$10$biSiBuAhiQhIoUo2zaoqeO15zkBP0RxITylWGZIqS7Jga2YncYjCG',
+  name: 'sam',
+  gender: 'Male',
+  email: 'abc@m.com',
+  _id: 566103f453b1ee6d333d7f5e }
+[0mPOST /activity/new [32m200 [0m21.666 ms - 21[0m
+[0mPOST /activity/all [32m200 [0m3.917 ms - 27[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MDg4Mzg2MzV9.6tIkI-Jq5cOGAcSpoeDmiQkAn3_38EVEJi9MYjsfqI4
+[0mPOST /signin [32m200 [0m104.666 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m13.117 ms - 264[0m
+[0mPOST /activity/all [32m200 [0m7.361 ms - 27[0m
+[0mPOST /%08signin [32m200 [0m20.646 ms - 25[0m
+[0mPOST /%08signin [32m200 [0m2.470 ms - 25[0m
+[0mPOST /%08signin [32m200 [0m1.590 ms - 25[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MTAyMzcyMzR9.M7IrK-qvv0AisQyu3zzX15d3rT4U9UhLvzXcTML9OUc
+[0mPOST /signin [32m200 [0m114.517 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m5.470 ms - 27[0m
+[0mPOST /%08signin [32m200 [0m1.550 ms - 25[0m
+[0mPOST /activity/all [32m200 [0m6.760 ms - 27[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MTA0MjAzMjd9.h7XmAAKTir3OTxsC4lLDnPwLv_qaDJpN2KkuiAC7bws
+[0mPOST /signin [32m200 [0m112.197 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m5.929 ms - 27[0m
+[0mPOST /activity/all [32m200 [0m5.197 ms - 27[0m
+[0mPOST /activity/all [32m200 [0m7.245 ms - 27[0m
+[0mPOST /activity/all [32m200 [0m9.280 ms - 27[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MTA1OTI2MTB9.8oCLCm7U8rv-wm-tDTpqnJPyMvfQgbZjQbl3n8lA5aE
+[0mPOST /signin [32m200 [0m106.203 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m2.687 ms - 27[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MTA2Nzk1NzF9.o1pLWta6LG1VL72gtsWMtxHhuY1OTRt5h4fDideie4U
+[0mPOST /signin [32m200 [0m106.253 ms - 472[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MTA2ODcyMTJ9.HSdIGyL0ZBTNyKN23phmL_fVSlTna9TRWJT0F_ea28U
+[0mPOST /signin [32m200 [0m106.444 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m2.761 ms - 27[0m
+{ beginAt: '2015-11-5',
+  description: 'tty',
+  endAt: '',
+  location: 'ggvv',
+  title: 'gghgg',
+  status: 'PRE',
+  time: '1: 11',
+  size: 12,
+  quota: 0 }
+[0mPOST /activity/new [32m200 [0m48.043 ms - 21[0m
+[0mPOST /%08signin [32m200 [0m1.052 ms - 25[0m
+[0mPOST /%08signin [32m200 [0m1.496 ms - 25[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MTA3ODM1MjV9.m0cQeZafJYkLYPcNATjSCxm8CeNfxs42GtVk6sw5DM4
+[0mPOST /signin [32m200 [0m145.603 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m6.244 ms - 27[0m
+[0mPOST /%08signin [32m200 [0m2.824 ms - 25[0m
+[0mPOST /%08signin [32m200 [0m1.310 ms - 25[0m
+[0mPOST /%08signin [33m400 [0m471.888 ms - 1056[0m
+[0mPOST /%08signin [32m200 [0m2.118 ms - 25[0m
+[0mPOST /%08signin [32m200 [0m1.113 ms - 25[0m
+[0mPOST /%08activity.all [32m200 [0m0.998 ms - 25[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MTA5MzQ3NDl9.MqpU3z-b8tOireQIufM9uOdnpPhn9WFqvNopjOfHy_c
+[0mPOST /signin [32m200 [0m102.306 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m5.233 ms - 27[0m
+[0mPOST /%08activity/all [32m200 [0m3.177 ms - 25[0m
+[0mPOST /%08activity/all [32m200 [0m0.678 ms - 25[0m
+[0mPOST /%08activity/all [32m200 [0m0.944 ms - 25[0m
+[0mGET /%08activity/all [32m200 [0m4.589 ms - 25[0m
+[0mPOST /%08activity/all [32m200 [0m1.184 ms - 25[0m
+[0mPOST /%08activity/all [32m200 [0m1.453 ms - 25[0m
+[0mPOST /%08activity/all [32m200 [0m1.231 ms - 25[0m
+[0mPOST /%08signin [32m200 [0m3.211 ms - 25[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MTExNzA1Mjd9.MnUKp80HWe_8STh8Ag5fiehz_bVtvrfxjAgg5gbzGPY
+[0mPOST /signin [32m200 [0m107.977 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m3.699 ms - 27[0m
+[0mPOST /signin [32m200 [0m2.723 ms - 29[0m
+[0mPOST /signin [32m200 [0m106.287 ms - 28[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MTEyMDIwNTh9.1UjzHY4Jb2742EsGIKxUB3FD_KMwK1jkvTQckqM-ROU
+[0mPOST /signin [32m200 [0m114.318 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m3.124 ms - 27[0m
+[0mPOST /activity/all [32m200 [0m4.817 ms - 27[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MTEyMjIyMTZ9.07_hRAPvFLEdlTOJHDkSG1SIdqpuZI3sQMPUAOKe1n8
+[0mPOST /signin [32m200 [0m107.487 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m12.832 ms - 279[0m
+[0mPOST /%08signin [33m400 [0m45.336 ms - 1103[0m
+[0mPOST /%08signin [33m400 [0m19.777 ms - 1103[0m
+[0mPOST /%08activity/all [33m404 [0m26.017 ms - 1268[0m
+[0mGET / [31m500 [0m34.497 ms - 2162[0m
+[0mGET /bootstrap/dist/bootstrap.min.js [36m304 [0m4.394 ms - -[0m
+[0mGET /bootstrap/dist/css/bootstrap.min.css [36m304 [0m5.342 ms - -[0m
+[0mGET /jquery/dist/jquery.min.js [36m304 [0m1.985 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m2.150 ms - 25[0m
+[0mPOST /%08activity/all [33m400 [0m22.195 ms - 1056[0m
+[0mPOST /%08activity/all [32m200 [0m3.767 ms - 25[0m
+[0mPOST /%08activity/all [32m200 [0m1.467 ms - 25[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MTE5MDA5ODh9.BY-iFaZADOFxl_hW2G0OkNJ1lGrj-SdMC05oMnqyebk
+[0mPOST /signin [32m200 [0m107.630 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m17.970 ms - 279[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MTIwMTc4NDV9.NJPnXN2A7r7tK8gV9LACJ8WnVuX5OzVj7ZEYFtL8PnU
+[0mPOST /signin [32m200 [0m118.616 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m10.101 ms - 279[0m
+[0mPOST /%08activity/all [32m200 [0m0.979 ms - 25[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMTgwYmRiNWEyMmMyMzM4NjYxMTEiLCJleHAiOjE0NDk4MTI4ODUwMjd9.tM6mAg2Vm3wN1gK8fLVnzTQCrl-sfS4UIrBy9Vc6GEk
+[0mPOST /signin [32m200 [0m108.778 ms - 474[0m
+[0mPOST /activity/showmine [32m200 [0m16.102 ms - 30[0m
+{ title: 'mmmmm@m.com', password: '111' }
+[0mPOST /activity/new [32m200 [0m29.322 ms - 21[0m
+[0mPOST /activity/showmine [32m200 [0m11.655 ms - 242[0m
+[0mPOST /activity/postedit [32m200 [0m10.282 ms - 48[0m
+[0mPOST /activity/postedit [32m200 [0m18.352 ms - 48[0m
+[0mPOST /activity/postedit [32m200 [0m6.589 ms - 48[0m
+[0mPOST /activity/showmine [32m200 [0m50.430 ms - 241[0m
+[0mPOST /%08signin [32m200 [0m4.170 ms - 25[0m
+[0mPOST /%08signin [32m200 [0m1.012 ms - 25[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MTQxODA2NDJ9.sEwcTs4LptEqxTc4h_XXHsLu94lG6ygPjwBwPncLjJA
+[0mPOST /signin [32m200 [0m111.522 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m15.527 ms - 470[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$G66gipflqapEks4IUFf6yu
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m116.940 ms - 26[0m
+[0mPOST /activity/all [32m200 [0m17.138 ms - 470[0m
+[0mPOST /activity/all [32m200 [0m17.885 ms - 470[0m
+[0mPOST /activity/showdetail [33m404 [0m465.843 ms - 1880[0m
+[0mPOST /activity/detail [32m200 [0m19.350 ms - 239[0m
+[0mPOST /activity/all [32m200 [0m40.885 ms - 978[0m
+[0mPOST /activity/all [32m200 [0m39.013 ms - 512[0m
+[0mPOST /activity/all [32m200 [0m21.662 ms - 512[0m
+{"email":"abc1209@m.com","gender":"Female","name":"sam","password":"123456","phone":"123456789"}
+password=123456
+salt=$2a$10$5aXD0GgkwDbLyTk9hJblku
+{ name: 'MongoError',
+  message: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'insertDocument :: caused by :: 11000 E11000 duplicate key error index: app.users.$name_1  dup key: { : "sam" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /signup [32m200 [0m154.451 ms - 26[0m
+[0mPOST /signin [33m400 [0m513.780 ms - 1103[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MTUzNDA4NzF9.QWBOirwihifSVOnwwhVlNO7Rp6eKf0PPzGfHlDat7zw
+[0mPOST /signin [32m200 [0m120.737 ms - 472[0m
+[0mPOST /activity/all [33m400 [0m40.431 ms - 1103[0m
+[0mPOST /activity/all [32m200 [0m11.299 ms - 512[0m
+[0mPOST /activity/all [32m200 [0m18.134 ms - 512[0m
+[0mPOST /signin [32m200 [0m117.830 ms - 28[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MTYyODY3OTl9.7UdjnY5Z5LfLQ18hG8WrSAvAwMaSxBXTlDBN9_aiAp8
+[0mPOST /signin [32m200 [0m115.798 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m11.169 ms - 512[0m
+[0mPOST /activity/all [32m200 [0m16.993 ms - 512[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MTY3NTk1ODN9.5sR3rvZv-JNft9l08PRa_wbGshL6w5ZvLnm7J36ffeE
+[0mPOST /signin [32m200 [0m108.361 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m12.549 ms - 512[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MTY3Nzg3NzZ9.cH9WPqXmlqsHjsVhtwyXQ56UDU-K9wdDTsI_aBunUt4
+[0mPOST /signin [32m200 [0m104.702 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m8.277 ms - 512[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MTY3OTcwNDd9.PNXg5iDBFZGmgo-TTVvbCcvhlJ7MgJVnCAOnFdX5jqg
+[0mPOST /signin [32m200 [0m106.695 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m14.989 ms - 512[0m
+[0mPOST /activity/all [32m200 [0m10.088 ms - 512[0m
+[0mPOST /activity/all [32m200 [0m18.778 ms - 512[0m
+[0mPOST /activity/all [32m200 [0m10.680 ms - 512[0m
+[0mPOST /activity/all [32m200 [0m13.588 ms - 512[0m
+[0mPOST /activity/all [32m200 [0m7.757 ms - 512[0m
+[0mPOST /activity/all [32m200 [0m9.905 ms - 512[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MTcwNTIzNzl9.jbgRVkkrumf4NBtWsWayjAGL13v0RlYgdI3_h3WhkCc
+[0mPOST /signin [32m200 [0m119.508 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m9.794 ms - 512[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MTcyMzI5Nzd9.r0HvuRev5SgU1F9OyNJE274xw5DEs7ja0jKXnAcJfek
+[0mPOST /signin [32m200 [0m112.304 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m11.531 ms - 512[0m

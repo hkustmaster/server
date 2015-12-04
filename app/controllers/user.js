@@ -29,8 +29,10 @@ exports.signup = function(req, res) {
     }
     else {
       user = new User(req.body)
+	console.log(JSON.stringify(req.body))
       user.save(function(err, user) {
         if (err) {
+console.log(err)
           res.json({message:"Server Error"});
         }
         else{
