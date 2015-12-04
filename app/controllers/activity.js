@@ -1,5 +1,6 @@
 var mongoose = require('mongoose')
 var activity = require('../models/activity');
+var activitySchema = require('../schemas/activity')
 var ObjectId =mongoose.Schema.Types.ObjectId
 var Hashids=require('hashids')
 var hashids = new Hashids("together");
@@ -15,9 +16,11 @@ exports.showAll = function(req, res ,next) {
 exports.showAround=function(req,res){
   var distance=req.body.distance
   var limit=req.body.limit
-  activity.find({type:"public",location:{$near:req.body.location}}).limit(limit).exec(function(err,act){
-   if(err) return res.json({message:"System Error"})
-   else res.json() 
+  var loc=req.body.location
+  activitySchema.geoNear(loc,{maxDistance:distance}).sort("dis").exec(function(err,act){
+    if(err)
+      return res.json({message:"System Error"})
+    res.json({message:"Succeed",act:act})
   })
 }
 

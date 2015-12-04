@@ -21,6 +21,8 @@ router.post('/detail', activity.showDetail);
 
 router.post('/showmine', activity.showMine);
 
+router.post('/showaround', activity.showAround);
+
 router.get('/join/:id',intereact.joinActivity);
 
 router.get('/leave/:id',intereact.leaveActivity);

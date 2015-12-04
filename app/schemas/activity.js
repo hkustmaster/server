@@ -6,7 +6,10 @@ var activitySchema = new mongoose.Schema({
 	type:String,
 	status:String,
 	id:String,
-	location:[{type:String}],
+	location:{
+		[{type:String}],
+		index: '2d'
+	},
 	description:String,
 	time:String,
 	startAt:String,
@@ -24,6 +27,10 @@ var activitySchema = new mongoose.Schema({
 		availdableAt:String,
 	}],
 	comments:[{type:ObjectId,ref:'comment'}]
+	createAt: {
+      type: Date,
+      default: Date.now()
+    }
 })
 
 activitySchema.set('collection', 'activity');
