@@ -55,7 +55,8 @@ To Do:
 
 
 修改密码：
-
+POST /user/edit
+{password:"23123",token:""}
 
 修改用户名字和电话：
 

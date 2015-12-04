@@ -1703,3 +1703,10 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWU
 [0mPOST /activity/all [32m200 [0m11.531 ms - 512[0m
 [0mPOST /activity/all [32m200 [0m22.139 ms - 512[0m
 [0mPOST /activity/all [32m200 [0m11.985 ms - 512[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMTgwYmRiNWEyMmMyMzM4NjYxMTEiLCJleHAiOjE0NDk4MjEwOTE4ODB9.L4Kabx7zHSVsPab3IBbvgj4bZWvqW2DC62i8tPmmmNw
+[0mPOST /signin [32m200 [0m130.209 ms - 474[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MjExNjM1MTN9.kGs5sEAfA6tsHyTuwWIxy8jnRLXgVku5IK2LSffvq78
+[0mPOST /signin [32m200 [0m110.078 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m33.230 ms - 760[0m
+[0mPOST /activity/all [32m200 [0m14.171 ms - 760[0m
+[0mPOST /activity/all [32m200 [0m34.623 ms - 760[0m

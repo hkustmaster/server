@@ -20,7 +20,6 @@ exports.showSignin = function(req, res) {
 exports.edit=function(req,res){
   var user=new User()
   req.body.password=user.saltpwd(req.body.password)
-  console.log('before in'+req.body.password)
   User.findOneAndUpdate({_id:req.user._id}, {$set:req.body}, function(err, user) {
     if (err) {
       console.log(err)
