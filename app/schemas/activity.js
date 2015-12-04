@@ -7,7 +7,7 @@ var activitySchema = new mongoose.Schema({
 	status:String,
 	id:String,
 	location:{
-		[{type:String}],
+		loc:[{type:Number}],
 		index: '2d'
 	},
 	description:String,
