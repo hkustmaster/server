@@ -17,7 +17,7 @@ exports.showAround=function(req,res){
   var distance=req.body.distance
   var limit=req.body.limit
   var loc=req.body.location
-  activitySchema.geoNear(loc,{maxDistance:distance,spherical : true}).sort("dis").exec(function(err,act){
+  activity.geoNear(loc,{maxDistance:distance,spherical : true}).sort("dis").exec(function(err,act){
     if(err)
       return res.json({message:"System Error"})
     res.json({message:"Succeed",act:act})
