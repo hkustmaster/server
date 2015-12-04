@@ -17,11 +17,34 @@ exports.showAround=function(req,res){
   var distance=req.body.distance
   var limit=req.body.limit
   var loc=req.body.location
-  activity.geoNear(loc,{maxDistance:distance,spherical : true}).exec(function(err,act){
-    if(err)
-      return res.json({message:"System Error"})
-    res.json({message:"Succeed",act:act})
-  })
+  var point = { type : "Point", coordinates : loc };
+  activity.aggregate(
+    [{
+        "$geoNear": {
+            "near": [9.9, 9],
+            "maxDistance": 10000,
+            "distanceMultiplier": 6371,
+            "spherical": true,
+            "distanceField": "dis",
+            "includelocs":"loc"
+        }
+    },{
+
+        "$skip": 10
+    },{
+        "$limit": 10
+    }],
+    function(err, docs) {
+        if (err) {
+            console.log(err);
+        } else {
+            docs.forEach(function(element, index){
+                console.log(element);
+            });
+        }
+        // These are not mongoose documents, but you can always cast them
+    }
+  );
 }
 
 exports.editOne = function(req, res,next) {
