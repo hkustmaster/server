@@ -24,20 +24,8 @@ exports.editOne = function(req, res,next) {
   });
 }
 exports.postEdit = function(req, res,next) {
-  var temp=new activity({
-    time:req.body.time,
-    name:req.body.name,
-    type:req.body.type,
-    host:req.user._id,
-    startAt:req.body.startAt,
-    endAt:req.body.endAt,
-    status:req.body.status,
-    location:req.body.location,
-    description:req.body.description,
-    size :req.body.size
-  })
-    temp=req.body
-    activity.findOneAndUpdate({id:req.body.id,"host": req.user._id},{$set:temp},function(err,act){
+  var temp=req.body
+  activity.findOneAndUpdate({id:req.body.id,"host": req.user._id},{$set:temp},function(err,act){
       if (err){
         res.json({message:"Server Error"});
       }

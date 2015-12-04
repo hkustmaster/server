@@ -13,6 +13,7 @@ router.post('/signup', User.signup)
 router.post('/signin', User.signin)
 router.get('/signin', User.showSignin)
 router.get('/signup', User.showSignup)
+router.post('/edit',User.edit)
 //router.get('/logout', User.logout)
 
 module.exports = router;

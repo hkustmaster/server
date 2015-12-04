@@ -17,22 +17,32 @@ exports.showSignin = function(req, res) {
   })
 }
 
+exports.edit=function(req,res){
+  req.body.password=User.saltpwd(req.body.password)
+  User.findOneAndUpdate({_id:req.user._id}, {$set:req.body}, function(err, user) {
+    if (err) {
+      console.log(err)
+    }
+    if (!user) 
+      return res.json({message:"User Not Exists"});
+    return res.{message:"Succeed"}
+    
+  })
+}
+
 exports.signup = function(req, res) {
   //check if email has already been used
   User.findOne({email: req.body.email},  function(err, user) {
     if (err) {
       console.log(err)
     }
-
     if (user) {
       return res.json({message:"User Exists"});
     }
     else {
       user = new User(req.body)
-	console.log(JSON.stringify(req.body))
       user.save(function(err, user) {
         if (err) {
-console.log(err)
           res.json({message:"Server Error"});
         }
         else{
