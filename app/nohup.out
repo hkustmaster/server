@@ -1960,3 +1960,7 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWU
 [0mPOST /activity/all [32m200 [0m21.323 ms - 1680[0m
 [0mPOST /activity/all [32m200 [0m28.510 ms - 1680[0m
 [0mPOST /activity/all [32m200 [0m15.429 ms - 1680[0m
+[0mPOST /signin [32m200 [0m139.389 ms - 28[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MjgyODAxNDd9.6qY-y0gNyMRjdaXYRJzCEjTGtIRsaZYTWRK2vERUJOo
+[0mPOST /signin [32m200 [0m113.668 ms - 471[0m
+[0mPOST /activity/all [32m200 [0m44.382 ms - 1680[0m

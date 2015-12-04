@@ -51,6 +51,11 @@ POST /activity/showmine
 	{token:String}  
 return {message:String,act:activity}
 
+Show user info:
+POST /user/detail
+{token:,id:}   //the id is whose id you want to search for
+return {message:, user{}}
+
 To Do:
 
 
