@@ -6,6 +6,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var mongoose =require('mongoose');
 var routes = require('./routes/index');
+var user=require('./routes/user')
 var activity = require('./routes/activity');
 var session = require('express-session');
 var jwt = require('jwt-simple');
@@ -78,7 +79,7 @@ app.use(function(req,res,next){
     });
 
 })
-
+app.use('/user',user)
 app.use('/activity',activity);
 
 
