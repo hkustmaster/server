@@ -17,11 +17,10 @@ exports.showAround=function(req,res){
   var distance=req.body.distance
   var limit=req.body.limit
   var loc=req.body.location
-  var point = { type : "Point", coordinates : loc };
   activity.aggregate(
     [{
         "$geoNear": {
-            "near": [9.9, 9],
+            "near": [10, 10],
             "maxDistance": 10000,
             "distanceMultiplier": 6371,
             "spherical": true,
