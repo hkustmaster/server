@@ -1701,3 +1701,5 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWU
 eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MTcyMzI5Nzd9.r0HvuRev5SgU1F9OyNJE274xw5DEs7ja0jKXnAcJfek
 [0mPOST /signin [32m200 [0m112.304 ms - 472[0m
 [0mPOST /activity/all [32m200 [0m11.531 ms - 512[0m
+[0mPOST /activity/all [32m200 [0m22.139 ms - 512[0m
+[0mPOST /activity/all [32m200 [0m11.985 ms - 512[0m
