@@ -56,18 +56,9 @@ userSchema.methods = {
     })
   },
   saltpwd: function(password) {
-    bcrypt.genSalt(SALT_WORK_FACTOR,function(err,salt){
-    if(err)
-        return  next(err)
-      bcrypt.hash(password,salt,function(err,hash){
-      console.log('newpassword='+password)
-      console.log('salt='+salt)
-      if (err) return next(err)
-	      console.log('after hash !!!'+hash)
-        return hash
-    })
-
-  })
+    var salt = bcrypt.genSaltSync(SALT_WORK_FACTOR);
+    var hash = bcrypt.hashSync(password, salt);
+    return hash
   }
 }
 
