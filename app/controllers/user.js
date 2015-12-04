@@ -32,6 +32,20 @@ console.log("hihi"+JSON.stringify(user))
   })
 }
 
+exports.getInfo=function(req,res){
+    User.findOne(req.body.id,'-password',{lean:true},function(err,usr){
+    if(err) return res.json({message:"Server Error"})
+    res.json({message:"Succeed",user:usr})
+
+})
+
+
+
+}
+
+
+
+
 exports.signup = function(req, res) {
   //check if email has already been used
   User.findOne({email: req.body.email},  function(err, user) {

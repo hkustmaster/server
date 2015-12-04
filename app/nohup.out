@@ -1710,3 +1710,253 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWU
 [0mPOST /activity/all [32m200 [0m33.230 ms - 760[0m
 [0mPOST /activity/all [32m200 [0m14.171 ms - 760[0m
 [0mPOST /activity/all [32m200 [0m34.623 ms - 760[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MjEyOTUyMDN9.BYcsze_X_qulVMZAo2nSwainM9-byfEWUh5pUMNAPSw
+[0mPOST /signin [32m200 [0m106.733 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m12.368 ms - 760[0m
+[0mPOST /activity/all [32m200 [0m28.099 ms - 760[0m
+[0mPOST /activity/all [32m200 [0m19.121 ms - 760[0m
+[0mPOST /activity/all [32m200 [0m27.434 ms - 760[0m
+[0mPOST /activity/all [32m200 [0m19.901 ms - 760[0m
+[0mPOST /activity/all [32m200 [0m32.119 ms - 760[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MjE0NDE0NDh9.WUggFraVhAv6bn5dr6T7boxUW34akzfPmnC_W2FH0V8
+[0mPOST /signin [32m200 [0m105.603 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m36.285 ms - 760[0m
+[0mPOST /activity/all [32m200 [0m45.003 ms - 760[0m
+[0mPOST /activity/all [32m200 [0m53.023 ms - 760[0m
+[0mPOST /activity/all [32m200 [0m36.354 ms - 760[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MjE1MTMyMDB9.mATKgTrj9wBU3SPSRQEheFmt-WLRY0CoJPmvOvQiF3Y
+[0mPOST /signin [32m200 [0m114.777 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m14.794 ms - 760[0m
+[0mPOST /activity/all [32m200 [0m23.784 ms - 760[0m
+[0mPOST /activity/all [32m200 [0m34.337 ms - 760[0m
+[0mPOST /activity/all [32m200 [0m37.169 ms - 760[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MjE2MDc0MDl9.cFZ7RnHdUZsbjptqGdX1aaQze54v0uti2i7T8FSwrKk
+[0mPOST /signin [32m200 [0m105.715 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m49.085 ms - 760[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MjE3NjA3NTZ9.s21KfAULRlCoPFTNT84AksJ_mZlV9mLDjMyltkMHNs8
+[0mPOST /signin [32m200 [0m108.832 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m27.100 ms - 760[0m
+[0mPOST /activity/all [32m200 [0m37.995 ms - 760[0m
+[0mPOST /activity/all [32m200 [0m45.485 ms - 760[0m
+[0mPOST /activity/all [32m200 [0m51.584 ms - 760[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MjIxNDg3NDB9.Bm19CGQIr2YY-SW4fN9mNopKAgnTAf0dTyNVpS-e4b0
+[0mPOST /signin [32m200 [0m106.850 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m19.269 ms - 760[0m
+hihi{"_id":"566103f453b1ee6d333d7f5e","email":"abc@m.com","gender":"Male","name":"sam","password":"$2a$10$biSiBuAhiQhIoUo2zaoqeO15zkBP0RxITylWGZIqS7Jga2YncYjCG","phone":"123456789","__v":0,"meta":{"updateAt":"2015-12-04T03:09:02.388Z","createAt":"2015-12-04T03:09:02.388Z"},"role":0}
+[0mPOST /user/edit [32m200 [0m112.756 ms - 21[0m
+hihi{"_id":"566103f453b1ee6d333d7f5e","email":"abc@m.com","gender":"Male","name":"sam","password":"$2a$10$Jl/2hQ7q36VxRwMLOa/VgeuquJiIdBGIw/PR0Lf2s4ZLEWzwai8DS","phone":"123456789","__v":0,"meta":{"updateAt":"2015-12-04T03:09:02.388Z","createAt":"2015-12-04T03:09:02.388Z"},"role":0}
+[0mPOST /user/edit [32m200 [0m117.630 ms - 21[0m
+hihi{"_id":"566103f453b1ee6d333d7f5e","email":"abc@m.com","gender":"Male","name":"sam","password":"$2a$10$06bNmsFDgWUi5pMQY/mhcOJWXlOiBpixj0mA8Eotl6nwyBwHkG72y","phone":"123456789","__v":0,"meta":{"updateAt":"2015-12-04T03:09:02.388Z","createAt":"2015-12-04T03:09:02.388Z"},"role":0}
+[0mPOST /user/edit [32m200 [0m113.187 ms - 21[0m
+hihi{"_id":"566103f453b1ee6d333d7f5e","email":"abc@m.com","gender":"Male","name":"sam","password":"$2a$10$rmWI/Qsnk1gnlXtOJrQakOokP0WSDnMllj2Fql5mZuaGAjROK9hEu","phone":"123456789","__v":0,"meta":{"updateAt":"2015-12-04T03:09:02.388Z","createAt":"2015-12-04T03:09:02.388Z"},"role":0}
+[0mPOST /user/edit [32m200 [0m102.426 ms - 21[0m
+hihi{"_id":"566103f453b1ee6d333d7f5e","email":"abc@m.com","gender":"Male","name":"sam","password":"$2a$10$R6nsmN6/gLz6U93Acoe1lu087LBGnvTEPVQOOm4EAl3UBjJTeB94.","phone":"123456789","__v":0,"meta":{"updateAt":"2015-12-04T03:09:02.388Z","createAt":"2015-12-04T03:09:02.388Z"},"role":0}
+[0mPOST /user/edit [32m200 [0m108.584 ms - 21[0m
+hihi{"_id":"566103f453b1ee6d333d7f5e","email":"abc@m.com","gender":"Male","name":"sam","password":"$2a$10$7EP523z.rORF5.KHeEgcReiDCVadvPX58.fnBxgo9FosYwOelnWPS","phone":"123456789","__v":0,"meta":{"updateAt":"2015-12-04T03:09:02.388Z","createAt":"2015-12-04T03:09:02.388Z"},"role":0}
+[0mPOST /user/edit [32m200 [0m112.262 ms - 21[0m
+hihi{"_id":"566103f453b1ee6d333d7f5e","email":"abc@m.com","gender":"Male","name":"sam","password":"$2a$10$i7F7P3RqnxBybyQkWOlBn.l/8z1MQO7HARumWmf.ks.EA6FDMSJhK","phone":"123456789","__v":0,"meta":{"updateAt":"2015-12-04T03:09:02.388Z","createAt":"2015-12-04T03:09:02.388Z"},"role":0}
+[0mPOST /user/edit [32m200 [0m109.166 ms - 21[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MjI3NTc4MzR9.nzLF1KA_kxF8JjwLTeN_xHBXGMBuJNJdCpCK-WyOM0s
+[0mPOST /signin [32m200 [0m108.985 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m22.270 ms - 760[0m
+hihi{"_id":"566103f453b1ee6d333d7f5e","email":"abc@m.com","gender":"Male","name":"sam","password":"$2a$10$JZI2yHgWTkHtMnu3RYjeZeBX4NdIL2yNWOwRT8lSeM0kHdbxliVuC","phone":"123456789","__v":0,"meta":{"updateAt":"2015-12-04T03:09:02.388Z","createAt":"2015-12-04T03:09:02.388Z"},"role":0}
+[0mPOST /user/edit [32m200 [0m112.471 ms - 21[0m
+hihi{"_id":"566103f453b1ee6d333d7f5e","email":"abc@m.com","gender":"Male","name":"sam","password":"$2a$10$Yu7l.ZBpeWGuF8FjmzH18OeleLp7Nx/Bezt2cdTCZh79joZVPPchm","phone":"123456789","__v":0,"meta":{"updateAt":"2015-12-04T03:09:02.388Z","createAt":"2015-12-04T03:09:02.388Z"},"role":0}
+[0mPOST /user/edit [32m200 [0m108.512 ms - 21[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MjI4NDM3Mzl9.H8ix6wQsGgllQTQrTCqkovJBs2cOvY4qemeOk95MqdY
+[0mPOST /signin [32m200 [0m104.366 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m35.128 ms - 760[0m
+hihi{"_id":"566103f453b1ee6d333d7f5e","email":"abc@m.com","gender":"Male","name":"sam","password":"$2a$10$2.fwgoVsFaCGEGK/grtpFuMKizqLG2nllS0Ew0UaXhx3gQm3BmVf.","phone":"123456789","__v":0,"meta":{"updateAt":"2015-12-04T03:09:02.388Z","createAt":"2015-12-04T03:09:02.388Z"},"role":0}
+[0mPOST /user/edit [32m200 [0m108.433 ms - 21[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MjI4OTE1NjR9.Zthvf5035g_RuByRIWbkbCuYLzsKZEd8NpC_tDzkN94
+[0mPOST /signin [32m200 [0m108.396 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m13.694 ms - 760[0m
+[0mPOST /activity/all [32m200 [0m13.458 ms - 760[0m
+[0mPOST /activity/all [32m200 [0m12.449 ms - 760[0m
+[0mPOST /activity/all [32m200 [0m22.826 ms - 760[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MjI5MjE0ODZ9.0yfAppBn3zpYO4_RJsPNP4WGsHwUJoxKiVlNfoQx4Hg
+[0mPOST /signin [32m200 [0m105.512 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m11.131 ms - 760[0m
+[0mPOST /activity/all [32m200 [0m14.065 ms - 760[0m
+[0mPOST /signin [32m200 [0m107.405 ms - 28[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MjM1MjgyMzl9.IiWl5RB_b0BN1pFLtvNE1585j4yhMNsqCvfzgisuf-I
+[0mPOST /signin [32m200 [0m104.272 ms - 472[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MjM1MzAwNjh9.5dL590FxFjLggyqR5ke-Hhir9CnAHmei-NSzr-JayJY
+[0mPOST /signin [32m200 [0m103.738 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m19.929 ms - 760[0m
+[0mPOST /activity/all [32m200 [0m23.578 ms - 760[0m
+[0mPOST /activity/all [32m200 [0m10.979 ms - 760[0m
+[0mPOST /activity/all [32m200 [0m13.184 ms - 760[0m
+[0mPOST /user/edit [31m500 [0m432.876 ms - 1991[0m
+[0mPOST /user/edit [31m500 [0m37.223 ms - 1991[0m
+[0mPOST /user/edit [31m500 [0m48.703 ms - 1991[0m
+[0mPOST /user/edit [31m500 [0m29.738 ms - 1991[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MjM1OTM1MjZ9.DqoLmsvj-1efZD84j_ItDc9zj0pN36-AkdjOBzn92to
+[0mPOST /signin [32m200 [0m104.460 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m15.590 ms - 760[0m
+[0mPOST /activity/all [32m200 [0m15.296 ms - 760[0m
+[0mPOST /activity/all [32m200 [0m21.926 ms - 760[0m
+[0mPOST /user/edit [31m500 [0m26.783 ms - 1991[0m
+[0mPOST /user/edit [31m500 [0m19.337 ms - 1991[0m
+[0mPOST /user/edit [31m500 [0m23.925 ms - 1991[0m
+[0mPOST /user/edit [31m500 [0m20.981 ms - 1991[0m
+[0mPOST /user/edit [31m500 [0m19.596 ms - 1991[0m
+[0mPOST /activity/all [32m200 [0m14.915 ms - 760[0m
+hihi{"_id":"566103f453b1ee6d333d7f5e","email":"abc@m.com","gender":"Male","name":"sam","password":"$2a$10$ag/kPrRsenJBGbeJSXJTiOSO6/LnVcJEknHgvVxbZXYFWq5lcUu06","phone":"123456789","__v":0,"meta":{"updateAt":"2015-12-04T03:09:02.388Z","createAt":"2015-12-04T03:09:02.388Z"},"role":0}
+[0mPOST /user/edit [32m200 [0m106.455 ms - 21[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MjM4NjY0MDJ9._NB79oo5LiTjmMNv4q0M0p5B3FW22VsFm2weFaCnDgo
+[0mPOST /signin [32m200 [0m112.893 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m38.193 ms - 760[0m
+[0mPOST /user/edit [31m500 [0m33.345 ms - 1991[0m
+{ beginAt: '2015-11-11',
+  description: '???????\n',
+  endAt: '2015-11-12',
+  location: [ 'Hi' ],
+  quota: 0,
+  size: 15,
+  status: 'PRE',
+  time: '4: 55',
+  title: '??????' }
+[0mPOST /activity/new [32m200 [0m37.260 ms - 21[0m
+[0mPOST /activity/all [32m200 [0m38.069 ms - 1060[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MjQ1MzkzOTV9.ZJheLuV5_EEDMvHRjIdyIfyOXkyAxYac-6a3abRqw1s
+[0mPOST /signin [32m200 [0m108.787 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m20.842 ms - 1060[0m
+hihi{"_id":"566103f453b1ee6d333d7f5e","email":"abc@m.com","gender":"Male","name":"sam","password":"$2a$10$u0m8J8nAPl3hnT7XreivTu1rn0dMLJ7hEk7ehtmWajDpvDIfG8MbK","phone":"123456789","__v":0,"meta":{"updateAt":"2015-12-04T03:09:02.388Z","createAt":"2015-12-04T03:09:02.388Z"},"role":0}
+[0mPOST /user/edit [32m200 [0m108.659 ms - 21[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MjQ1NjMwMjh9.BAJf2QnAXwPv7wiV8xs4xvzyca2ngyWFF1fnvjqoD-4
+[0mPOST /signin [32m200 [0m103.521 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m19.667 ms - 1060[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MjQ2Mjk4MzR9.lh4wQBrDQP3tkpsWI8scvxVEEBH154BTSaVsnU6FlgU
+[0mPOST /signin [32m200 [0m105.803 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m16.170 ms - 1060[0m
+hihi{"_id":"566103f453b1ee6d333d7f5e","email":"abc@m.com","gender":"Male","name":"sam","password":"$2a$10$JvMGX1s25GZNUfg3Lxh19.Wr4ueRpRjQoxr2H8sMg9sSehNpSh2ei","phone":"123456789","__v":0,"meta":{"updateAt":"2015-12-04T03:09:02.388Z","createAt":"2015-12-04T03:09:02.388Z"},"role":0}
+[0mPOST /user/edit [32m200 [0m110.032 ms - 21[0m
+[0mPOST /activity/all [32m200 [0m19.221 ms - 1060[0m
+[0mPOST /signin [32m200 [0m108.741 ms - 28[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MjQ4MjQ4OTh9.BYWX2lzHFebtFBsy4-9qsBtIEWHCRFvxDWMqcgT_ZyQ
+[0mPOST /signin [32m200 [0m102.956 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m18.911 ms - 1060[0m
+hihi{"_id":"566103f453b1ee6d333d7f5e","email":"abc@m.com","gender":"Male","name":"sam","password":"$2a$10$U1s.kJt1QF0kkTFw0PCg4eDWLcYHcFbnvFqRiSS4PSNMkVwbHZ2K.","phone":"123456789","__v":0,"meta":{"updateAt":"2015-12-04T03:09:02.388Z","createAt":"2015-12-04T03:09:02.388Z"},"role":0}
+[0mPOST /user/edit [32m200 [0m110.831 ms - 21[0m
+[0mPOST /signin [32m200 [0m106.364 ms - 28[0m
+[0mPOST /signin [32m200 [0m104.390 ms - 28[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MjQ4ODQyOTJ9.bpZ965l5FoED8i6WgoAtPKHJHZcqo975C6feHdRTmJo
+[0mPOST /signin [32m200 [0m104.785 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m74.934 ms - 1060[0m
+hihi{"_id":"566103f453b1ee6d333d7f5e","email":"abc@m.com","gender":"Male","name":"sam","password":"$2a$10$niyKpyjWOPvbVKasbwT3OuVAzHZLxXtHGtF5ZbACCRL6PytGKLqfC","phone":"123456789","__v":0,"meta":{"updateAt":"2015-12-04T03:09:02.388Z","createAt":"2015-12-04T03:09:02.388Z"},"role":0}
+[0mPOST /user/edit [32m200 [0m108.515 ms - 21[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MjQ5NDI1NDd9.hqQW107yIym-87dLxh9SHbElt_zy9Za6nyocOVF74lw
+[0mPOST /signin [32m200 [0m104.539 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m14.279 ms - 1060[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MjQ5NjE3NjZ9.SO56BPy0YXpS0djrwBgO0VvgD_yajD4oT0-fmrdRMrw
+[0mPOST /signin [32m200 [0m102.516 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m14.196 ms - 1060[0m
+[0mPOST /activity/all [32m200 [0m12.212 ms - 1060[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MjUyMTE4NjZ9.zB9gk9L8R0QWPQEHJEdMiBQ9DEML9ViqXBJeXl_VaRg
+[0mPOST /signin [32m200 [0m110.773 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m14.737 ms - 1060[0m
+[0mPOST /signin [32m200 [0m104.126 ms - 28[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MjUyMzA3MjR9.WB7D4RruqpIa2jJVh8wxIsssaPbrryzUXW0T4yQGH8E
+[0mPOST /signin [32m200 [0m104.131 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m17.304 ms - 1060[0m
+[0mPOST /activity/all [32m200 [0m15.667 ms - 1060[0m
+[0mPOST /activity/all [32m200 [0m21.690 ms - 1060[0m
+hihi{"_id":"566103f453b1ee6d333d7f5e","email":"abc@m.com","gender":"Male","name":"sam","password":"$2a$10$G9FWphz2aYQAU6Pdsr1uSOeQyzn0mCHl9V17mrzx.gvW7Atxk/QLq","phone":"123456789","__v":0,"meta":{"updateAt":"2015-12-04T03:09:02.388Z","createAt":"2015-12-04T03:09:02.388Z"},"role":0}
+[0mPOST /user/edit [32m200 [0m110.521 ms - 21[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MjUyNTg0MzZ9.pqJ7hlmLYTuD1ppGHWBejwn3I5Sx4ajJniwo83Q0EcU
+[0mPOST /signin [32m200 [0m103.325 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m12.401 ms - 1060[0m
+[0mPOST /user/edit [32m200 [0m1.587 ms - 25[0m
+[0mPOST /user/edit [32m200 [0m1.632 ms - 25[0m
+[0mPOST /signin [32m200 [0m109.171 ms - 28[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MjU3NzUyNzV9.kyGr555QIy4wdKsOywIp6V2NVO323Z_1Be30IWLtz9U
+[0mPOST /signin [32m200 [0m107.298 ms - 472[0m
+[0mPOST /signin [32m200 [0m102.306 ms - 28[0m
+[0mPOST /activity/all [32m200 [0m13.336 ms - 1060[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MjU3ODQ1MjB9.-de4_d_rfuitFtmYuisQG9o5yT3NELSv-smKbkTecq4
+[0mPOST /signin [32m200 [0m112.486 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m11.810 ms - 1060[0m
+[0mPOST /activity/all [32m200 [0m13.420 ms - 1060[0m
+[0mPOST /activity/all [32m200 [0m18.589 ms - 1060[0m
+[0mPOST /user/edit [31m500 [0m21.802 ms - 1991[0m
+[0mPOST /signin [32m200 [0m5.741 ms - 29[0m
+[0mPOST /signin [32m200 [0m106.846 ms - 28[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MjU4NTQ3Mzh9.rTJpfkCMq2uFPoLUysSxAp2nqPdHlA2BUZ4qjM6_Uq8
+[0mPOST /signin [32m200 [0m105.245 ms - 472[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MjU5NDIxMzl9.PUq68XVreTNhog7q5e7j-ChnMRbfg8xSQRwNfOaNC8Y
+[0mPOST /signin [32m200 [0m108.125 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m16.580 ms - 1060[0m
+[0mPOST /activity/all [32m200 [0m13.693 ms - 1060[0m
+[0mPOST /activity/all [32m200 [0m11.961 ms - 1060[0m
+[0mPOST /signin [32m200 [0m9.889 ms - 29[0m
+[0mPOST /activity/all [32m200 [0m15.720 ms - 1060[0m
+[0mGET / [31m500 [0m30.169 ms - 2162[0m
+[0mGET /robots.txt [32m200 [0m3.021 ms - 25[0m
+[0mGET /sitemap.xml [32m200 [0m1.621 ms - 25[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MjY1NDM3ODd9.8RGtmrNUzOZGrRT1Yi5f_JMEab3tsXrbeTlb6Bp5ejQ
+[0mPOST /signin [32m200 [0m108.894 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m15.920 ms - 1060[0m
+[0mPOST /activity/all [32m200 [0m11.591 ms - 1060[0m
+[0mPOST /activity/all [32m200 [0m17.501 ms - 1060[0m
+[0mPOST /user/edit [31m500 [0m27.096 ms - 1991[0m
+{ description: 'djdhdhs',
+  endAt: '',
+  location: [ 'HKUST' ],
+  quota: 0,
+  size: 15,
+  startAt: '2015-11-14',
+  status: 'PRE',
+  time: '7: 35',
+  title: 'abc' }
+[0mPOST /activity/new [32m200 [0m13.431 ms - 21[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MjY2MDEwMDh9.zosFDb_p6I-ff7SkCXm9kQ2G_sO6mUsx88RBj2KsBbI
+[0mPOST /signin [32m200 [0m102.803 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m15.069 ms - 1371[0m
+[0mPOST /activity/all [32m200 [0m16.002 ms - 1371[0m
+[0mPOST /activity/all [32m200 [0m25.226 ms - 1371[0m
+hihi{"_id":"5661180bdb5a22c233866111","email":"mmmmm@m.com","gender":"Male","name":"mav","password":"$2a$10$ON9Z5FU3CeE3KvJykxBMtOAlb648UOjq8LBgS7cP1X30k1iTNw/2S","phone":"123456789","__v":0,"meta":{"updateAt":"2015-12-04T03:20:31.788Z","createAt":"2015-12-04T03:20:31.788Z"},"role":0}
+[0mPOST /user/edit [32m200 [0m108.726 ms - 21[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MjY2NDc4ODJ9.NyMA_LHi4INzmT48W1Hc0EdQ-tgJLbBT52lloXIUFjE
+[0mPOST /signin [32m200 [0m103.836 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m23.952 ms - 1373[0m
+[0mPOST /activity/all [32m200 [0m276.601 ms - 1373[0m
+[0mPOST /activity/all [32m200 [0m281.813 ms - 1373[0m
+[0mPOST /activity/showmine [32m200 [0m11.013 ms - 477[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MjY4MjEwMjF9.PcKERIX9wEUVt0FFUO8Ys2UC4ejsPx2y2gym74Yu3_0
+[0mPOST /signin [32m200 [0m116.973 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m15.241 ms - 1373[0m
+[0mPOST /activity/all [32m200 [0m17.130 ms - 1373[0m
+[0mPOST /activity/all [32m200 [0m25.742 ms - 1373[0m
+[0mPOST /activity/all [32m200 [0m13.447 ms - 1373[0m
+[0mPOST /activity/all [32m200 [0m15.533 ms - 1373[0m
+[0mPOST /activity/showmine [32m200 [0m8.767 ms - 477[0m
+{ description: 's',
+  endAt: '',
+  location: [ 'hdj' ],
+  quota: 0,
+  size: 64,
+  startAt: '2015-11-18',
+  status: 'PRE',
+  time: '4: 40',
+  title: 'refresh' }
+[0mPOST /activity/new [32m200 [0m23.386 ms - 21[0m
+[0mPOST /activity/all [32m200 [0m22.720 ms - 1680[0m
+[0mPOST /signin [32m200 [0m104.838 ms - 28[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MjY5MTA3NDh9.6kC3EkkGgAGM8_M18lnBCswBkAvGeoVh2tmez7zkr0I
+[0mPOST /signin [32m200 [0m102.594 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m18.263 ms - 1680[0m
+hihi{"_id":"566103f453b1ee6d333d7f5e","email":"abc@m.com","gender":"Male","name":"sam","password":"$2a$10$6dLep9tAVCxaNulSN.StK.hXoJhEjsmx7iUORP6JJs4Xlwtoq4sqG","phone":"123456789","__v":0,"meta":{"updateAt":"2015-12-04T03:09:02.388Z","createAt":"2015-12-04T03:09:02.388Z"},"role":0}
+[0mPOST /user/edit [32m200 [0m112.001 ms - 21[0m
+[0mPOST /activity/all [32m200 [0m15.761 ms - 1680[0m
+hihi{"_id":"566103f453b1ee6d333d7f5e","email":"abc@m.com","gender":"Male","name":"Sam","password":"$2a$10$oKzRXr.4ZfPA/5M0WTzTYOS15Kk.mWzaFafRayaAMdNRAo1H1Qis.","phone":"12345678","__v":0,"meta":{"updateAt":"2015-12-04T03:09:02.388Z","createAt":"2015-12-04T03:09:02.388Z"},"role":0}
+[0mPOST /user/edit [32m200 [0m110.386 ms - 21[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MjcwNTA1NDR9.Jgm6m5lHeXlLhmeA8DwkYgdwf4xfoD5rSUFHSZbVMns
+[0mPOST /signin [32m200 [0m103.955 ms - 471[0m
+[0mPOST /activity/all [32m200 [0m35.567 ms - 1680[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4MjcyMzEwNDZ9.dcu6REMB-N3FL2luNtBmQIIlGq1SRz6-8zXEP-Bendk
+[0mPOST /signin [32m200 [0m108.790 ms - 471[0m
+[0mPOST /activity/all [32m200 [0m27.729 ms - 1680[0m
+[0mPOST /activity/all [32m200 [0m21.323 ms - 1680[0m
+[0mPOST /activity/all [32m200 [0m28.510 ms - 1680[0m
+[0mPOST /activity/all [32m200 [0m15.429 ms - 1680[0m
