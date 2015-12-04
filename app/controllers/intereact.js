@@ -4,7 +4,7 @@ var activity = require('../models/activity');
 var ObjectId =mongoose.Schema.Types.ObjectId
 var Hashids=require('hashids')
 var hashids = new Hashids("together");
-var Comment = new require('..models/comment')
+var Comment = new require('../models/comment')
 
 
 exports.joinActivity=function(req,res,next){
