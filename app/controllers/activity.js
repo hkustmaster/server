@@ -38,6 +38,7 @@ exports.showAround=function(req,res){
         if (err) {
             console.log(err);
         } else {
+            res.json(docs)
             docs.forEach(function(element, index){
                 console.log(element);
             });
