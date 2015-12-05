@@ -157,3 +157,33 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWU
 [0mPOST /activity/showmine [32m200 [0m16.877 ms - 30[0m
 [0mPOST /activity/showmine [32m200 [0m48.917 ms - 30[0m
 [0mPOST /activity/all [32m200 [0m63.369 ms - 565[0m
+
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'finalhandler'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/home/lam/node/server/app/node_modules/express/lib/application.js:16:20)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:364:17)
+
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'finalhandler'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/home/lam/node/server/app/node_modules/express/lib/application.js:16:20)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:364:17)

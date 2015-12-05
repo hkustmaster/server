@@ -2505,3 +2505,39 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMTgwYmRiNWEyMmMyMzM4NjYxMTE
 { title: 'geotest', size: '10', location: [ 10, 10 ] }
 [0mPOST /activity/new [32m200 [0m23.276 ms - 21[0m
 [0mPOST /activity/showmine [32m200 [0m15.436 ms - 261[0m
+{ _id: 56623feac487da77580ee24f,
+  title: 'mmmmm@m.com',
+  location: [ 10, 10 ],
+  host: 56623fb9c487da77580ee24e,
+  createAt: Fri Dec 04 2015 20:26:04 GMT-0500 (EST),
+  comments: [],
+  participants: [],
+  news: [],
+  quota: 100,
+  size: 60,
+  __v: 0,
+  id: 'G3qB25P3j6TorbWMGZAw',
+  dis: 0 }
+[0mPOST /activity/showaround [32m200 [0m47.904 ms - 257[0m
+[0mPOST /signin [32m200 [0m12.342 ms - 29[0m
+password=123456
+salt=$2a$10$nze2hqlNkxXRx4kLd3aIDu
+[0mPOST /signup [32m200 [0m113.088 ms - 21[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyNTAyY2ZhMGRmYmRhNWQyODVhNjciLCJleHAiOjE0NDk4ODg0MzAyMTF9.Wamat2SO-WmvKblf7Q-ohr-XB8sypGhOCvRbaxjKUk8
+[0mPOST /signin [32m200 [0m98.603 ms - 472[0m
+[0mPOST /activity/showmine [32m200 [0m7.788 ms - 30[0m
+[0mPOST /activity/showmine [32m200 [0m5.990 ms - 30[0m
+[0mPOST /activity/all [32m200 [0m21.611 ms - 298[0m
+[0mPOST /activity/detail [32m200 [0m6.436 ms - 46[0m
+[0mPOST /activity/all [32m200 [0m11.937 ms - 298[0m
+[0mPOST /activity/all [32m200 [0m15.410 ms - 298[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyNTAyY2ZhMGRmYmRhNWQyODVhNjciLCJleHAiOjE0NDk4ODg5NTM0MjV9.DR_wRHSpu3udGXXcIIoAeCsxAY5vn6HM8XtboOThidI
+[0mPOST /signin [32m200 [0m109.515 ms - 472[0m
+[0mPOST /activity/showmine [32m200 [0m10.326 ms - 30[0m
+[0mPOST /activity/all [32m200 [0m20.940 ms - 298[0m
+[0mPOST /activity/showmine [32m200 [0m8.331 ms - 30[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyNTAyY2ZhMGRmYmRhNWQyODVhNjciLCJleHAiOjE0NDk4ODg5ODMzOTd9.RUSJNHRu_1d2Ubn9TL_TdWxRI9JpgzUyDUjEmDegARU
+[0mPOST /signin [32m200 [0m103.205 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m9.280 ms - 298[0m
+[0mPOST /activity/showmine [32m200 [0m5.098 ms - 30[0m
+[0mPOST /activity/showmine [32m200 [0m5.072 ms - 30[0m
