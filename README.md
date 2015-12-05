@@ -69,7 +69,7 @@ POST /user/edit
 
 退出活动：1.删除participant记录
 
-投票：1.创建participant记录   2. 更新participant记录
+投票：1. 更新participant记录
 
 view message： 
 
