@@ -15,6 +15,7 @@ var activitySchema = new mongoose.Schema({
 	endAt:String,
 	size:{ type: Number, default: 100 },
 	quota:{ type: Number, default: 100 },
+	address:String,
 	news:[
 		{
 			content:String

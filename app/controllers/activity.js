@@ -92,6 +92,7 @@ exports.createPage =  function(req, res, next) {
 exports.new = function(req, res, next) {
 console.log(req.body)
   req.body.host=req.user
+  req.body.quota=req.body.size-1
   var temp=new activity(req.body)
   temp.save(function(err,act){
     if (err){

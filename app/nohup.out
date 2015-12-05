@@ -2541,3 +2541,4 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyNTAyY2ZhMGRmYmRhNWQyODVhNjc
 [0mPOST /activity/all [32m200 [0m9.280 ms - 298[0m
 [0mPOST /activity/showmine [32m200 [0m5.098 ms - 30[0m
 [0mPOST /activity/showmine [32m200 [0m5.072 ms - 30[0m
+[0mPOST /activity/detail [32m200 [0m40.688 ms - 46[0m
