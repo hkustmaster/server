@@ -103,3 +103,57 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI1NjVmZjA0MjMxYTliMTVhMDg0NzVjYTQ
 [0mGET /favicon.ico [36m304 [0m2.600 ms - -[0m
 [0mPOST /activity/new [36m302 [0m15.175 ms - 35[0m
 [0mGET / [31m500 [0m438.342 ms - 2162[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4NDYxNzU5Nzh9.fdZBsOg8ZyFY2HNqjMS2NP8w5AvJofRbWVEe8qJRoyg
+[0mPOST /signin [32m200 [0m149.918 ms - 471[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4NDYxNzk4ODB9.lyyZdT0AaEjkjKdCEU91bs1PJkyay68VbH0NsLbxq4U
+[0mPOST /signin [32m200 [0m108.318 ms - 471[0m
+[0mPOST /activity/showmine [32m200 [0m18.841 ms - 30[0m
+[0mPOST /activity/showmine [32m200 [0m17.656 ms - 30[0m
+[0mPOST /activity/all [32m200 [0m25.805 ms - 565[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4NDYzNjM0Mzd9.bfpRJQ-tIoHcrdU5wCL1jVlibGvIrfmP5hy8PUvEO0o
+[0mPOST /signin [32m200 [0m107.268 ms - 471[0m
+[0mPOST /activity/showmine [32m200 [0m13.375 ms - 30[0m
+[0mPOST /activity/all [32m200 [0m47.189 ms - 565[0m
+[0mPOST /activity/showmine [32m200 [0m39.034 ms - 30[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4NDYzNzM0NjF9.xQzpU_6g_wUIg9GC6Oll3-RsyO7xIFdpbxMgg0M9xyE
+[0mPOST /signin [32m200 [0m105.130 ms - 471[0m
+[0mPOST /activity/showmine [32m200 [0m21.655 ms - 30[0m
+[0mPOST /activity/all [32m200 [0m31.879 ms - 565[0m
+[0mPOST /activity/showmine [32m200 [0m28.025 ms - 30[0m
+[0mPOST /activity/detail [32m200 [0m12.892 ms - 46[0m
+[0mPOST /activity/all [32m200 [0m38.967 ms - 565[0m
+[0mPOST /activity/showmine [32m200 [0m29.395 ms - 30[0m
+[0mPOST /activity/showmine [32m200 [0m23.186 ms - 30[0m
+[0mPOST /activity/detail [32m200 [0m6.489 ms - 46[0m
+[0mPOST /activity/detail [32m200 [0m5.410 ms - 46[0m
+[0mPOST /activity/detail [32m200 [0m7.057 ms - 46[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4NDY2Nzc5MjN9.zvM7GyGt8GYLLUzD3xg5nI067uexzoFUrfjvsRYMBxU
+[0mPOST /signin [32m200 [0m103.658 ms - 471[0m
+[0mPOST /activity/showmine [32m200 [0m14.985 ms - 30[0m
+[0mPOST /activity/showmine [32m200 [0m14.859 ms - 30[0m
+[0mPOST /activity/all [32m200 [0m24.926 ms - 565[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4NDcyODU0ODZ9.qzGyqgZw1xkbZ6jkvedh1KVKJMAzowb-p3zkCYerSqM
+[0mPOST /signin [32m200 [0m112.616 ms - 471[0m
+[0mPOST /activity/all [32m200 [0m16.157 ms - 565[0m
+[0mPOST /activity/showmine [32m200 [0m5.466 ms - 30[0m
+[0mPOST /activity/showmine [32m200 [0m7.528 ms - 30[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4NDc0NDI4NDR9.OwDYQ5B0w9RYNBVoX5z5sEJbUbxNLUdRFzGbvNsd3Zk
+[0mPOST /signin [32m200 [0m108.473 ms - 471[0m
+[0mPOST /activity/showmine [32m200 [0m12.308 ms - 30[0m
+[0mPOST /activity/all [32m200 [0m23.852 ms - 565[0m
+[0mPOST /activity/showmine [32m200 [0m18.550 ms - 30[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4NDc2NDE0MDV9.FgiqGT4QodrzBdIp19I9riClTiyoDPwY7WU4NSYy8AM
+[0mPOST /signin [32m200 [0m106.103 ms - 471[0m
+[0mPOST /activity/showmine [32m200 [0m14.425 ms - 30[0m
+[0mPOST /activity/showmine [32m200 [0m12.988 ms - 30[0m
+[0mPOST /activity/all [32m200 [0m15.398 ms - 565[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4NDgwMjE2Mjd9.uNNU2j5fSl8LTswYfxRvvABygcW_7fPLnvX4ngwEWG8
+[0mPOST /signin [32m200 [0m111.478 ms - 471[0m
+[0mPOST /activity/all [32m200 [0m26.368 ms - 565[0m
+[0mPOST /activity/showmine [32m200 [0m20.909 ms - 30[0m
+[0mPOST /activity/showmine [32m200 [0m18.682 ms - 30[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYxMDNmNDUzYjFlZTZkMzMzZDdmNWUiLCJleHAiOjE0NDk4NDg2MjE4OTh9.bkU2-RHu7yaJQKh8n7lHON3F2ov26hOJ9d14cp26pP0
+[0mPOST /signin [32m200 [0m108.793 ms - 471[0m
+[0mPOST /activity/showmine [32m200 [0m16.877 ms - 30[0m
+[0mPOST /activity/showmine [32m200 [0m48.917 ms - 30[0m
+[0mPOST /activity/all [32m200 [0m63.369 ms - 565[0m
