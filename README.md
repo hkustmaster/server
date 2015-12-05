@@ -67,14 +67,19 @@ POST /user/edit
 
 修改用户名字和电话：
 
+
 参加活动：1.创建participant记录
 POST /activity/join
 {token:"",id:""}
 return {message:}
+
+
 退出活动：1.删除participant记录
 POST /activity/leave
 {token:"",id""}
 return {message:}
+
+
 投票：1. 更新participant记录
 
 view message： 
