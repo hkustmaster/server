@@ -6,7 +6,9 @@ var activitySchema = new mongoose.Schema({
 	type:String,
 	status:String,
 	id:String,
+	visible:{type:String,default:"Public"},
 	location:{
+		type:{type:String,deafult:"Point"},
     		coordinates : [Number]
 	},
 	description:String,

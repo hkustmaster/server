@@ -57,7 +57,9 @@ POST /user/detail
 return {message:, user{}}
 
 To Do:
-
+Check NearBy Events
+POST /activity/showaround
+{token:"",distance:""}  distance is in metres
 
 修改密码：
 POST /user/edit

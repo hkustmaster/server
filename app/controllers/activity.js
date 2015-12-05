@@ -93,6 +93,7 @@ exports.new = function(req, res, next) {
 console.log(req.body)
   req.body.host=req.user
   req.body.quota=req.body.size-1
+  req.body.location={ type: "Point", coordinates: req.body.location}
   var temp=new activity(req.body)
   temp.save(function(err,act){
     if (err){
@@ -103,6 +104,7 @@ console.log(req.body)
       var hid=hashids.encodeHex(act._id)
       activity.findOneAndUpdate({_id:act._id},{$set:{id:hid.toString()}},function(err,before,after){
         if(err){
+console.log(err)
           res.json({message:"Server Error"});
         }
         else{
@@ -118,10 +120,7 @@ console.log(req.body)
 exports.showDetail = function(req, res, next) {
   var id=req.body.id
   var user=req.user
-  activity.findOne({$and: [
-          {id:id},
-          {$or: [{"host": user._id}, {"participants.id": user._id}] }
-      ]}).populate("host","name").populate("participants").exec(function(err,doc){
+  activity.findOne({id:id}).populate("host","name").populate("participants.id","-password").exec(function(err,doc){
     if(err){
       res.json({message:"Server Error"});
     }
