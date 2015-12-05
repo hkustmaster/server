@@ -28,9 +28,6 @@ exports.showAround=function(req,res){
             "includelocs":"loc"
         }
     },{
-
-        "$skip": 10
-    },{
         "$limit": 10
     }],
     function(err, docs) {

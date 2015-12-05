@@ -6,7 +6,12 @@ var activitySchema = new mongoose.Schema({
 	type:String,
 	status:String,
 	id:String,
-	location:[{type:Number}],
+	location:[{
+    	coordinates : {
+ 			type: [Number]
+		},
+		index: '2dsphere'
+	}
 	description:String,
 	time:String,
 	startAt:String,
@@ -29,7 +34,6 @@ var activitySchema = new mongoose.Schema({
       default: Date.now()
     }
 })
-activitySchema.index({location: '2dsphere'});
 activitySchema.set('collection', 'activity');
 
 module.exports = activitySchema
