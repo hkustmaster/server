@@ -8,7 +8,7 @@ var gfs=require('../app').gfs
 // signup
 
 exports.test=function(req, res) {
-  res.json({data:req.body.avatar})
+  res.json({msg:"fuck",data:req.body.avatar})
 }
 
 exports.showSignup = function(req, res) {
