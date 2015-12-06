@@ -9,6 +9,22 @@ var gfs=require('../app').gfs
 
 exports.test=function(req, res) {
   console.log(req.body)
+  var writestream = gfs.createWriteStream({
+            filename: "abc.txt",
+            mode: 'w',
+            content_type: "txt",
+            metadata: {
+              'client': "test",
+              'user': "test"
+            }
+          }
+        );
+  fs.createReadStream('../avatar.txt').pipe(writestream);
+  writestream.on('close', function (file) {
+    console.log(file.filename);
+  });
+  var readstream = gfs.createReadStream({filename:"abc.txt"});
+  readstream.pipe(response);
   res.json({msg:"fuck",data:req.body.avatar})
 }
 
