@@ -5,7 +5,7 @@ var jwt = require('jwt-simple');
 var moment=require('moment')
 var tokenKey='together';
 var app=require('../app.js')
-//var fs=require('fs')
+var fs=require('fs')
 // signup
 
 exports.test=function(req, res) {
