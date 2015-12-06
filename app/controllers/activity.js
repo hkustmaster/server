@@ -20,7 +20,7 @@ exports.showAround=function(req,res){
   activity.aggregate(
     [{
         "$geoNear": {
-            "near": [10, 10],
+            "near": loc,
             "maxDistance": 10000,
             "distanceMultiplier": 6371,
             "spherical": true,
