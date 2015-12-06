@@ -9,6 +9,8 @@ var gfs=require('../app').gfs
 
 exports.test=function(req, res) {
   console.log(req.body)
+  if(gfs)
+    console.log("yes")
   var writestream = gfs.createWriteStream({
             filename: "abc.txt",
             mode: 'w',
