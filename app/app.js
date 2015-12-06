@@ -14,9 +14,20 @@ var mongoStore = require('connect-mongo')(session)
 var dburl = 'mongodb://localhost:27017/app'
 var tokenKey='together';
 var User=require('./models/user')
+var Grid = require('gridfs-stream');
+Grid.mongo = mongoose.mongo;
 var app = express();
 
 mongoose.connect(dburl)
+db = mongoose.connection;
+
+var gfs;//gridfs instance to be pass
+db.once('open', function callback () {
+   gfs = Grid(conn.db);
+  // all set!
+}); 
+exports.gfs=gfs
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views/pages'));
 app.set('view engine', 'jade');

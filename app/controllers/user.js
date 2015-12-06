@@ -4,7 +4,13 @@ var User = mongoose.model('user',userSchema)
 var jwt = require('jwt-simple');
 var moment=require('moment')
 var tokenKey='together';
+var gfs=require('../app').gfs
 // signup
+
+exports.test=function(req, res) {
+  res.json({data:req.body.avatar})
+}
+
 exports.showSignup = function(req, res) {
   res.render('signup', {
     title: '注册页面'
@@ -57,6 +63,25 @@ exports.signup = function(req, res) {
       return res.json({message:"User Exists"});
     }
     else {
+      if(req.body.avatar){
+        var writestream = gfs.createWriteStream({
+            filename: req.body.email,
+            mode: 'w',
+            content_type: req.body.type,
+            metadata: {
+              'client': req.user._id,
+              'user': req.user._id
+            }
+          }
+        );
+        fs.createReadStream('/app/avatar').pipe(writestream);
+        writestream.on('close', function (file) {
+          console.log(file.filename);
+        });
+      }
+      else{
+        req.body.avatar="default"
+      }
       user = new User(req.body)
       user.save(function(err, user) {
         if (err) {
@@ -90,11 +115,16 @@ exports.signin = function(req, res) {
       if (err) {
         res.json({message:"Server Error"});
       }
-
       if (isMatch) {
         var expires = moment().add(7,'days').valueOf();
         var token = jwt.encode({_id: user._id,exp: expires}, tokenKey);
-        console.log(token)
+        gfs.files.find({ filename: user.email }).toArray(function (err, files) {
+          if (err)
+            return console.log(err)
+          console.log(files);
+          user.avatar=files
+          }
+        )
         return res.json({message:"Succeed",token:token,user:user})
       }
       else {
