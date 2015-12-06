@@ -8,7 +8,7 @@ var app=require('../app.js')
 // signup
 
 exports.test=function(req, res) {
-  var gfs=app.gfs
+  var gfs=app.gg
   console.log(req.body)
   if(gfs)
     console.log("yes")
