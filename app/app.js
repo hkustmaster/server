@@ -19,15 +19,10 @@ Grid.mongo = mongoose.mongo;
 var app = express();
 
 mongoose.connect(dburl)
-db = mongoose.connection;
 
-var gfs;//gridfs instance to be pass
-db.once('open', function callback () {
-   gfs = Grid(db.db);
-  // all set!
-}); 
+var gfs = Grid(mongoose.connection.db, mongoose.mongo);
+//gridfs instance to be pass
 
-exports.gfs=gfs
 exports.hihi="abc"
 // view engine setup
 app.set('views', path.join(__dirname, 'views/pages'));
@@ -127,4 +122,5 @@ app.use(function(err, req, res, next) {
 });
 
 app.listen(3000);
+exports.gg=gfs
 module.exports = app;
