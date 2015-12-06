@@ -19,13 +19,13 @@ exports.test=function(req, res) {
             }
           }
         );
-  writestream.on('error', function (err) {
-    onsole.log('An error occurred!', err);
-  });
+  console.log("1")
   fs.createReadStream('../avatar.txt').pipe(writestream);
+  console.log("2")
   writestream.on('close', function (file) {
     console.log(file.filename);
   });
+  console.log("3")
 
   var readstream = gfs.createReadStream({filename:"abc.txt"});
     readstream.on('error', function (err) {
