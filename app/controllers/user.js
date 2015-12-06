@@ -36,7 +36,7 @@ exports.test=function(req, res) {
   });
   console.log("3")
 
-  var readstream = gfs.createReadStream({filename:"abc.txt"});
+  var readstream = gfs.createReadStream({filename:"avatar.txt"});
     readstream.on('error', function (err) {
   console.log('An error occurred!', err);
   });
@@ -97,20 +97,7 @@ exports.signup = function(req, res) {
     }
     else {
       if(req.body.avatar){
-        var writestream = gfs.createWriteStream({
-            filename: req.body.email,
-            mode: 'w',
-            content_type: req.body.type,
-            metadata: {
-              'client': req.user._id,
-              'user': req.user._id
-            }
-          }
-        );
-        fs.createReadStream('/app/avatar').pipe(writestream);
-        writestream.on('close', function (file) {
-          console.log(file.filename);
-        });
+        //add avatar
       }
       else{
         req.body.avatar="default"
