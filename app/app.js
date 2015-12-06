@@ -26,8 +26,9 @@ db.once('open', function callback () {
    gfs = Grid(db.db);
   // all set!
 }); 
-exports.gfs=gfs
 
+exports.gfs=gfs
+exports.hihi="abc"
 // view engine setup
 app.set('views', path.join(__dirname, 'views/pages'));
 app.set('view engine', 'jade');
