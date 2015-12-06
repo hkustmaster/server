@@ -5,6 +5,7 @@ var jwt = require('jwt-simple');
 var moment=require('moment')
 var tokenKey='together';
 var app=require('../app.js')
+//var fs=require('fs')
 // signup
 
 exports.test=function(req, res) {
@@ -12,7 +13,6 @@ exports.test=function(req, res) {
   console.log(req.body)
   if(gfs)
     console.log("yes")
-  console.log(app.hihi)
   var writestream = gfs.createWriteStream({
             filename: "abc.txt",
             mode: 'w',
@@ -24,6 +24,8 @@ exports.test=function(req, res) {
           }
         );
   console.log("1")
+  if(fs)
+    console.log("yes")
   fs.createReadStream('../avatar.txt').pipe(writestream);
   console.log("2")
   writestream.on('close', function (file) {
