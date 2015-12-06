@@ -4,10 +4,11 @@ var User = mongoose.model('user',userSchema)
 var jwt = require('jwt-simple');
 var moment=require('moment')
 var tokenKey='together';
-var gfs=require('../app').gfs
+var app=require('../app.js')
 // signup
 
 exports.test=function(req, res) {
+  var gfs=app.gfs
   console.log(req.body)
   if(gfs)
     console.log("yes")
