@@ -8,6 +8,7 @@ var gfs=require('../app').gfs
 // signup
 
 exports.test=function(req, res) {
+  console.log(req.body)
   res.json({msg:"fuck",data:req.body.avatar})
 }
 
