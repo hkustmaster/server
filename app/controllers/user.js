@@ -19,11 +19,18 @@ exports.test=function(req, res) {
             }
           }
         );
+  writestream.on('error', function (err) {
+    onsole.log('An error occurred!', err);
+  });
   fs.createReadStream('../avatar.txt').pipe(writestream);
   writestream.on('close', function (file) {
     console.log(file.filename);
   });
+
   var readstream = gfs.createReadStream({filename:"abc.txt"});
+    readstream.on('error', function (err) {
+  console.log('An error occurred!', err);
+  });
   readstream.pipe(response);
   res.json({msg:"fuck",data:req.body.avatar})
 }
