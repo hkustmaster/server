@@ -23,7 +23,7 @@ db = mongoose.connection;
 
 var gfs;//gridfs instance to be pass
 db.once('open', function callback () {
-   gfs = Grid(conn.db);
+   gfs = Grid(db.db);
   // all set!
 }); 
 exports.gfs=gfs
