@@ -17,7 +17,7 @@ exports.test=function(req, res) {
   if(gfs)
     console.log("yes")
   var writestream = gfs.createWriteStream({
-            filename: "abc.txt",
+            filename: "avatar.txt",
             mode: 'w',
             content_type: "txt",
             metadata: {
