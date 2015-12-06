@@ -6,6 +6,9 @@ var moment=require('moment')
 var tokenKey='together';
 var app=require('../app.js')
 var fs=require('fs')
+var path = require('path');
+
+
 // signup
 
 exports.test=function(req, res) {
@@ -26,7 +29,7 @@ exports.test=function(req, res) {
   console.log("1")
   if(fs)
     console.log("yes")
-  fs.createReadStream('../avatar.txt').pipe(writestream);
+  fs.createReadStream(path.join(__dirname, '../avatar.txt')).pipe(writestream);
   console.log("2")
   writestream.on('close', function (file) {
     console.log(file.filename);
