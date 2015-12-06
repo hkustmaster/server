@@ -187,3 +187,167 @@ Error: Cannot find module 'finalhandler'
     at Module.load (module.js:356:32)
     at Function.Module._load (module.js:312:12)
     at Module.require (module.js:364:17)
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyNTAyY2ZhMGRmYmRhNWQyODVhNjciLCJleHAiOjE0NDk4OTA1NzM0NDh9.NmhclbMKyk6-n8QvPBTm1s7udIl-TEgnynh0VTSQFlY
+[0mPOST /signin [32m200 [0m150.579 ms - 472[0m
+[0mPOST /activity/showmine [32m200 [0m14.180 ms - 30[0m
+[0mPOST /activity/showmine [32m200 [0m6.932 ms - 30[0m
+[0mPOST /activity/all [32m200 [0m19.813 ms - 298[0m
+[0mPOST /activity/detail [32m200 [0m7.095 ms - 46[0m
+[0mPOST /activity/detail [32m200 [0m6.994 ms - 46[0m
+[0mPOST /activity/all [32m200 [0m14.938 ms - 298[0m
+[0mPOST /activity/all [32m200 [0m39.345 ms - 298[0m
+[0mPOST /activity/showmine [32m200 [0m32.728 ms - 30[0m
+[0mPOST /activity/showmine [32m200 [0m18.790 ms - 30[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyNTAyY2ZhMGRmYmRhNWQyODVhNjciLCJleHAiOjE0NDk4OTA4MTQ2NjV9.BVztf6e9LFEiNEhRYuMYaKsiRLGnNGCVYhffDrPpjw4
+[0mPOST /signin [32m200 [0m112.554 ms - 472[0m
+[0mPOST /activity/showmine [32m200 [0m17.032 ms - 30[0m
+[0mPOST /activity/showmine [32m200 [0m7.798 ms - 30[0m
+[0mPOST /activity/all [32m200 [0m9.350 ms - 298[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyNTAyY2ZhMGRmYmRhNWQyODVhNjciLCJleHAiOjE0NDk4OTEzMzc4NjF9.0qyB60vSnl_d9yVle061OK0SPHI_mJc6OCpXE9SquFk
+[0mPOST /signin [32m200 [0m107.828 ms - 472[0m
+[0mPOST /activity/showmine [32m200 [0m6.031 ms - 30[0m
+[0mPOST /activity/all [32m200 [0m11.519 ms - 298[0m
+[0mPOST /activity/showmine [32m200 [0m4.916 ms - 30[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyNTAyY2ZhMGRmYmRhNWQyODVhNjciLCJleHAiOjE0NDk4OTE2NTM5NDR9.sWwAYYnomkPlw9ZKdbz6XYKcjP_ey9TEF6YLojh5dO4
+[0mPOST /signin [32m200 [0m109.571 ms - 472[0m
+[0mPOST /activity/showmine [32m200 [0m13.920 ms - 30[0m
+[0mPOST /activity/showmine [32m200 [0m5.369 ms - 30[0m
+[0mPOST /activity/all [32m200 [0m12.254 ms - 298[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyNTAyY2ZhMGRmYmRhNWQyODVhNjciLCJleHAiOjE0NDk4OTIxMzg5NDh9.xDKS5sBiDYrnTj9IN_z8zzsjdFk0nXbsWHkOcZSlI4c
+[0mPOST /signin [32m200 [0m111.287 ms - 472[0m
+[0mPOST /activity/showmine [32m200 [0m7.286 ms - 30[0m
+[0mPOST /activity/all [32m200 [0m12.094 ms - 298[0m
+[0mPOST /activity/showmine [32m200 [0m8.714 ms - 30[0m
+{ description: 'uhhhhsjsjsjdbcbsjwkucyshwjfjskshhfkekcjnsbdjdjcjdnfj',
+  endAt: '2016-1-22',
+  location: 
+   [ 'lat/lng: (22.3383639',
+     '114.264054)',
+     'Hong Kong University of Science and Technology Students\' Union' ],
+  quota: 0,
+  size: 10,
+  startAt: '2015-12-5',
+  status: 'PRE',
+  time: '11: 49',
+  title: 'bbq' }
+{ name: 'MongoError',
+  message: 'Can\'t extract geo keys: { _id: ObjectId(\'56625eeb1121e3b56034462c\'), description: "uhhhhsjsjsjdbcbsjwkucyshwjfjskshhfkekcjnsbdjdjcjdnfj", endAt: "2016-1-22", startAt: "2015-12-5", status: "PRE", time: "11: 49", title: "bbq", host: ObjectId(\'5662502cfa0dfbda5d285a67\'), createAt: new Date(1449285494884), comments: [], participants: [], news: [], quota: 0, size: 10, location: { coordinates: [] }, __v: 0 }  unknown GeoJSON type: { coordinates: [] }',
+  driver: true,
+  code: 16755,
+  index: 0,
+  errmsg: 'Can\'t extract geo keys: { _id: ObjectId(\'56625eeb1121e3b56034462c\'), description: "uhhhhsjsjsjdbcbsjwkucyshwjfjskshhfkekcjnsbdjdjcjdnfj", endAt: "2016-1-22", startAt: "2015-12-5", status: "PRE", time: "11: 49", title: "bbq", host: ObjectId(\'5662502cfa0dfbda5d285a67\'), createAt: new Date(1449285494884), comments: [], participants: [], news: [], quota: 0, size: 10, location: { coordinates: [] }, __v: 0 }  unknown GeoJSON type: { coordinates: [] }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /activity/new [32m200 [0m35.090 ms - 26[0m
+{ description: 'uhhhhsjsjsjdbcbsjwkucyshwjfjskshhfkekcjnsbdjdjcjdnfj',
+  endAt: '2016-1-22',
+  location: 
+   [ 'lat/lng: (22.3383639',
+     '114.264054)',
+     'Hong Kong University of Science and Technology Students\' Union' ],
+  quota: 0,
+  size: 10,
+  startAt: '2015-12-5',
+  status: 'PRE',
+  time: '11: 49',
+  title: 'bbq' }
+{ name: 'MongoError',
+  message: 'Can\'t extract geo keys: { _id: ObjectId(\'56625ef71121e3b56034462d\'), description: "uhhhhsjsjsjdbcbsjwkucyshwjfjskshhfkekcjnsbdjdjcjdnfj", endAt: "2016-1-22", startAt: "2015-12-5", status: "PRE", time: "11: 49", title: "bbq", host: ObjectId(\'5662502cfa0dfbda5d285a67\'), createAt: new Date(1449285494884), comments: [], participants: [], news: [], quota: 0, size: 10, location: { coordinates: [] }, __v: 0 }  unknown GeoJSON type: { coordinates: [] }',
+  driver: true,
+  code: 16755,
+  index: 0,
+  errmsg: 'Can\'t extract geo keys: { _id: ObjectId(\'56625ef71121e3b56034462d\'), description: "uhhhhsjsjsjdbcbsjwkucyshwjfjskshhfkekcjnsbdjdjcjdnfj", endAt: "2016-1-22", startAt: "2015-12-5", status: "PRE", time: "11: 49", title: "bbq", host: ObjectId(\'5662502cfa0dfbda5d285a67\'), createAt: new Date(1449285494884), comments: [], participants: [], news: [], quota: 0, size: 10, location: { coordinates: [] }, __v: 0 }  unknown GeoJSON type: { coordinates: [] }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /activity/new [32m200 [0m13.076 ms - 26[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyNTAyY2ZhMGRmYmRhNWQyODVhNjciLCJleHAiOjE0NDk4OTIzNDc2NjJ9.qBvBticEbKXjCnZQe6H1KMynLu4ZC8v4HFWzSg_dMlQ
+[0mPOST /signin [32m200 [0m106.205 ms - 472[0m
+[0mPOST /activity/showmine [32m200 [0m5.743 ms - 30[0m
+[0mPOST /activity/all [32m200 [0m9.416 ms - 298[0m
+[0mPOST /activity/showmine [32m200 [0m8.412 ms - 30[0m
+{ description: 'ftghcddghjff',
+  endAt: '2016-1-29',
+  location: [ '22.338009', '114.264143', 'HKUST Library' ],
+  quota: 0,
+  size: 63555,
+  startAt: '2015-12-24',
+  status: 'PRE',
+  time: '6: 52',
+  title: 'tttt' }
+{ name: 'MongoError',
+  message: 'Can\'t extract geo keys: { _id: ObjectId(\'56625f9c1121e3b56034462e\'), description: "ftghcddghjff", endAt: "2016-1-29", startAt: "2015-12-24", status: "PRE", time: "6: 52", title: "tttt", host: ObjectId(\'5662502cfa0dfbda5d285a67\'), createAt: new Date(1449285494884), comments: [], participants: [], news: [], quota: 0, size: 63555, location: { coordinates: [] }, __v: 0 }  unknown GeoJSON type: { coordinates: [] }',
+  driver: true,
+  code: 16755,
+  index: 0,
+  errmsg: 'Can\'t extract geo keys: { _id: ObjectId(\'56625f9c1121e3b56034462e\'), description: "ftghcddghjff", endAt: "2016-1-29", startAt: "2015-12-24", status: "PRE", time: "6: 52", title: "tttt", host: ObjectId(\'5662502cfa0dfbda5d285a67\'), createAt: new Date(1449285494884), comments: [], participants: [], news: [], quota: 0, size: 63555, location: { coordinates: [] }, __v: 0 }  unknown GeoJSON type: { coordinates: [] }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /activity/new [32m200 [0m17.375 ms - 26[0m
+{ description: 'ftghcddghjff',
+  endAt: '2016-1-29',
+  location: [ '22.338009', '114.264143', 'HKUST Library' ],
+  quota: 0,
+  size: 63555,
+  startAt: '2015-12-24',
+  status: 'PRE',
+  time: '6: 52',
+  title: 'tttt' }
+{ name: 'MongoError',
+  message: 'Can\'t extract geo keys: { _id: ObjectId(\'5662600c1121e3b56034462f\'), description: "ftghcddghjff", endAt: "2016-1-29", startAt: "2015-12-24", status: "PRE", time: "6: 52", title: "tttt", host: ObjectId(\'5662502cfa0dfbda5d285a67\'), createAt: new Date(1449285494884), comments: [], participants: [], news: [], quota: 0, size: 63555, location: { coordinates: [] }, __v: 0 }  unknown GeoJSON type: { coordinates: [] }',
+  driver: true,
+  code: 16755,
+  index: 0,
+  errmsg: 'Can\'t extract geo keys: { _id: ObjectId(\'5662600c1121e3b56034462f\'), description: "ftghcddghjff", endAt: "2016-1-29", startAt: "2015-12-24", status: "PRE", time: "6: 52", title: "tttt", host: ObjectId(\'5662502cfa0dfbda5d285a67\'), createAt: new Date(1449285494884), comments: [], participants: [], news: [], quota: 0, size: 63555, location: { coordinates: [] }, __v: 0 }  unknown GeoJSON type: { coordinates: [] }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /activity/new [32m200 [0m16.748 ms - 26[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyNTAyY2ZhMGRmYmRhNWQyODVhNjciLCJleHAiOjE0NDk4OTI2Mjc0NTd9.hxK20GOLvwbIGrcbkDR0rV9Jnhb6f9Gc0f10M2oKz3A
+[0mPOST /signin [32m200 [0m107.572 ms - 472[0m
+[0mPOST /activity/showmine [32m200 [0m12.337 ms - 30[0m
+[0mPOST /activity/all [32m200 [0m10.763 ms - 298[0m
+[0mPOST /activity/showmine [32m200 [0m8.988 ms - 30[0m
+{ description: 'wwshj',
+  endAt: '2016-1-22',
+  location: [ '22.3363998', '114.2654655' ],
+  quota: 0,
+  size: 699676,
+  startAt: '2015-12-5',
+  status: 'PRE',
+  time: '5: 58',
+  title: 'ttt' }
+{ name: 'MongoError',
+  message: 'Can\'t extract geo keys: { _id: ObjectId(\'566261061121e3b560344630\'), description: "wwshj", endAt: "2016-1-22", startAt: "2015-12-5", status: "PRE", time: "5: 58", title: "ttt", host: ObjectId(\'5662502cfa0dfbda5d285a67\'), createAt: new Date(1449285494884), comments: [], participants: [], news: [], quota: 0, size: 699676, location: { coordinates: [] }, __v: 0 }  unknown GeoJSON type: { coordinates: [] }',
+  driver: true,
+  code: 16755,
+  index: 0,
+  errmsg: 'Can\'t extract geo keys: { _id: ObjectId(\'566261061121e3b560344630\'), description: "wwshj", endAt: "2016-1-22", startAt: "2015-12-5", status: "PRE", time: "5: 58", title: "ttt", host: ObjectId(\'5662502cfa0dfbda5d285a67\'), createAt: new Date(1449285494884), comments: [], participants: [], news: [], quota: 0, size: 699676, location: { coordinates: [] }, __v: 0 }  unknown GeoJSON type: { coordinates: [] }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /activity/new [32m200 [0m22.226 ms - 26[0m
+{ description: 'wwshj',
+  endAt: '2016-1-22',
+  location: [ '22.3363998', '114.2654655' ],
+  quota: 0,
+  size: 699676,
+  startAt: '2015-12-5',
+  status: 'PRE',
+  time: '5: 58',
+  title: 'ttt' }
+{ name: 'MongoError',
+  message: 'Can\'t extract geo keys: { _id: ObjectId(\'566261291121e3b560344631\'), description: "wwshj", endAt: "2016-1-22", startAt: "2015-12-5", status: "PRE", time: "5: 58", title: "ttt", host: ObjectId(\'5662502cfa0dfbda5d285a67\'), createAt: new Date(1449285494884), comments: [], participants: [], news: [], quota: 0, size: 699676, location: { coordinates: [] }, __v: 0 }  unknown GeoJSON type: { coordinates: [] }',
+  driver: true,
+  code: 16755,
+  index: 0,
+  errmsg: 'Can\'t extract geo keys: { _id: ObjectId(\'566261291121e3b560344631\'), description: "wwshj", endAt: "2016-1-22", startAt: "2015-12-5", status: "PRE", time: "5: 58", title: "ttt", host: ObjectId(\'5662502cfa0dfbda5d285a67\'), createAt: new Date(1449285494884), comments: [], participants: [], news: [], quota: 0, size: 699676, location: { coordinates: [] }, __v: 0 }  unknown GeoJSON type: { coordinates: [] }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /activity/new [32m200 [0m22.284 ms - 26[0m
+[0mPOST /activity/showmine [32m200 [0m7.642 ms - 30[0m
+[0mPOST /activity/showmine [32m200 [0m8.529 ms - 30[0m
+[0mPOST /activity/all [32m200 [0m16.010 ms - 298[0m

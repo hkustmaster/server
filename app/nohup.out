@@ -2541,3 +2541,202 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyNTAyY2ZhMGRmYmRhNWQyODVhNjc
 [0mPOST /activity/all [32m200 [0m9.280 ms - 298[0m
 [0mPOST /activity/showmine [32m200 [0m5.098 ms - 30[0m
 [0mPOST /activity/showmine [32m200 [0m5.072 ms - 30[0m
+[0mPOST /activity/detail [32m200 [0m40.688 ms - 46[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyNTAyY2ZhMGRmYmRhNWQyODVhNjciLCJleHAiOjE0NDk4OTMyODI0Nzd9.mZHYWOIgYT9SCzpSdfxfDrPK6EKTphxuiuI6EcgzLyc
+[0mPOST /signin [32m200 [0m115.704 ms - 472[0m
+[0mPOST /activity/showmine [32m200 [0m8.704 ms - 30[0m
+[0mPOST /activity/showmine [32m200 [0m4.864 ms - 30[0m
+[0mPOST /activity/all [32m200 [0m17.135 ms - 298[0m
+{ address: 'Starbucks Coffee',
+  description: 'gghjjkfgjjk',
+  endAt: '',
+  location: [ '22.3378005', '114.2634547' ],
+  quota: 0,
+  size: 12,
+  startAt: '2015-12-12',
+  status: 'PRE',
+  time: '4: 08',
+  title: 'abc' }
+{ name: 'MongoError',
+  message: 'Can\'t extract geo keys: { _id: ObjectId(\'5662633cd0d59ac562c10630\'), address: "Starbucks Coffee", description: "gghjjkfgjjk", endAt: "", startAt: "2015-12-12", status: "PRE", time: "4: 08", title: "abc", host: ObjectId(\'5662502cfa0dfbda5d285a67\'), createAt: new Date(1449288119560), comments: [], participants: [], news: [], quota: 11, size: 12, location: { coordinates: [] }, __v: 0 }  unknown GeoJSON type: { coordinates: [] }',
+  driver: true,
+  code: 16755,
+  index: 0,
+  errmsg: 'Can\'t extract geo keys: { _id: ObjectId(\'5662633cd0d59ac562c10630\'), address: "Starbucks Coffee", description: "gghjjkfgjjk", endAt: "", startAt: "2015-12-12", status: "PRE", time: "4: 08", title: "abc", host: ObjectId(\'5662502cfa0dfbda5d285a67\'), createAt: new Date(1449288119560), comments: [], participants: [], news: [], quota: 11, size: 12, location: { coordinates: [] }, __v: 0 }  unknown GeoJSON type: { coordinates: [] }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /activity/new [32m200 [0m29.752 ms - 26[0m
+{ address: 'Starbucks Coffee',
+  description: 'gghjjkfgjjk',
+  endAt: '',
+  location: [ '22.3378005', '114.2634547' ],
+  quota: 0,
+  size: 12,
+  startAt: '2015-12-12',
+  status: 'PRE',
+  time: '4: 08',
+  title: 'abc' }
+{ name: 'MongoError',
+  message: 'Can\'t extract geo keys: { _id: ObjectId(\'56626356d0d59ac562c10631\'), address: "Starbucks Coffee", description: "gghjjkfgjjk", endAt: "", startAt: "2015-12-12", status: "PRE", time: "4: 08", title: "abc", host: ObjectId(\'5662502cfa0dfbda5d285a67\'), createAt: new Date(1449288119560), comments: [], participants: [], news: [], quota: 11, size: 12, location: { coordinates: [] }, __v: 0 }  unknown GeoJSON type: { coordinates: [] }',
+  driver: true,
+  code: 16755,
+  index: 0,
+  errmsg: 'Can\'t extract geo keys: { _id: ObjectId(\'56626356d0d59ac562c10631\'), address: "Starbucks Coffee", description: "gghjjkfgjjk", endAt: "", startAt: "2015-12-12", status: "PRE", time: "4: 08", title: "abc", host: ObjectId(\'5662502cfa0dfbda5d285a67\'), createAt: new Date(1449288119560), comments: [], participants: [], news: [], quota: 11, size: 12, location: { coordinates: [] }, __v: 0 }  unknown GeoJSON type: { coordinates: [] }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /activity/new [32m200 [0m11.731 ms - 26[0m
+{ _id: 56623feac487da77580ee24f,
+  title: 'mmmmm@m.com',
+  location: [ 10, 10 ],
+  host: 56623fb9c487da77580ee24e,
+  createAt: Fri Dec 04 2015 20:26:04 GMT-0500 (EST),
+  comments: [],
+  participants: [],
+  news: [],
+  quota: 100,
+  size: 60,
+  __v: 0,
+  id: 'G3qB25P3j6TorbWMGZAw',
+  dis: 0 }
+[0mPOST /activity/showaround [32m200 [0m17.147 ms - 257[0m
+{ address: 'Starbucks Coffee',
+  description: 'gghjjkfgjjk',
+  endAt: '',
+  location: [ 22.3378005, 114.2634547 ],
+  quota: 0,
+  size: 12,
+  startAt: '2015-12-12',
+  status: 'PRE',
+  time: '4: 08',
+  title: 'abc' }
+{ name: 'MongoError',
+  message: 'Can\'t extract geo keys: { _id: ObjectId(\'56626476d0d59ac562c10632\'), address: "Starbucks Coffee", description: "gghjjkfgjjk", endAt: "", startAt: "2015-12-12", status: "PRE", time: "4: 08", title: "abc", host: ObjectId(\'5662502cfa0dfbda5d285a67\'), createAt: new Date(1449288119560), comments: [], participants: [], news: [], quota: 11, size: 12, location: { coordinates: [] }, __v: 0 }  unknown GeoJSON type: { coordinates: [] }',
+  driver: true,
+  code: 16755,
+  index: 0,
+  errmsg: 'Can\'t extract geo keys: { _id: ObjectId(\'56626476d0d59ac562c10632\'), address: "Starbucks Coffee", description: "gghjjkfgjjk", endAt: "", startAt: "2015-12-12", status: "PRE", time: "4: 08", title: "abc", host: ObjectId(\'5662502cfa0dfbda5d285a67\'), createAt: new Date(1449288119560), comments: [], participants: [], news: [], quota: 11, size: 12, location: { coordinates: [] }, __v: 0 }  unknown GeoJSON type: { coordinates: [] }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /activity/new [32m200 [0m30.909 ms - 26[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyNTAyY2ZhMGRmYmRhNWQyODVhNjciLCJleHAiOjE0NDk4OTM2MzI1MTF9.ZNlXzrcsVWTKN88cpjcZpVL7ZDPX8KLfe3zcpchQn3I
+[0mPOST /signin [32m200 [0m106.851 ms - 472[0m
+[0mPOST /activity/showmine [32m200 [0m9.963 ms - 30[0m
+[0mPOST /activity/all [32m200 [0m17.208 ms - 298[0m
+[0mPOST /activity/showmine [32m200 [0m13.744 ms - 30[0m
+{ address: 'Starbucks Coffee',
+  description: 'gghjjkfgjjk',
+  endAt: '',
+  location: [ 22.3378005, 114.2634547 ],
+  quota: 0,
+  size: 12,
+  startAt: '2015-12-12',
+  status: 'PRE',
+  time: '4: 08',
+  title: 'abc' }
+{ name: 'MongoError',
+  message: 'Can\'t extract geo keys: { _id: ObjectId(\'5662649cd0d59ac562c10633\'), address: "Starbucks Coffee", description: "gghjjkfgjjk", endAt: "", startAt: "2015-12-12", status: "PRE", time: "4: 08", title: "abc", host: ObjectId(\'5662502cfa0dfbda5d285a67\'), createAt: new Date(1449288119560), comments: [], participants: [], news: [], quota: 11, size: 12, location: { coordinates: [] }, __v: 0 }  unknown GeoJSON type: { coordinates: [] }',
+  driver: true,
+  code: 16755,
+  index: 0,
+  errmsg: 'Can\'t extract geo keys: { _id: ObjectId(\'5662649cd0d59ac562c10633\'), address: "Starbucks Coffee", description: "gghjjkfgjjk", endAt: "", startAt: "2015-12-12", status: "PRE", time: "4: 08", title: "abc", host: ObjectId(\'5662502cfa0dfbda5d285a67\'), createAt: new Date(1449288119560), comments: [], participants: [], news: [], quota: 11, size: 12, location: { coordinates: [] }, __v: 0 }  unknown GeoJSON type: { coordinates: [] }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /activity/new [32m200 [0m9.530 ms - 26[0m
+[0mPOST /activity/new [33m400 [0m489.762 ms - 1103[0m
+[0mPOST /activity/detail [32m200 [0m6.450 ms - 46[0m
+{ address: 'Starbucks Coffee',
+  description: 'gghjjkfgjjk',
+  endAt: '',
+  location: [ 22.3378005, 114.2634547 ],
+  quota: 0,
+  size: 12,
+  startAt: '2015-12-12',
+  status: 'PRE',
+  title: 'abc' }
+{ name: 'MongoError',
+  message: 'Can\'t extract geo keys: { _id: ObjectId(\'566264d7d0d59ac562c10634\'), address: "Starbucks Coffee", description: "gghjjkfgjjk", endAt: "", startAt: "2015-12-12", status: "PRE", title: "abc", host: ObjectId(\'5662502cfa0dfbda5d285a67\'), createAt: new Date(1449288119560), comments: [], participants: [], news: [], quota: 11, size: 12, location: { coordinates: [] }, __v: 0 }  unknown GeoJSON type: { coordinates: [] }',
+  driver: true,
+  code: 16755,
+  index: 0,
+  errmsg: 'Can\'t extract geo keys: { _id: ObjectId(\'566264d7d0d59ac562c10634\'), address: "Starbucks Coffee", description: "gghjjkfgjjk", endAt: "", startAt: "2015-12-12", status: "PRE", title: "abc", host: ObjectId(\'5662502cfa0dfbda5d285a67\'), createAt: new Date(1449288119560), comments: [], participants: [], news: [], quota: 11, size: 12, location: { coordinates: [] }, __v: 0 }  unknown GeoJSON type: { coordinates: [] }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /activity/new [32m200 [0m8.548 ms - 26[0m
+[0mPOST /activity/new [33m400 [0m34.008 ms - 1103[0m
+{ address: 'Starbucks Coffee',
+  description: 'gghjjkfgjjk',
+  endAt: '',
+  location: [ 22.3378005, 114.2634547 ],
+  quota: 0,
+  size: 12,
+  startAt: '2015-12-12',
+  status: 'PRE',
+  time: '4: 08',
+  title: 'abc' }
+{ name: 'MongoError',
+  message: 'Can\'t extract geo keys: { _id: ObjectId(\'566264eed0d59ac562c10635\'), address: "Starbucks Coffee", description: "gghjjkfgjjk", endAt: "", startAt: "2015-12-12", status: "PRE", time: "4: 08", title: "abc", host: ObjectId(\'5662502cfa0dfbda5d285a67\'), createAt: new Date(1449288119560), comments: [], participants: [], news: [], quota: 11, size: 12, location: { coordinates: [] }, __v: 0 }  unknown GeoJSON type: { coordinates: [] }',
+  driver: true,
+  code: 16755,
+  index: 0,
+  errmsg: 'Can\'t extract geo keys: { _id: ObjectId(\'566264eed0d59ac562c10635\'), address: "Starbucks Coffee", description: "gghjjkfgjjk", endAt: "", startAt: "2015-12-12", status: "PRE", time: "4: 08", title: "abc", host: ObjectId(\'5662502cfa0dfbda5d285a67\'), createAt: new Date(1449288119560), comments: [], participants: [], news: [], quota: 11, size: 12, location: { coordinates: [] }, __v: 0 }  unknown GeoJSON type: { coordinates: [] }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[0mPOST /activity/new [32m200 [0m7.734 ms - 26[0m
+edit succeed{"_id":"566288a6524011df65acb63f","email":"cba@m.com","gender":"Male","name":"samz hh","password":"$2a$10$LinqxmhmtL1n3qS1WJcwGOAqJwW6u6cO58z6KKw19XQm45R4gS2Zi","phone":"123456789","__v":0,"meta":{"updateAt":"2015-12-05T05:30:10.362Z","createAt":"2015-12-05T05:30:10.362Z"},"role":0}
+[0mPOST /user/edit [32m200 [0m143.268 ms - 21[0m
+edit succeed{"_id":"566288a6524011df65acb63f","email":"cba@m.com","gender":"Male","name":"samz hh","password":"$2a$10$M0kY38ioHlzL0sIXm6bVd.6xgjmK4KcZLtDvWOnn2SWbJWr2lFupC","phone":"123456789","__v":0,"meta":{"updateAt":"2015-12-05T05:30:10.362Z","createAt":"2015-12-05T05:30:10.362Z"},"role":0}
+[0mPOST /user/edit [32m200 [0m111.201 ms - 21[0m
+edit succeed{"_id":"566288a6524011df65acb63f","email":"cba@m.com","gender":"Male","name":"samz hh","password":"$2a$10$TFya7MVM/8DLVOUCAUGyHuu.B67Jfpz.NTHexwmHuxO/ojB3mF6/.","phone":"123456789","__v":0,"meta":{"updateAt":"2015-12-05T05:30:10.362Z","createAt":"2015-12-05T05:30:10.362Z"},"role":0}
+[0mPOST /user/edit [32m200 [0m111.449 ms - 21[0m
+[0mPOST /activity/detail [32m200 [0m25.747 ms - 607[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyODhhNjUyNDAxMWRmNjVhY2I2M2YiLCJleHAiOjE0NDk5MDg0NzIyMzJ9.f5zpczELTl1vRneXz7Ymkd6dOdnaj-x2Q3Gj0wFtwww
+[0mPOST /signin [32m200 [0m106.989 ms - 476[0m
+[0mPOST /activity/all [32m200 [0m20.806 ms - 426[0m
+[0mPOST /activity/showmine [32m200 [0m23.804 ms - 426[0m
+[0mPOST /activity/showmine [32m200 [0m25.361 ms - 426[0m
+edit succeed{"_id":"566288a6524011df65acb63f","email":"cba@m.com","gender":"Male","name":"samz hh","password":"$2a$10$kQ1I6T8Dzx78PXp8AlKJju4RkQJhKenHNfDYfmALUdqjJ7v7jbnHO","phone":"123456789","__v":0,"meta":{"updateAt":"2015-12-05T05:30:10.362Z","createAt":"2015-12-05T05:30:10.362Z"},"role":0}
+[0mPOST /user/edit [32m200 [0m11.347 ms - 21[0m
+[0mPOST /activity/all [32m200 [0m16.129 ms - 425[0m
+[0mPOST /signin [32m200 [0m109.701 ms - 28[0m
+password=123456
+salt=$2a$10$LXyMYColMFBmOvFXJmXBCe
+[0mPOST /signup [32m200 [0m122.008 ms - 21[0m
+[0mPOST /signin [32m200 [0m103.989 ms - 28[0m
+[0mPOST /signin [32m200 [0m104.282 ms - 28[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyOWYzYTI0MTk3ZDFkNmEzMzg2MDQiLCJleHAiOjE0NDk5MDg2OTQ5NjN9.-rADPqoe1K8jLpbc-nAb9BhaLQPBRP6iKB-m11ubacU
+[0mPOST /signin [32m200 [0m107.910 ms - 475[0m
+[0mPOST /activity/all [32m200 [0m13.220 ms - 425[0m
+[0mPOST /activity/showmine [32m200 [0m6.256 ms - 30[0m
+[0mPOST /activity/showmine [32m200 [0m5.319 ms - 30[0m
+edit succeed{"_id":"56629f3a24197d1d6a338604","email":"2@2.com","gender":"Male","name":"Alex Max.","password":"$2a$10$LXyMYColMFBmOvFXJmXBCeI1D10grbZtuAu63Lui60wmvaG7Aw/fe","phone":"67558895","__v":0,"meta":{"updateAt":"2015-12-05T08:21:02.679Z","createAt":"2015-12-05T08:21:02.679Z"},"role":0}
+[0mPOST /user/edit [32m200 [0m8.226 ms - 21[0m
+edit succeed{"_id":"56629f3a24197d1d6a338604","email":"2@2.com","gender":"Male","name":"Alex Max.","password":"$2a$10$LXyMYColMFBmOvFXJmXBCeI1D10grbZtuAu63Lui60wmvaG7Aw/fe","phone":"675586789","__v":0,"meta":{"updateAt":"2015-12-05T08:21:02.679Z","createAt":"2015-12-05T08:21:02.679Z"},"role":0}
+[0mPOST /user/edit [32m200 [0m9.355 ms - 21[0m
+[0mPOST /activity/all [32m200 [0m11.189 ms - 425[0m
+[0mPOST /activity/showmine [32m200 [0m8.707 ms - 30[0m
+[0mPOST /activity/all [32m200 [0m13.334 ms - 425[0m
+[0mPOST /activity/showmine [32m200 [0m6.946 ms - 30[0m
+edit succeed{"_id":"56629f3a24197d1d6a338604","email":"2@2.com","gender":"Male","name":"Alex Max. W.","password":"$2a$10$LXyMYColMFBmOvFXJmXBCeI1D10grbZtuAu63Lui60wmvaG7Aw/fe","phone":"675586789","__v":0,"meta":{"updateAt":"2015-12-05T08:21:02.679Z","createAt":"2015-12-05T08:21:02.679Z"},"role":0}
+[0mPOST /user/edit [32m200 [0m108.245 ms - 21[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyOWYzYTI0MTk3ZDFkNmEzMzg2MDQiLCJleHAiOjE0NDk5MDg3OTYzMTF9.i8d7sYfBzv_aJ_DhYL5St89OkJNaHzalcQBkwtswJX8
+[0mPOST /signin [32m200 [0m103.146 ms - 479[0m
+[0mPOST /activity/all [32m200 [0m10.979 ms - 425[0m
+[0mPOST /activity/showmine [32m200 [0m5.829 ms - 30[0m
+[0mPOST /activity/showmine [32m200 [0m4.351 ms - 30[0m
+edit succeed{"_id":"56629f3a24197d1d6a338604","email":"2@2.com","gender":"Male","name":"Alex Max. W.","password":"$2a$10$PEWH41IYommFwQkHcKHSreS10vALTon6XqCuSW2zJWyLn9.K8IUwC","phone":"675586789","__v":0,"meta":{"updateAt":"2015-12-05T08:21:02.679Z","createAt":"2015-12-05T08:21:02.679Z"},"role":0}
+[0mPOST /user/edit [32m200 [0m109.213 ms - 21[0m
+[0mPOST /activity/showmine [32m200 [0m6.537 ms - 30[0m
+[0mPOST /activity/showmine [32m200 [0m10.438 ms - 30[0m
+[0mPOST /activity/all [32m200 [0m14.679 ms - 425[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyOWYzYTI0MTk3ZDFkNmEzMzg2MDQiLCJleHAiOjE0NDk5MDg4Mzc2ODZ9.ER5-AljVtmwIXKwHEitC1JOabzYUHO9Td7xApLl1Bb4
+[0mPOST /signin [32m200 [0m115.116 ms - 479[0m
+[0mPOST /activity/all [32m200 [0m12.994 ms - 425[0m
+[0mPOST /activity/showmine [32m200 [0m8.611 ms - 30[0m
+[0mPOST /activity/showmine [32m200 [0m6.664 ms - 30[0m
+[0mPOST /activity/all [32m200 [0m9.782 ms - 425[0m

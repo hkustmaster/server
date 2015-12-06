@@ -6,7 +6,9 @@ var activitySchema = new mongoose.Schema({
 	type:String,
 	status:String,
 	id:String,
+	visible:{type:String,default:"Public"},
 	location:{
+		type:{type:String,deafult:"Point"},
     		coordinates : [Number]
 	},
 	description:String,
@@ -15,6 +17,7 @@ var activitySchema = new mongoose.Schema({
 	endAt:String,
 	size:{ type: Number, default: 100 },
 	quota:{ type: Number, default: 100 },
+	address:String,
 	news:[
 		{
 			content:String

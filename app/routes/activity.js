@@ -23,8 +23,8 @@ router.post('/showmine', activity.showMine);
 
 router.post('/showaround', activity.showAround);
 
-router.post('/join/:id',intereact.joinActivity);
+router.post('/join',intereact.joinActivity);
 
-router.post('/leave/:id',intereact.leaveActivity);
+router.post('/leave',intereact.leaveActivity);
 
 module.exports = router;
