@@ -33,6 +33,7 @@ exports.handletoken=function(req, res,next) {
         delete req.body.token
       }
     });
+  next()
 }
 
 exports.upload=function(req, res) {

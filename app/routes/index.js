@@ -38,7 +38,7 @@ router.post('/signup', User.signup)
 router.post('/signin', User.signin)
 router.get('/signin', User.showSignin)
 router.get('/signup', User.showSignup)
-router.post('/user/avatar',upload.handletoken,upload.single("picc"),Upload.upload)
+router.post('/user/avatar',Upload.handletoken,upload.single("picc"),Upload.upload)
 //router.get('/logout', User.logout)
 
 module.exports = router;
