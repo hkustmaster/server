@@ -1,6 +1,7 @@
 var mongoose = require('mongoose')
 var bcrypt = require('bcrypt')
 var SALT_WORK_FACTOR = 10
+var ObjectId =mongoose.Schema.Types.ObjectId
 
 var userSchema = new mongoose.Schema({
   name: String,
@@ -27,7 +28,7 @@ var userSchema = new mongoose.Schema({
   email:String,
   gender:String,
   phone:String,
-  avatar:String
+  avatar:{type:ObjectId}
 
 })
 

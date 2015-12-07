@@ -33,10 +33,7 @@ var activitySchema = new mongoose.Schema({
       type: Date,
       default: Date.now()
     },
-    avatar:{
-    	id:{type:ObjectId},
-    	data:String
-    }
+    pic:[{type:ObjectId}]
 
 })
 activitySchema.set('collection', 'activity');

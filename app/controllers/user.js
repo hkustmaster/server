@@ -10,31 +10,45 @@ var path = require('path');
 
 // signup
 
-exports.test=function(req, res) {
+exports.avatar=function(req, res) {
   var gfs=app.gg
   console.log(req.file)
   console.log(req.body)
-  console.log(req.body.picc)
-  // var writestream = gfs.createWriteStream({
-  //           filename: "avatar.txt",
-  //           mode: 'w',
-  //           content_type: "txt",
-  //           metadata: {
-  //             'client': "test",
-  //             'user': "test"
-  //           }
-  //         }
-  //       );
-  // fs.createReadStream(path.join(__dirname, '../avatar.txt')).pipe(writestream);
-  // writestream.on('close', function (file) {
-  //   console.log(file.filename);
-  // });
+  var extension=req.body.ext
+  var userid=req.user._id
+  var fname=userid+'.'+extension  //file name to be stored
+  //remove if exist
+  gfs.exist({filename:fname}}, function (err, found) {
+    if (err) return console.log(err);
+    if(found){
+      gfs.remove({filename:fname}}, function (err) {
+        if (err) return console.log("REMOVE"+err);
+        console.log('success');
+      });
+    }
+  });
+  //write to DB
+  var writestream = gfs.createWriteStream({
+      filename: fname,
+      mode: 'w',
+      content_type: extension,
+      metadata: {
+        'client': "test",
+        'user': "test"
+      }
+    }
+  );
+  fs.createReadStream(path.join(__dirname, '../upload/'+fname)).pipe(writestream);
+  writestream.on('close', function (file) {
+    console.log("Write to DB successfully")
+    console.log(file.filename);
+  });
 
-  // var readstream = gfs.createReadStream({filename:"avatar.txt"});
-  //   readstream.on('error', function (err) {
-  // console.log('An error occurred!', err);
-  // });
-  res.json({msg:"fuck"})
+  var readstream = gfs.createReadStream({filename:fname});
+  readstream.on('error', function (err) {
+      console.log('An error occurred!', err);
+  });
+  res.json({message:"Succeed"})
 }
 
 exports.showSignup = function(req, res) {
