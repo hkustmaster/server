@@ -10,7 +10,7 @@ var path = require('path');
 
 // signup
 
-exports.avatar=function(req, res) {
+exports.upload=function(req, res) {
   console.log("here")
   var gfs=app.gg
   console.log(req.file)
