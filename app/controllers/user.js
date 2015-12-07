@@ -14,6 +14,7 @@ exports.test=function(req, res) {
   var gfs=app.gg
   console.log(req.file)
   console.log(req.body)
+  console.log(req.body.picc)
   // var writestream = gfs.createWriteStream({
   //           filename: "avatar.txt",
   //           mode: 'w',

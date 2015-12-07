@@ -9,24 +9,16 @@ var User = require('../controllers/user')
 
 var multer  = require('multer')
 
-var storage = multer.diskStorage({
-  destination: function (req, file, cb) {
-    cb(null, '../upload')
-  },
-  filename: function (req, file, cb) {
-    cb(null, file.fieldname)
-  }
-})
+// var storage = multer.diskStorage({
+//   destination: function (req, file, cb) {
+//     cb(null, '../upload')
+//   },
+//   filename: function (req, file, cb) {
+//     cb(null, file.fieldname)
+//   }
+// })
 
-var upload = multer({ 
-	storage: storage,
-	onFileUploadStart:function(file){
-		console.log("upload start");
-	},
-
-	onFileUploadComplete:function(file){
-		console.log("upload complete");
-	}
+var upload = multer({ dest: '../upload/'
 })
 
 router.get('/', function(req, res, next) {
