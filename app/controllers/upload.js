@@ -11,7 +11,7 @@ var path = require('path');
 var tokenKey='together';
 
 
-exports.upload=function(req, res) {
+exports.handletoken=function(req, res,next) {
   var token = req.body.token
   //decode the token
   if(!token)
@@ -33,6 +33,9 @@ exports.upload=function(req, res) {
         delete req.body.token
       }
     });
+}
+
+exports.upload=function(req, res) {
   var gfs=app.gg
   console.log(req.file)
   console.log(req.body)
