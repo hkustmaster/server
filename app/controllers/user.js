@@ -18,7 +18,7 @@ exports.avatar=function(req, res) {
   var userid=req.user._id
   var fname=userid+'.'+extension  //file name to be stored
   //remove if exist
-  gfs.exist({filename:fname}}, function (err, found) {
+  gfs.exist({filename:fname}, function (err, found) {
     if (err) return console.log(err);
     if(found){
       gfs.remove({filename:fname}}, function (err) {
