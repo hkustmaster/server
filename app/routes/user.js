@@ -25,7 +25,7 @@ var upload = multer({
 })
 
 
-router.post('/avatar',upload.single("picc"),User.avatar)
+router.post('/avatar',User.avatar)
 router.post('/edit',User.edit)
 router.post('/detail',User.getInfo)
 module.exports =router
