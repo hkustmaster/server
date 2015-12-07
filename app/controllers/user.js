@@ -8,38 +8,30 @@ var app=require('../app.js')
 var fs=require('fs')
 var path = require('path');
 
-
 // signup
 
 exports.test=function(req, res) {
   var gfs=app.gg
-  console.log(req.body)
-  if(gfs)
-    console.log("yes")
-  var writestream = gfs.createWriteStream({
-            filename: "avatar.txt",
-            mode: 'w',
-            content_type: "txt",
-            metadata: {
-              'client': "test",
-              'user': "test"
-            }
-          }
-        );
-  console.log("1")
-  if(fs)
-    console.log("yes")
-  fs.createReadStream(path.join(__dirname, '../avatar.txt')).pipe(writestream);
-  console.log("2")
-  writestream.on('close', function (file) {
-    console.log(file.filename);
-  });
-  console.log("3")
+  console.log(req.file)
+  // var writestream = gfs.createWriteStream({
+  //           filename: "avatar.txt",
+  //           mode: 'w',
+  //           content_type: "txt",
+  //           metadata: {
+  //             'client': "test",
+  //             'user': "test"
+  //           }
+  //         }
+  //       );
+  // fs.createReadStream(path.join(__dirname, '../avatar.txt')).pipe(writestream);
+  // writestream.on('close', function (file) {
+  //   console.log(file.filename);
+  // });
 
-  var readstream = gfs.createReadStream({filename:"avatar.txt"});
-    readstream.on('error', function (err) {
-  console.log('An error occurred!', err);
-  });
+  // var readstream = gfs.createReadStream({filename:"avatar.txt"});
+  //   readstream.on('error', function (err) {
+  // console.log('An error occurred!', err);
+  // });
   res.json({msg:"fuck"})
 }
 
