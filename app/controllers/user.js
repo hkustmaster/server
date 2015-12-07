@@ -21,7 +21,7 @@ exports.avatar=function(req, res) {
   gfs.exist({filename:fname}, function (err, found) {
     if (err) return console.log(err);
     if(found){
-      gfs.remove({filename:fname}}, function (err) {
+      gfs.remove({filename:fname}, function (err) {
         if (err) return console.log("REMOVE"+err);
         console.log('success');
       });
