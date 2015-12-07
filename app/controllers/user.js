@@ -8,6 +8,7 @@ var app=require('../app.js')
 var fs=require('fs')
 var path = require('path');
 
+
 // signup
 exports.showSignup = function(req, res) {
   res.render('signup', {

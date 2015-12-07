@@ -64,7 +64,6 @@ app.post("")//handle file upload indenpendently
 
 app.use(function(req,res,next){
   var token = req.body.token
-  console.log(req.body)
   //decode the token
   if(!token)
     return res.json({message:'Not Sign In'})
