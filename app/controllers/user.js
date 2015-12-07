@@ -9,49 +9,6 @@ var fs=require('fs')
 var path = require('path');
 
 // signup
-
-exports.upload=function(req, res) {
-  console.log("here")
-  var gfs=app.gg
-  console.log(req.file)
-  console.log(req.body)
-  var extension=req.body.ext
-  var userid=req.user._id
-  var fname=userid+'.'+extension  //file name to be stored
-  //remove if exist
-  gfs.exist({filename:fname}, function (err, found) {
-    if (err) return console.log(err);
-    if(found){
-      gfs.remove({filename:fname}, function (err) {
-        if (err) return console.log("REMOVE"+err);
-        console.log('success');
-      });
-    }
-  });
-  //write to DB
-  var writestream = gfs.createWriteStream({
-      filename: fname,
-      mode: 'w',
-      content_type: extension,
-      metadata: {
-        'client': "test",
-        'user': "test"
-      }
-    }
-  );
-  fs.createReadStream(path.join(__dirname, '../upload/'+fname)).pipe(writestream);
-  writestream.on('close', function (file) {
-    console.log("Write to DB successfully")
-    console.log(file.filename);
-  });
-
-  var readstream = gfs.createReadStream({filename:fname});
-  readstream.on('error', function (err) {
-      console.log('An error occurred!', err);
-  });
-  res.json({message:"Succeed"})
-}
-
 exports.showSignup = function(req, res) {
   res.render('signup', {
     title: '注册页面'

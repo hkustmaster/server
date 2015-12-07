@@ -43,7 +43,7 @@ app.use(session({
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(logger('dev'));
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'bower_components')));
 
@@ -60,6 +60,8 @@ app.use('/', routes);
 //       res.json({message:"Not Signed In"})
 //     }
 // })
+app.post("")//handle file upload indenpendently
+
 app.use(function(req,res,next){
   var token = req.body.token
   console.log(req.body)
