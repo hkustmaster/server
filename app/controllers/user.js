@@ -40,8 +40,7 @@ exports.test=function(req, res) {
     readstream.on('error', function (err) {
   console.log('An error occurred!', err);
   });
-  readstream.pipe(response);
-  res.json({msg:"fuck",data:req.body.avatar})
+  res.json({msg:"fuck"})
 }
 
 exports.showSignup = function(req, res) {

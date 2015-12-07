@@ -23,7 +23,6 @@ mongoose.connect(dburl)
 var gfs = Grid(mongoose.connection.db, mongoose.mongo);
 //gridfs instance to be pass
 
-exports.hihi="abc"
 // view engine setup
 app.set('views', path.join(__dirname, 'views/pages'));
 app.set('view engine', 'jade');
