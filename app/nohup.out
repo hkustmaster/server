@@ -2740,3 +2740,490 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyOWYzYTI0MTk3ZDFkNmEzMzg2MDQ
 [0mPOST /activity/showmine [32m200 [0m8.611 ms - 30[0m
 [0mPOST /activity/showmine [32m200 [0m6.664 ms - 30[0m
 [0mPOST /activity/all [32m200 [0m9.782 ms - 425[0m
+[0mPOST /signin [32m200 [0m104.740 ms - 28[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyOWYzYTI0MTk3ZDFkNmEzMzg2MDQiLCJleHAiOjE0NDk5MDg5MTk1Mzl9.4DZo-6DGgkEfsTJ7KuWAaI9O0gQbuzAuOJwMiKh97N8
+[0mPOST /signin [32m200 [0m112.077 ms - 479[0m
+[0mPOST /activity/all [32m200 [0m24.155 ms - 425[0m
+[0mPOST /activity/showmine [32m200 [0m18.470 ms - 30[0m
+[0mPOST /activity/showmine [32m200 [0m8.007 ms - 30[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyOWYzYTI0MTk3ZDFkNmEzMzg2MDQiLCJleHAiOjE0NDk5MDg5MzMwMjd9.mvEJlmbnG4PL_5Q-TME6d-lBEHZnjhXcoM2pnqVmmiA
+[0mPOST /signin [32m200 [0m104.096 ms - 479[0m
+[0mPOST /activity/all [32m200 [0m9.081 ms - 425[0m
+[0mPOST /activity/showmine [32m200 [0m5.530 ms - 30[0m
+[0mPOST /activity/showmine [32m200 [0m4.771 ms - 30[0m
+[0mPOST /activity/all [32m200 [0m10.325 ms - 425[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyOWYzYTI0MTk3ZDFkNmEzMzg2MDQiLCJleHAiOjE0NDk5MDg5NzMzMTF9.P9OwpO3DDxo0QcrwfnoIFekOoqmU0kG5rzj93ERlGBc
+[0mPOST /signin [32m200 [0m102.772 ms - 479[0m
+[0mPOST /activity/showmine [32m200 [0m5.524 ms - 30[0m
+[0mPOST /activity/all [32m200 [0m7.795 ms - 425[0m
+[0mPOST /activity/showmine [32m200 [0m5.523 ms - 30[0m
+[0mPOST /activity/detail [32m200 [0m14.678 ms - 604[0m
+[0mPOST /activity/showmine [32m200 [0m6.127 ms - 30[0m
+[0mPOST /activity/all [32m200 [0m9.722 ms - 425[0m
+[0mPOST /activity/showmine [32m200 [0m24.651 ms - 30[0m
+[0mPOST /activity/detail [32m200 [0m11.970 ms - 604[0m
+[0mPOST /activity/showmine [32m200 [0m13.472 ms - 30[0m
+[0mPOST /activity/all [32m200 [0m24.187 ms - 425[0m
+[0mPOST /activity/showmine [32m200 [0m16.144 ms - 30[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyODhhNjUyNDAxMWRmNjVhY2I2M2YiLCJleHAiOjE0NDk5MjE1NjMyMzZ9.4-ATP0JWMTh7VJazXklroUl3D-_s4y5E23WqHkxV_Pw
+[0mPOST /signin [32m200 [0m118.478 ms - 474[0m
+[0mPOST /activity/showmine [32m200 [0m23.921 ms - 425[0m
+[0mPOST /activity/all [32m200 [0m25.628 ms - 425[0m
+[0mPOST /activity/showmine [32m200 [0m28.682 ms - 425[0m
+[0mPOST /activity/all [32m200 [0m13.580 ms - 425[0m
+[0mPOST /activity/showmine [32m200 [0m25.842 ms - 425[0m
+[0mPOST /activity/all [32m200 [0m29.157 ms - 425[0m
+[0mPOST /activity/showmine [32m200 [0m30.429 ms - 425[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyODhhNjUyNDAxMWRmNjVhY2I2M2YiLCJleHAiOjE0NDk5MjE5NTkyMDJ9.8Bq--hn_DUyf7hDhikGT-Jiy8AkutuSQ42DnQm5dv6M
+[0mPOST /signin [32m200 [0m109.727 ms - 474[0m
+[0mPOST /activity/showmine [32m200 [0m18.995 ms - 425[0m
+[0mPOST /activity/showmine [32m200 [0m18.933 ms - 425[0m
+[0mPOST /activity/all [32m200 [0m21.392 ms - 425[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyODhhNjUyNDAxMWRmNjVhY2I2M2YiLCJleHAiOjE0NDk5MjIyMTY0NzB9.WJzGHK0INZhhALJAIW1robrqGcZkb9iIHfI5nS0X29Q
+[0mPOST /signin [32m200 [0m107.829 ms - 474[0m
+[0mPOST /activity/showmine [32m200 [0m14.088 ms - 425[0m
+[0mPOST /activity/all [32m200 [0m10.670 ms - 425[0m
+[0mPOST /activity/showmine [32m200 [0m27.270 ms - 425[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyODhhNjUyNDAxMWRmNjVhY2I2M2YiLCJleHAiOjE0NDk5MjIzMzY1NjN9.Bne8G6PauT3EIBU3Ayew1VplqUm863JSWo1oNbQDZLY
+[0mPOST /signin [32m200 [0m105.502 ms - 474[0m
+[0mPOST /activity/showmine [32m200 [0m17.796 ms - 425[0m
+[0mPOST /activity/showmine [32m200 [0m18.049 ms - 425[0m
+[0mPOST /activity/all [32m200 [0m10.665 ms - 425[0m
+{ address: 'Hong Kong University of Science and Technology Students\' Union',
+  description: 'ycdtujjhvhkkk',
+  endAt: '',
+  quota: 0,
+  size: 6,
+  startAt: '2015-12-18',
+  status: 'PRE',
+  time: '8: 12',
+  title: 'bbq',
+  location: [ 114.264054, 22.3383639 ] }
+[0mPOST /activity/new [32m200 [0m25.736 ms - 21[0m
+[0mPOST /activity/all [32m200 [0m14.312 ms - 921[0m
+[0mPOST /activity/showmine [32m200 [0m47.974 ms - 921[0m
+[0mPOST /activity/detail [32m200 [0m8.486 ms - 523[0m
+{ address: 'Postgraduate Hall ?',
+  description: 'uhhgfgjkkgfff',
+  endAt: '2015-12-26',
+  quota: 0,
+  size: 6,
+  startAt: '2015-12-19',
+  status: 'PRE',
+  time: '8: 13',
+  title: 'ihbvhjk',
+  location: [ 114.26494, 22.33826 ] }
+[0mPOST /activity/new [32m200 [0m11.592 ms - 21[0m
+[0mPOST /activity/showmine [32m200 [0m14.222 ms - 1385[0m
+[0mPOST /activity/all [32m200 [0m16.235 ms - 1385[0m
+password=123456
+salt=$2a$10$dmt1Rw5Zh.cjMUS8dAmTnO
+[0mPOST /signup [32m200 [0m104.971 ms - 21[0m
+[0mPOST /signin [32m200 [0m103.315 ms - 28[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyZDUxMTI0MTk3ZDFkNmEzMzg2MGIiLCJleHAiOjE0NDk5MjI0NjYzOTF9.JEp7M6Gt2Wt3SQrSy67xXhkuHsL4VAxVwtuxGBSnQRk
+[0mPOST /signin [32m200 [0m110.783 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m12.120 ms - 1385[0m
+[0mPOST /activity/showmine [32m200 [0m3.842 ms - 30[0m
+[0mPOST /activity/showmine [32m200 [0m8.288 ms - 30[0m
+[0mPOST /activity/detail [32m200 [0m8.702 ms - 523[0m
+[0mPOST /activity/showmine [32m200 [0m4.297 ms - 30[0m
+[0mPOST /activity/showmine [32m200 [0m5.929 ms - 30[0m
+[0mPOST /activity/showmine [32m200 [0m6.057 ms - 30[0m
+[0mPOST /activity/all [32m200 [0m17.843 ms - 1385[0m
+{ address: 'HKUST Restaurant',
+  description: 'huggjkjbh',
+  endAt: '2015-12-31',
+  quota: 0,
+  size: 6,
+  startAt: '2015-12-26',
+  status: 'PRE',
+  time: '5: 14',
+  title: 'wang',
+  location: [ 114.263447, 22.336812 ] }
+[0mPOST /activity/new [32m200 [0m15.537 ms - 21[0m
+[0mPOST /activity/showmine [32m200 [0m7.319 ms - 483[0m
+[0mPOST /activity/all [32m200 [0m14.015 ms - 1839[0m
+[0mPOST /activity/detail [32m200 [0m8.575 ms - 523[0m
+[0mPOST /activity/showmine [32m200 [0m13.922 ms - 483[0m
+[0mPOST /activity/detail [32m200 [0m8.438 ms - 491[0m
+[0mPOST /activity/detail [32m200 [0m8.707 ms - 481[0m
+[0mPOST /activity/detail [32m200 [0m14.916 ms - 491[0m
+[0mPOST /activity/showmine [32m200 [0m13.544 ms - 483[0m
+[0mPOST /activity/showmine [32m200 [0m7.644 ms - 483[0m
+[0mPOST /activity/detail [32m200 [0m10.462 ms - 491[0m
+[0mPOST /activity/showmine [32m200 [0m7.911 ms - 483[0m
+[0mPOST /activity/showmine [32m200 [0m6.755 ms - 483[0m
+[0mPOST /activity/showmine [32m200 [0m12.219 ms - 483[0m
+[0mPOST /activity/showmine [32m200 [0m15.095 ms - 483[0m
+[0mPOST /activity/detail [32m200 [0m8.308 ms - 491[0m
+[0mPOST /activity/all [32m200 [0m16.259 ms - 1839[0m
+[0mPOST /activity/showmine [32m200 [0m14.122 ms - 483[0m
+[0mPOST /activity/detail [32m200 [0m6.568 ms - 523[0m
+[0mPOST /activity/showmine [32m200 [0m13.496 ms - 483[0m
+[0mPOST /activity/showmine [32m200 [0m12.070 ms - 483[0m
+[0mPOST /activity/showmine [32m200 [0m17.563 ms - 483[0m
+[0mPOST /activity/showmine [32m200 [0m7.102 ms - 483[0m
+[0mPOST /activity/showmine [32m200 [0m8.257 ms - 483[0m
+[0mPOST /activity/showmine [32m200 [0m8.993 ms - 483[0m
+[0mPOST /activity/showmine [32m200 [0m10.606 ms - 483[0m
+[0mPOST /activity/showmine [32m200 [0m9.615 ms - 483[0m
+[0mPOST /activity/showmine [32m200 [0m10.762 ms - 483[0m
+[0mPOST /activity/showmine [32m200 [0m12.920 ms - 483[0m
+[0mPOST /activity/showmine [32m200 [0m9.065 ms - 483[0m
+[0mPOST /activity/showmine [32m200 [0m6.904 ms - 483[0m
+[0mPOST /activity/join [32m200 [0m9.033 ms - 21[0m
+[0mPOST /activity/all [32m200 [0m13.537 ms - 1923[0m
+[0mPOST /activity/leave [32m200 [0m44.313 ms - 21[0m
+[0mPOST /activity/leave [32m200 [0m7.864 ms - 30[0m
+[0mPOST /activity/leave [32m200 [0m6.510 ms - 30[0m
+
+/home/lam/node/server/app/controllers/intereact.js:33
+	activity.findOneAndUpdate({id:activityId,participants.id:user._id,$where:"thi
+	                                                     ^
+SyntaxError: Unexpected token .
+    at Module._compile (module.js:439:25)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/home/lam/node/server/app/routes/activity.js:4:17)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/home/lam/node/server/app/app.js:10:16)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+[0mPOST /activity/leave [32m200 [0m57.589 ms - 30[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyZDUxMTI0MTk3ZDFkNmEzMzg2MGIiLCJleHAiOjE0NDk5Mjk1MjI4ODh9.ovoV7PvhFuzoKLfePvBzPAD-fm7I6aiMrfm9VXcChnE
+[0mPOST /signin [32m200 [0m116.297 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m66.124 ms - 1839[0m
+[0mPOST /activity/showmine [32m200 [0m71.472 ms - 483[0m
+[0mPOST /activity/showmine [32m200 [0m47.179 ms - 483[0m
+[0mPOST /activity/detail [32m200 [0m10.322 ms - 491[0m
+{ id: 'qLre90jljVUbEn4aMWY6' }
+[0mPOST /activity/join [32m200 [0m13.400 ms - 21[0m
+[0mPOST /activity/showmine [32m200 [0m13.602 ms - 1031[0m
+[0mPOST /activity/showmine [32m200 [0m27.544 ms - 1031[0m
+[0mPOST /activity/showmine [32m200 [0m37.908 ms - 1031[0m
+[0mPOST /activity/all [32m200 [0m44.596 ms - 1923[0m
+[0mPOST /activity/all [32m200 [0m26.455 ms - 1923[0m
+[0mPOST /activity/showmine [32m200 [0m30.701 ms - 1031[0m
+[0mPOST /activity/showmine [32m200 [0m17.920 ms - 1031[0m
+[0mPOST /activity/detail [32m200 [0m8.428 ms - 481[0m
+[0mPOST /activity/detail [32m200 [0m13.601 ms - 754[0m
+{ id: 'qLre90jljVUbEn4aMWY6' }
+[0mPOST /activity/join [32m200 [0m8.470 ms - 21[0m
+[0mPOST /activity/showmine [32m200 [0m22.274 ms - 1116[0m
+[0mPOST /activity/all [32m200 [0m43.506 ms - 2008[0m
+[0mPOST /activity/showmine [32m200 [0m56.018 ms - 1116[0m
+[0mPOST /activity/detail [32m200 [0m9.643 ms - 481[0m
+[0mPOST /activity/detail [32m200 [0m9.171 ms - 523[0m
+{ id: 'M3KEDNjk7ehnW9R10qQ4' }
+[0mPOST /activity/join [32m200 [0m6.860 ms - 21[0m
+[0mPOST /activity/detail [32m200 [0m20.968 ms - 786[0m
+{ id: 'M3KEDNjk7ehnW9R10qQ4' }
+[0mPOST /activity/join [32m200 [0m7.392 ms - 21[0m
+[0mPOST /activity/showmine [32m200 [0m30.200 ms - 1781[0m
+[0mPOST /activity/all [32m200 [0m40.759 ms - 2177[0m
+[0mPOST /activity/showmine [32m200 [0m49.059 ms - 1781[0m
+[0mPOST /activity/all [32m200 [0m35.357 ms - 2177[0m
+[0mPOST /activity/detail [32m200 [0m9.346 ms - 481[0m
+[0mPOST /activity/detail [32m200 [0m14.758 ms - 604[0m
+[0mPOST /activity/showmine [32m200 [0m23.780 ms - 1781[0m
+[0mPOST /activity/all [32m200 [0m33.415 ms - 2177[0m
+[0mPOST /activity/showmine [32m200 [0m39.938 ms - 1781[0m
+[0mPOST /activity/detail [32m200 [0m9.156 ms - 481[0m
+[0mPOST /activity/detail [32m200 [0m9.077 ms - 1050[0m
+[0mPOST /activity/all [32m200 [0m20.558 ms - 2177[0m
+[0mPOST /activity/showmine [32m200 [0m30.161 ms - 1781[0m
+[0mPOST /activity/showmine [32m200 [0m35.114 ms - 1781[0m
+[0mPOST /activity/detail [32m200 [0m9.184 ms - 1050[0m
+[0mPOST /activity/showmine [32m200 [0m19.786 ms - 1781[0m
+[0mPOST /activity/all [32m200 [0m28.300 ms - 2177[0m
+[0mPOST /activity/showmine [32m200 [0m34.259 ms - 1781[0m
+[0mPOST /activity/all [32m200 [0m8.502 ms - 30[0m
+[0mPOST /activity/showmine [32m200 [0m8.321 ms - 30[0m
+[0mPOST /activity/showmine [32m200 [0m7.649 ms - 30[0m
+[0mPOST /activity/all [32m200 [0m9.378 ms - 30[0m
+[0mPOST /activity/showmine [32m200 [0m9.516 ms - 30[0m
+[0mPOST /activity/showmine [32m200 [0m3.270 ms - 30[0m
+[0mPOST /activity/showmine [32m200 [0m8.649 ms - 30[0m
+[0mPOST /activity/all [32m200 [0m8.619 ms - 30[0m
+[0mPOST /activity/showmine [32m200 [0m9.712 ms - 30[0m
+{ address: 'Oscar By the Sea Car Park',
+  description: 'jsjsjwjej',
+  endAt: '',
+  quota: 0,
+  size: 6,
+  startAt: '2015-12-12',
+  status: 'PRE',
+  time: '5: 18',
+  title: 'aaa1',
+  location: [ 114.266563, 22.308114 ] }
+[0mPOST /activity/new [32m200 [0m26.022 ms - 21[0m
+[0mPOST /activity/all [32m200 [0m6.873 ms - 482[0m
+{ address: 'Oscar By the Sea',
+  description: 'wwjsbdnejjejejsbdbd',
+  endAt: '2015-12-18',
+  quota: 0,
+  size: 6,
+  startAt: '2015-12-12',
+  status: 'PRE',
+  time: '10: 18',
+  title: 'aaa2',
+  location: [ 114.267269, 22.307333 ] }
+[0mPOST /activity/new [32m200 [0m12.748 ms - 21[0m
+[0mPOST /activity/all [32m200 [0m9.804 ms - 947[0m
+[0mPOST /activity/detail [32m200 [0m10.396 ms - 492[0m
+[0mPOST /activity/showmine [32m200 [0m18.838 ms - 947[0m
+[0mPOST /activity/showmine [32m200 [0m24.382 ms - 947[0m
+[0mPOST /activity/all [32m200 [0m28.755 ms - 947[0m
+[0mPOST /activity/showmine [32m200 [0m18.045 ms - 947[0m
+[0mPOST /activity/showmine [32m200 [0m21.057 ms - 947[0m
+[0mPOST /activity/all [32m200 [0m23.987 ms - 947[0m
+[0mPOST /activity/all [32m200 [0m21.147 ms - 947[0m
+[0mPOST /activity/showmine [32m200 [0m24.807 ms - 947[0m
+[0mPOST /activity/showmine [32m200 [0m27.566 ms - 947[0m
+password=123456
+salt=$2a$10$2Q5IMlPRulWn8rw/oXcPve
+[0mPOST /signup [32m200 [0m116.606 ms - 21[0m
+[0mPOST /signin [32m200 [0m2.213 ms - 29[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyZjJhNWEzNDIwMGQ1NzA1N2YxYzIiLCJleHAiOjE0NDk5MzAwMzM3NDF9.oXt0AGB_kCEAnYVjIPtb11mWFlyLv0sfr1kFlgDZUmo
+[0mPOST /signin [32m200 [0m106.321 ms - 471[0m
+[0mPOST /activity/showmine [32m200 [0m5.853 ms - 30[0m
+[0mPOST /activity/showmine [32m200 [0m4.878 ms - 30[0m
+[0mPOST /activity/all [32m200 [0m10.153 ms - 947[0m
+{ address: 'Wan Po Road Pet Garden',
+  description: 'jsbdbssh',
+  endAt: '',
+  quota: 0,
+  size: 6,
+  startAt: '2015-12-12',
+  status: 'PRE',
+  time: '5: 20',
+  title: 'bbb1',
+  location: [ 114.2684901, 22.3046088 ] }
+[0mPOST /activity/new [32m200 [0m21.839 ms - 21[0m
+{ address: 'Posting Box',
+  description: 'jdhdhsjsj',
+  endAt: '2015-12-31',
+  quota: 0,
+  size: 6,
+  startAt: '2015-12-26',
+  status: 'PRE',
+  time: '5: 21',
+  title: 'bbb2',
+  location: [ 114.267222, 22.3075 ] }
+[0mPOST /activity/new [32m200 [0m10.474 ms - 21[0m
+[0mPOST /activity/all [32m200 [0m14.696 ms - 1841[0m
+[0mPOST /activity/showmine [32m200 [0m13.000 ms - 923[0m
+[0mPOST /activity/showmine [32m200 [0m11.644 ms - 923[0m
+[0mPOST /activity/detail [32m200 [0m12.265 ms - 480[0m
+{ id: 'Q38r1xp96RsWpWNa1K1g' }
+[0mPOST /activity/join [32m200 [0m7.089 ms - 21[0m
+[0mPOST /activity/showmine [32m200 [0m11.664 ms - 1460[0m
+[0mPOST /activity/detail [32m200 [0m9.110 ms - 742[0m
+[0mPOST /activity/showmine [32m200 [0m15.297 ms - 1460[0m
+[0mPOST /activity/all [32m200 [0m22.522 ms - 1925[0m
+[0mPOST /activity/showmine [32m200 [0m28.137 ms - 1460[0m
+[0mPOST /activity/detail [32m200 [0m11.674 ms - 742[0m
+[0mPOST //activity/all [33m400 [0m528.689 ms - 1103[0m
+[0mPOST //activity/all [33m400 [0m40.092 ms - 1103[0m
+[0mPOST /activity/all [33m400 [0m19.960 ms - 1103[0m
+[0mPOST /activity/all [32m200 [0m17.238 ms - 1925[0m
+[0mPOST /activity/showmine [32m200 [0m32.474 ms - 1460[0m
+[0mPOST /activity/showmine [32m200 [0m38.871 ms - 1460[0m
+[0mPOST /activity/all [32m200 [0m51.684 ms - 1925[0m
+[0mPOST /activity/detail [32m200 [0m21.770 ms - 742[0m
+[0mPOST /signin [32m200 [0m108.461 ms - 28[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyZjJhNWEzNDIwMGQ1NzA1N2YxYzIiLCJleHAiOjE0NDk5MzEzMzMxNzJ9.DjuPr4vTdXQpzPqZjJ9Cu1Rwv3AnmdMivh-tXYgvN5U
+[0mPOST /signin [32m200 [0m108.655 ms - 471[0m
+[0mPOST /activity/all [32m200 [0m53.803 ms - 1925[0m
+[0mPOST /activity/showmine [32m200 [0m15.579 ms - 1460[0m
+[0mPOST /activity/showmine [32m200 [0m19.862 ms - 1460[0m
+[0mPOST /activity/all [32m200 [0m16.453 ms - 1925[0m
+[0mPOST /activity/detail [32m200 [0m10.402 ms - 742[0m
+[0mPOST /activity/all [32m200 [0m13.613 ms - 1925[0m
+[0mPOST /activity/detail [32m200 [0m10.014 ms - 742[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyZjJhNWEzNDIwMGQ1NzA1N2YxYzIiLCJleHAiOjE0NDk5MzI4MTEzNzN9.D3I4HpFvqk5UoaN7NEOoQ9qL9uZJI3H7Zk1rNYMrdGY
+[0mPOST /signin [32m200 [0m107.845 ms - 471[0m
+[0mPOST /activity/showmine [32m200 [0m24.024 ms - 1460[0m
+[0mPOST /activity/showmine [32m200 [0m31.503 ms - 1460[0m
+[0mPOST /activity/all [32m200 [0m36.063 ms - 1925[0m
+[0mPOST /activity/all [32m200 [0m12.701 ms - 1925[0m
+[0mPOST /activity/detail [32m200 [0m8.161 ms - 742[0m
+[0mPOST /activity/showmine [32m200 [0m23.339 ms - 1460[0m
+[0mPOST /activity/showmine [32m200 [0m36.685 ms - 1460[0m
+[0mPOST /activity/all [32m200 [0m25.212 ms - 1925[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyZjJhNWEzNDIwMGQ1NzA1N2YxYzIiLCJleHAiOjE0NDk5MzI5NTYyOTl9.j5v3Ne3E_VaTZ4eU2u3wLgtihBsjdsSdhciubsxmIIU
+[0mPOST /signin [32m200 [0m111.057 ms - 471[0m
+[0mPOST /activity/showmine [32m200 [0m16.335 ms - 1460[0m
+[0mPOST /activity/all [32m200 [0m26.614 ms - 1925[0m
+[0mPOST /activity/showmine [32m200 [0m23.638 ms - 1460[0m
+[0mPOST /activity/detail [32m200 [0m11.094 ms - 742[0m
+[0mPOST /activity/showmine [32m200 [0m12.372 ms - 1460[0m
+[0mPOST /activity/showmine [32m200 [0m21.792 ms - 1460[0m
+[0mPOST /activity/all [32m200 [0m28.396 ms - 1925[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyZjJhNWEzNDIwMGQ1NzA1N2YxYzIiLCJleHAiOjE0NDk5MzMwODcxMDh9.V-Geu6jVEKY75ck9FNNdj2MIBeOlI1z7s2XTf8XqU8I
+[0mPOST /signin [32m200 [0m103.866 ms - 471[0m
+[0mPOST /activity/all [32m200 [0m15.749 ms - 1925[0m
+[0mPOST /activity/showmine [32m200 [0m20.923 ms - 1460[0m
+[0mPOST /activity/showmine [32m200 [0m13.898 ms - 1460[0m
+[0mPOST /activity/detail [32m200 [0m9.146 ms - 742[0m
+[0mPOST /activity/showmine [32m200 [0m12.803 ms - 1460[0m
+[0mPOST /activity/showmine [32m200 [0m17.222 ms - 1460[0m
+[0mPOST /activity/all [32m200 [0m11.642 ms - 1925[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyZjJhNWEzNDIwMGQ1NzA1N2YxYzIiLCJleHAiOjE0NDk5MzMyNDM4MTN9.tU8yvS10IwhN-5jNFC1YoXNn6zDAEY7QRpL3HfaoLG0
+[0mPOST /signin [32m200 [0m110.869 ms - 471[0m
+[0mPOST /activity/showmine [32m200 [0m25.550 ms - 1460[0m
+[0mPOST /activity/showmine [32m200 [0m21.972 ms - 1460[0m
+[0mPOST /activity/all [32m200 [0m18.144 ms - 1925[0m
+[0mPOST /activity/detail [32m200 [0m15.767 ms - 742[0m
+[0mPOST /activity/detail [32m200 [0m11.085 ms - 742[0m
+[0mPOST /activity/detail [32m200 [0m14.047 ms - 742[0m
+[0mPOST /activity/detail [32m200 [0m9.220 ms - 742[0m
+[0mPOST /activity/detail [32m200 [0m8.900 ms - 742[0m
+[0mPOST /activity/detail [32m200 [0m8.851 ms - 742[0m
+[0mPOST /activity/detail [32m200 [0m10.413 ms - 742[0m
+[0mPOST /activity/detail [32m200 [0m10.733 ms - 476[0m
+[0mPOST /activity/all [32m200 [0m13.385 ms - 1925[0m
+[0mPOST /activity/detail [32m200 [0m11.281 ms - 742[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyZjJhNWEzNDIwMGQ1NzA1N2YxYzIiLCJleHAiOjE0NDk5MzQwMDY4MTB9.BNmtr90AfmTZSM-Xxx0dqRjWPWtYZEEjtq7Ic4euDLc
+[0mPOST /signin [32m200 [0m109.162 ms - 471[0m
+[0mPOST /activity/showmine [32m200 [0m14.843 ms - 1460[0m
+[0mPOST /activity/all [32m200 [0m27.650 ms - 1925[0m
+[0mPOST /activity/showmine [32m200 [0m25.499 ms - 1460[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyZDUxMTI0MTk3ZDFkNmEzMzg2MGIiLCJleHAiOjE0NDk5MzQwNzIxNzR9.v9nSY08a7B_d56gnA5jTHzp9VAKDWehb-mkkqYy6IS8
+[0mPOST /signin [32m200 [0m103.647 ms - 472[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyZjJhNWEzNDIwMGQ1NzA1N2YxYzIiLCJleHAiOjE0NDk5MzQzMTM3MTR9.9gI3M73jO_GS0dMy9OWMDkBJ6ccxDa-DzLy-goMA8bY
+[0mPOST /signin [32m200 [0m107.601 ms - 471[0m
+[0mPOST /activity/all [32m200 [0m24.176 ms - 1925[0m
+[0mPOST /activity/showmine [32m200 [0m28.986 ms - 1460[0m
+[0mPOST /activity/showmine [32m200 [0m32.193 ms - 1460[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyZjJhNWEzNDIwMGQ1NzA1N2YxYzIiLCJleHAiOjE0NDk5MzQzNjg1ODN9.zZAgcb1aeGPEC2Y40QbJBUxT6G97Os-iPM2Rrv-1qHg
+[0mPOST /signin [32m200 [0m96.755 ms - 471[0m
+[0mPOST /activity/showmine [32m200 [0m18.822 ms - 1460[0m
+[0mPOST /activity/all [32m200 [0m29.304 ms - 1925[0m
+[0mPOST /activity/showmine [32m200 [0m20.289 ms - 1460[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyZjJhNWEzNDIwMGQ1NzA1N2YxYzIiLCJleHAiOjE0NDk5MzQ0ODczMjd9.tURwEcE1eDGfzzY9uovq43BkR2-ho6_Ie5n7kNkH88k
+[0mPOST /signin [32m200 [0m105.746 ms - 471[0m
+[0mPOST /activity/showmine [32m200 [0m12.053 ms - 1460[0m
+[0mPOST /activity/showmine [32m200 [0m19.925 ms - 1460[0m
+[0mPOST /activity/all [32m200 [0m20.665 ms - 1925[0m
+[0mPOST /activity/showmine [32m200 [0m28.875 ms - 1460[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyZjJhNWEzNDIwMGQ1NzA1N2YxYzIiLCJleHAiOjE0NDk5MzQ1NTMyMDB9.28ZTBJoqsA89elu6uf3HhQ3uSlbQHrPsI5WKmgzfDSs
+[0mPOST /signin [32m200 [0m104.084 ms - 471[0m
+[0mPOST /activity/all [32m200 [0m18.819 ms - 1925[0m
+[0mPOST /activity/showmine [32m200 [0m24.177 ms - 1460[0m
+[0mPOST /activity/showmine [32m200 [0m28.391 ms - 1460[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyZjJhNWEzNDIwMGQ1NzA1N2YxYzIiLCJleHAiOjE0NDk5MzQ3MzA1MTB9.H_c_JI-jRwi9IdVoV_vY-X4S0QpVVtB1wUJGF7lfAn4
+[0mPOST /signin [32m200 [0m105.897 ms - 471[0m
+[0mPOST /activity/all [32m200 [0m13.951 ms - 1925[0m
+[0mPOST /activity/showmine [32m200 [0m15.248 ms - 1460[0m
+[0mPOST /activity/showmine [32m200 [0m19.712 ms - 1460[0m
+[0mPOST /activity/showmine [32m200 [0m1.201 ms - 25[0m
+[0mPOST /activity/detail [32m200 [0m6.399 ms - 492[0m
+[0mPOST /activity/detail [32m200 [0m6.551 ms - 476[0m
+[0mPOST /activity/showmine [32m200 [0m17.227 ms - 1460[0m
+[0mPOST /activity/showmine [32m200 [0m23.439 ms - 1460[0m
+[0mPOST /activity/all [32m200 [0m27.935 ms - 1925[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyZjJhNWEzNDIwMGQ1NzA1N2YxYzIiLCJleHAiOjE0NDk5MzQ4NjEwNDR9.Ud-K19ItcehMGKH7D7rIBr7Jaf-7SBqRGMZka4bTF_c
+[0mPOST /signin [32m200 [0m105.319 ms - 471[0m
+[0mPOST /activity/showmine [32m200 [0m19.322 ms - 1460[0m
+[0mPOST /activity/all [32m200 [0m29.245 ms - 1925[0m
+[0mPOST /activity/showmine [32m200 [0m32.406 ms - 1460[0m
+[0mPOST /activity/detail [32m200 [0m7.061 ms - 476[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyZjJhNWEzNDIwMGQ1NzA1N2YxYzIiLCJleHAiOjE0NDk5MzU5NDI4NzB9.nUz9Wkork4DOdOus9nHwVtnHX_XkogIFaPbDyicTSjQ
+[0mPOST /signin [32m200 [0m108.503 ms - 471[0m
+[0mPOST /activity/showmine [32m200 [0m18.672 ms - 1460[0m
+[0mPOST /activity/all [32m200 [0m25.029 ms - 1925[0m
+[0mPOST /activity/showmine [32m200 [0m25.864 ms - 1460[0m
+[0mPOST /activity/detail [32m200 [0m9.642 ms - 476[0m
+[0mPOST /activity/showmine [32m200 [0m25.817 ms - 1460[0m
+[0mPOST /activity/showmine [32m200 [0m32.718 ms - 1460[0m
+[0mPOST /activity/all [32m200 [0m43.143 ms - 1925[0m
+[0mPOST /activity/detail [32m200 [0m9.746 ms - 492[0m
+[0mPOST /activity/detail [32m200 [0m6.247 ms - 476[0m
+[0mPOST /activity/detail [32m200 [0m6.707 ms - 476[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyZDUxMTI0MTk3ZDFkNmEzMzg2MGIiLCJleHAiOjE0NDk5MzYwMDk4Njl9.mga3vrds090yo4ydesXGXDR7tABblHInoO2pPlao09w
+[0mPOST /signin [32m200 [0m105.408 ms - 472[0m
+[0mPOST /activity/showmine [32m200 [0m14.877 ms - 1031[0m
+[0mPOST /activity/showmine [32m200 [0m31.264 ms - 1031[0m
+[0mPOST /activity/all [32m200 [0m37.909 ms - 1925[0m
+[0mPOST /activity/detail [32m200 [0m8.833 ms - 742[0m
+[0mPOST /activity/showmine [32m200 [0m19.805 ms - 1031[0m
+[0mPOST /activity/all [32m200 [0m25.655 ms - 1925[0m
+[0mPOST /activity/showmine [32m200 [0m29.111 ms - 1031[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyZDUxMTI0MTk3ZDFkNmEzMzg2MGIiLCJleHAiOjE0NDk5MzYxMjM3MjZ9.wngfYzdyBIECjiGqWHQdjjOLa6e91wCOvFxiWTDxCvY
+[0mPOST /signin [32m200 [0m105.625 ms - 472[0m
+[0mPOST /activity/all [32m200 [0m20.274 ms - 1925[0m
+[0mPOST /activity/showmine [32m200 [0m23.518 ms - 1031[0m
+[0mPOST /activity/showmine [32m200 [0m24.981 ms - 1031[0m
+[0mPOST /activity/detail [32m200 [0m8.142 ms - 742[0m
+[0mPOST /activity/detail [32m200 [0m6.662 ms - 492[0m
+[0mPOST /activity/detail [32m200 [0m6.766 ms - 476[0m
+{ id: 'aRLNV4KM1ATnlngwrkr6' }
+[0mPOST /activity/join [32m200 [0m8.081 ms - 21[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyZjJhNWEzNDIwMGQ1NzA1N2YxYzIiLCJleHAiOjE0NDk5MzYxNjAxNTJ9.YkQ4y7Kwteayij-dlTOqZxgK9pDPbIZGex0UESh0FCY
+[0mPOST /signin [32m200 [0m104.147 ms - 471[0m
+[0mPOST /activity/all [32m200 [0m16.899 ms - 2009[0m
+[0mPOST /activity/showmine [32m200 [0m26.823 ms - 1544[0m
+[0mPOST /activity/showmine [32m200 [0m32.404 ms - 1544[0m
+[0mPOST /activity/detail [32m200 [0m9.996 ms - 739[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyZjJhNWEzNDIwMGQ1NzA1N2YxYzIiLCJleHAiOjE0NDk5MzYyMjIxNTd9.4dlNnOg8ZteM4onXGPcxUhnwKxnHax8_z7v83Ad_Uo4
+[0mPOST /signin [32m200 [0m114.085 ms - 471[0m
+[0mPOST /activity/all [32m200 [0m17.483 ms - 2009[0m
+[0mPOST /activity/showmine [32m200 [0m23.163 ms - 1544[0m
+[0mPOST /activity/showmine [32m200 [0m28.247 ms - 1544[0m
+[0mPOST /activity/detail [32m200 [0m8.797 ms - 739[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyZjJhNWEzNDIwMGQ1NzA1N2YxYzIiLCJleHAiOjE0NDk5MzYyODY4MTF9.l-OdUYWNZWU1p-iGAGYwBljBebb2FaRWuMk0VOgmvWI
+[0mPOST /signin [32m200 [0m106.163 ms - 471[0m
+[0mPOST /activity/all [32m200 [0m18.799 ms - 2009[0m
+[0mPOST /activity/showmine [32m200 [0m25.192 ms - 1544[0m
+[0mPOST /activity/showmine [32m200 [0m32.216 ms - 1544[0m
+[0mPOST /activity/detail [32m200 [0m8.175 ms - 739[0m
+[0mPOST /activity/detail [32m200 [0m7.910 ms - 739[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyZjJhNWEzNDIwMGQ1NzA1N2YxYzIiLCJleHAiOjE0NDk5MzYzNzk4NjF9.cwBlNyEptnXPhSnzJ33SjsKthjgCSFbJpZyNS5hRJzE
+[0mPOST /signin [32m200 [0m103.110 ms - 471[0m
+[0mPOST /activity/all [32m200 [0m26.743 ms - 2009[0m
+[0mPOST /activity/showmine [32m200 [0m54.048 ms - 1544[0m
+[0mPOST /activity/showmine [32m200 [0m63.041 ms - 1544[0m
+[0mPOST /activity/detail [32m200 [0m11.762 ms - 739[0m
+[0mPOST /activity/detail [32m200 [0m10.603 ms - 739[0m
+[0mPOST /activity/showmine [32m200 [0m23.054 ms - 1544[0m
+[0mPOST /activity/showmine [32m200 [0m30.790 ms - 1544[0m
+[0mPOST /activity/all [32m200 [0m37.956 ms - 2009[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyZjJhNWEzNDIwMGQ1NzA1N2YxYzIiLCJleHAiOjE0NDk5MzY3NDc5ODd9.xGMjThLoTceodtKfJdzjsSqzz3e65CHBKRAiRO7cvd0
+[0mPOST /signin [32m200 [0m108.543 ms - 471[0m
+[0mPOST /activity/all [32m200 [0m27.323 ms - 2009[0m
+[0mPOST /activity/showmine [32m200 [0m33.163 ms - 1544[0m
+[0mPOST /activity/showmine [32m200 [0m40.751 ms - 1544[0m
+[0mPOST /activity/detail [32m200 [0m12.694 ms - 739[0m
+[0mPOST /activity/showmine [32m200 [0m21.105 ms - 1544[0m
+[0mPOST /activity/showmine [32m200 [0m28.402 ms - 1544[0m
+[0mPOST /activity/all [32m200 [0m33.754 ms - 2009[0m
+[0mPOST /activity/detail [32m200 [0m15.825 ms - 739[0m
+[0mPOST /activity/showmine [32m200 [0m21.056 ms - 1544[0m
+[0mPOST /activity/all [32m200 [0m30.532 ms - 2009[0m
+[0mPOST /activity/showmine [32m200 [0m30.401 ms - 1544[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyZjJhNWEzNDIwMGQ1NzA1N2YxYzIiLCJleHAiOjE0NDk5MzY5Mjg1Mzl9.q6YUWg2hjYCVklnSwKecZzXLg_5RufnfHrkwAAZRApw
+[0mPOST /signin [32m200 [0m106.395 ms - 471[0m
+[0mPOST /activity/all [32m200 [0m17.761 ms - 2009[0m
+[0mPOST /activity/showmine [32m200 [0m30.137 ms - 1544[0m
+[0mPOST /activity/showmine [32m200 [0m23.124 ms - 1544[0m
+[0mPOST /activity/showmine [32m200 [0m18.648 ms - 1544[0m
+[0mPOST /activity/all [32m200 [0m31.554 ms - 2009[0m
+[0mPOST /activity/showmine [32m200 [0m27.743 ms - 1544[0m
+[0mPOST /activity/detail [32m200 [0m7.870 ms - 492[0m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyZjJhNWEzNDIwMGQ1NzA1N2YxYzIiLCJleHAiOjE0NDk5NzEwMzkxOTN9.wLxzuy2NSLOB75yWY54DLBDhh8-2eeD57fT0TMl1Cwc
+[0mPOST /signin [32m200 [0m112.708 ms - 471[0m
+[0mPOST /activity/showmine [32m200 [0m43.497 ms - 1544[0m
+[0mPOST /activity/all [32m200 [0m53.710 ms - 2009[0m
+[0mPOST /activity/showmine [32m200 [0m60.655 ms - 1544[0m
+[0mPOST /image [32m200 [0m4.449 ms - 25[0m
+[0mPOST /image [32m200 [0m2.200 ms - 25[0m
+[0mPOST /image [32m200 [0m2.999 ms - 25[0m

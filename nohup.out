@@ -351,3 +351,18 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjYyNTAyY2ZhMGRmYmRhNWQyODVhNjc
 [0mPOST /activity/showmine [32m200 [0m7.642 ms - 30[0m
 [0mPOST /activity/showmine [32m200 [0m8.529 ms - 30[0m
 [0mPOST /activity/all [32m200 [0m16.010 ms - 298[0m
+[0mGET / [31m500 [0m565.143 ms - 2162[0m
+[0mGET /bootstrap/dist/bootstrap.min.js [32m200 [0m4.367 ms - 25[0m
+[0mGET /bootstrap/dist/css/bootstrap.min.css [32m200 [0m10.305 ms - 122540[0m
+[0mGET /jquery/dist/jquery.min.js [36m304 [0m2.261 ms - -[0m
+[0mGET / [31m500 [0m52.938 ms - 2162[0m
+[0mGET /bootstrap/dist/bootstrap.min.js [36m304 [0m4.128 ms - -[0m
+[0mGET /jquery/dist/jquery.min.js [36m304 [0m1.536 ms - -[0m
+[0mGET /bootstrap/dist/css/bootstrap.min.css [36m304 [0m1.233 ms - -[0m
+
+/home/lam/node/server/app/controllers/user.js:141
+        gfs.files.find({ filename: user.email }).toArray(function (err, files)
+        ^
+ReferenceError: gfs is not defined
+    at /home/lam/node/server/app/controllers/user.js:141:9
+    at /home/lam/node/server/app/schemas/user.js:55:7

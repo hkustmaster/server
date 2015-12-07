@@ -10,7 +10,7 @@ var Comment = new require('../models/comment')
 exports.joinActivity=function(req,res,next){
 	var activityId=req.body.id
 	var user=req.user
-
+console.log(req.body)
 	activity.findOneAndUpdate({id:activityId,quota:{$gt:0}},{$addToSet:{participants:{id:user._id,availdableAt:""}},$inc:{quota:-1}},function(err,act){
 		if(err){
 console.log(err)
@@ -30,7 +30,7 @@ exports.leaveActivity=function(req,res,next){
 	var activityId=req.body.id
 	var user=req.user
 
-	activity.findOneAndUpdate({id:activityId,$where:"this.quota<this.size"},{$pull:{participants:{id:user._id}},$inc:{quota:1}},function(err,act){
+	activity.findOneAndUpdate({id:activityId,"participants.id":user._id,$where:"this.quota<this.size"},{$pull:{participants:{id:user._id}},$inc:{quota:1}},function(err,act){
 		if(err){
 console.log(err)
 			res.json({message:"Server Error"})
