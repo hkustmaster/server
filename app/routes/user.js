@@ -15,6 +15,7 @@ var storage = multer.diskStorage({
 
 var upload = multer({ 
 	storage: storage,
+
 	onFileUploadStart:function(file){
 		console.log("upload start");
 	},
@@ -25,7 +26,7 @@ var upload = multer({
 })
 
 
-router.post('/avatar',User.avatar)
+router.post('/avatar',upload.single("picc"),User.upload)
 router.post('/edit',User.edit)
 router.post('/detail',User.getInfo)
 module.exports =router
