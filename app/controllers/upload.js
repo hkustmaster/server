@@ -6,7 +6,6 @@ var jwt = require('jwt-simple');
 var moment=require('moment')
 var tokenKey='together';
 var app=require('../app.js')
-var index=require('../routes/index.js')
 var fs=require('fs')
 var jwt = require('jwt-simple');
 var path = require('path');
@@ -18,7 +17,7 @@ exports.upload=function(req, res) {
   console.log(req.file)
   console.log(req.body)
   var extension=req.body.ext
-  var userid=index.userid
+  var userid=req.user._id
   console.log("PASS"+userid)
   var fname=userid+'.'+extension  //file name to be stored
   //remove if exist
