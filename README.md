@@ -79,6 +79,10 @@ POST /activity/leave
 {token:"",id""}
 return {message:}
 
+vote:
+POST /activity/vote
+{token:"",actid:"",vote:String}
+return {message:}
 
 投票：1. 更新participant记录
 

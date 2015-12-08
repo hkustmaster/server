@@ -34,7 +34,6 @@ var activitySchema = new mongoose.Schema({
       default: Date.now()
     },
     pic:[{type:ObjectId}]
-
 })
 activitySchema.set('collection', 'activity');
 activitySchema.index({location: '2dsphere'});

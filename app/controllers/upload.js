@@ -32,7 +32,6 @@ var upload = multer({
    console.log("filter got!!!!!!! "+req.body.token)
     //decode the token
     if(!token){
-      app.locals.token=0  //not sign in
       return cb(null, false)
     }
     try{
@@ -47,15 +46,12 @@ var upload = multer({
     else
       User.findOne({ _id: decoded._id }, function(err, user) {
         if (err){
-          app.locals.token=2
           return cb(null, false)
         }
         else if(!user){
-          app.locals.token=1
           return cb(null, false)
         }
         else{
-          app.locals.token=3
           req.user = user;
           delete req.body.token
           cb(null, true)
@@ -74,8 +70,6 @@ exports.upload=function(req, res) {
       console.log(err)
       return  res.json({message:"Upload Error"})
     }
-    if(app.locals.token==0||app.locals.token==1||app.locals.token==2)
-    return res.json({message:"Error Type"+app.locals.token})
   console.log("Store")
   var gfs=app.gg
   console.log(req.file)
@@ -141,10 +135,66 @@ exports.getAvatar=function(req, res) {
   })
 }
 
+var afname
+var astorage = multer.diskStorage({
+  destination: function (req, file, cb) {
+    cb(null, path.join(__dirname, '../upload'))
+  },
+  filename: function (req, file, cb) {
+    console.log("test body"+req.body.token+"file"+file)
+    afname=req.actid+req.user._id+file.originalname
+    cb(null, afname)
+  }
+})-
+
+var aupload = multer({
+ fileFilter:function (req, file, cb) {
+  // The function should call `cb` with a boolean
+  // to indicate if the file should be accepted
+   var token = req.body.token
+   console.log("filter got!!!!!!! "+req.body.token+req.body.actid)
+    //decode the token
+    if(!token){
+      return cb(null, false)
+    }
+    try{
+      var decoded = jwt.decode(token, tokenKey);
+    }catch(e){
+      return cb(null, false)
+    }
+
+    if (decoded.exp <= Date.now()) {
+      return cb(null, false)
+    }
+    else
+      User.findOne({ _id: decoded._id }, function(err, user) {
+        if (err){
+          return cb(null, false)
+        }
+        else if(!user){
+          return cb(null, false)
+        }
+        else{ //user exists, check authentication now
+          req.user = user;
+          delete req.body.token
+          req.actid=req.body.actid
+          activity.findOne({$and:[{id:req.body.actid},{$or:[{host:user._id},{"participants.id":user._id}]}]},function(err,act){
+
+          })
+
+          cb(null, true)
+        }
+      })
+  }, 
+  storage: storage
+}).single("picc")
+
+
+
+
 exports.uploadPic=function(req, res) {
-  if(app.locals.token==0||app.locals.token==1||app.locals.token==2)
-    return res.json({message:"Error Type"+app.locals.token})
-  console.log("Store")
+
+  console.log("Store activity photo")
   var gfs=app.gg
   console.log(req.file)
   console.log(req.body)
