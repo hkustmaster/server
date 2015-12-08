@@ -65,7 +65,7 @@ exports.upload=function(req, res) {
 }
 
 exports.getAvatar=function(req, res) {
-  User.findOne({_id:req.user,_id},function(err,usr){
+  User.findOne({_id:req.user._id},function(err,usr){
     if(err)
       console.log(err)
     var readstream = gfs.createReadStream({_id:usr.avatar});
