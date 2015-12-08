@@ -50,7 +50,8 @@ exports.upload=function(req, res) {
     console.log("Write to DB successfully")
     fs.unlink('../upload/'+fname, function(err){
       if(err)
-        console.log("delete temp err")
+
+        console.log("delete temp err"+err)
       else
         console.log("delete temp done")
     })  //delete temp file
