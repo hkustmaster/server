@@ -8,9 +8,11 @@ var Upload = require('../controllers/upload');
 var tokenKey='together';
 
 /* File upload */
+
 var multer  = require('multer')
 var path = require('path');
 var jwt = require('jwt-simple');
+var userid;
 var storage = multer.diskStorage({
   destination: function (req, file, cb) {
     cb(null, path.join(__dirname, '../upload'))
@@ -33,13 +35,13 @@ var storage = multer.diskStorage({
 	        return res.json({message:'Invaild Token'})
 	      }
 	      else{
-	        req.user = user;
+	        userid = user._id;
 		    delete req.body.token
 	        next()
 	      }
 	    });
   	console.log("test body"+req.body.token+"file"+file)
-    cb(null, req.user._id+'.'+req.body.ext)
+    cb(null, userid+'.'+req.body.ext)
   }
 })
 
@@ -57,5 +59,5 @@ router.get('/signin', User.showSignin)
 router.get('/signup', User.showSignup)
 router.post('/user/avatar',upload.single("picc"),Upload.upload)
 //router.get('/logout', User.logout)
-
+exports.userid=userid
 module.exports = router;

@@ -1,48 +1,24 @@
 var mongoose = require('mongoose')
 var userSchema = require('../schemas/user')
+
 var User = mongoose.model('user',userSchema)
 var jwt = require('jwt-simple');
 var moment=require('moment')
 var tokenKey='together';
 var app=require('../app.js')
+var index=require('../routes/index.js')
 var fs=require('fs')
 var jwt = require('jwt-simple');
 var path = require('path');
 var tokenKey='together';
 
 
-exports.handletoken=function(req, res,next) {
-  console.log("Start handle")
-  var token = req.body.token
-  //decode the token
-  if(!token)
-    return res.json({message:'Not Sign In'})
-  var decoded = jwt.decode(token, tokenKey);
-  if (decoded.exp <= Date.now()) {
-    res.json({message:'Access token has expired,sign in again'});
-  }
-  else
-    User.findOne({ _id: decoded._id }, function(err, user) {
-      if (err){
-        return res.json({message:'Sever Error'})
-      }
-      else if(!user){
-        return res.json({message:'Invaild Token'})
-      }
-      else{
-        req.user = user;
-        delete req.body.token
-      }
-    });
-  next()
-}
-
 exports.upload=function(req, res) {
   var gfs=app.gg
   console.log(req.file)
   console.log(req.body)
   var extension=req.body.ext
-  var userid=req.user._id
+  var userid=index.userid
   var fname=userid+'.'+extension  //file name to be stored
   //remove if exist
   gfs.exist({filename:fname}, function (err, found) {
