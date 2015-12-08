@@ -27,12 +27,13 @@ var storage = multer.diskStorage({
     try{
     	var decoded = jwt.decode(token, tokenKey);
 	}catch(e){
-		app.locals.token=1 //invalid
+		return new Error("abc")
      	return new Error("abc")
 	}
 
   	if (decoded.exp <= Date.now()) {
-    	res.json({message:'Access token has expired,sign in again'});
+  		return new Error("abc")
+    	return new Error("abc")
   	}
   	else
 	    Usermodel.findOne({ _id: decoded._id }, function(err, user) {
@@ -65,7 +66,9 @@ var upload = multer({
 
 /* File upload */
 
-router.post('/user/avatar',upload.single("picc"),Upload.upload)
+router.post('/user/avatar',Upload.upload)
+
+
 
 
 
