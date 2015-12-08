@@ -27,6 +27,6 @@ router.post('/join',intereact.joinActivity);
 
 router.post('/leave',intereact.leaveActivity);
 
-router.post('vote',intereact.vote)
+router.post('/vote',intereact.vote)
 
 module.exports = router;
