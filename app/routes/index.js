@@ -22,13 +22,13 @@ var storage = multer.diskStorage({
   	//decode the token
   	if(!token){
   		app.locals.token=0  //not sign in
-  		return
+  		return new Error("abc")
   	}
     try{
     	var decoded = jwt.decode(token, tokenKey);
 	}catch(e){
 		app.locals.token=1 //invalid
-     	return
+     	return new Error("abc")
 	}
 
   	if (decoded.exp <= Date.now()) {
@@ -38,11 +38,11 @@ var storage = multer.diskStorage({
 	    Usermodel.findOne({ _id: decoded._id }, function(err, user) {
 	      if (err){
 	      	app.locals.token=2
-	        return
+	        return new Error("abc")
 	      }
 	      else if(!user){
 	      	app.locals.token=1
-	        return 
+	        return new Error("abc")
 	      }
 	      else{
 	      	app.locals.token=3
