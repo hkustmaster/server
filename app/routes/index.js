@@ -5,6 +5,10 @@ var router = express.Router();
 var User = require('../controllers/user')
 var tokenKey='together';
 var jwt = require('jwt-simple');
+var Upload = require('../controllers/upload');
+
+
+
 var multer  = require('multer')
 var path = require('path');
 var storage = multer.diskStorage({
