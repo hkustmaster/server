@@ -21,8 +21,14 @@ var storage = multer.diskStorage({
   	var token = req.body.token
   	//decode the token
   	if(!token)
-    return res.json({message:'Not Sign In'})
-  	var decoded = jwt.decode(token, tokenKey);
+    	return res.json({message:'Not Sign In'})
+    try{
+    	var decoded = jwt.decode(token, tokenKey);
+     	throw new Error('Catch me');
+	}catch(e){
+     	return res.json({message:'Invaild Token！！'})
+	}
+
   	if (decoded.exp <= Date.now()) {
     	res.json({message:'Access token has expired,sign in again'});
   	}
