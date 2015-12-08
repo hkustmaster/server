@@ -1,12 +1,10 @@
 var express = require('express');
 var router = express.Router();
-//var Index = require('../controllers/index')
 var User = require('../controllers/user')
 var Upload = require('../controllers/upload');
-//var Movie = require('../controllers/movie')
-//var Comment = require('../controllers/comment')
-//var Category = require('../controllers/category')
-/* GET home page. */
+var tokenKey='together';
+
+/* File upload */
 var multer  = require('multer')
 var path = require('path');
 var jwt = require('jwt-simple');
