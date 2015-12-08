@@ -3,11 +3,53 @@ var mongoose = require('mongoose')
 var userSchema = require('../schemas/user')
 var router = express.Router();
 var User = require('../controllers/user')
+var tokenKey='together';
+var jwt = require('jwt-simple');
+var multer  = require('multer')
+var path = require('path');
+var storage = multer.diskStorage({
+  destination: function (req, file, cb) {
+  	console.log("des")
+    cb(null, path.join(__dirname, '../upload'))
+  },
+  filename: function (req, file, cb) {
+  	var token = req.body.token
+  	//decode the token
+  	if(!token)
+    return res.json({message:'Not Sign In'})
+  	var decoded = jwt.decode(token, tokenKey);
+  	if (decoded.exp <= Date.now()) {
+    	res.json({message:'Access token has expired,sign in again'});
+  	}
+  	else
+	    User.findOne({ _id: decoded._id }, function(err, user) {
+	      if (err){
+	        return res.json({message:'Sever Error'})
+	      }
+	      else if(!user){
+	        return res.json({message:'Invaild Token'})
+	      }
+	      else{
+	        req.user = user;
+		    delete req.body.token
+		    console.log("test body"+req.body.token+"file"+file)
+    		cb(null, req.user._id+'.'+req.body.ext)
+	      }
+	    });
+  	
+  }
+})
+
+var upload = multer({ 
+	storage: storage
+})
 
 
 
 
 /* File upload */
+
+router.post('/user/avatar',upload.single("picc"),Upload.upload)
 
 
 

@@ -62,9 +62,7 @@ app.use('/', routes);
 // })
 
 app.use(function(req,res,next){
-  console.log("start")
   var token = req.body.token
-  console.log(token)
   //decode the token
   if(!token)
     return res.json({message:'Not Sign In'})
@@ -82,9 +80,6 @@ app.use(function(req,res,next){
       }
       else{
         req.user = user;
-        app.locals.user=user;
-        if(req.body.ext)
-          app.locals.ext=req.body.ext
 	      delete req.body.token
         next()
       }
