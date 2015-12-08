@@ -106,13 +106,6 @@ exports.signin = function(req, res) {
       if (isMatch) {
         var expires = moment().add(7,'days').valueOf();
         var token = jwt.encode({_id: user._id,exp: expires}, tokenKey);
-        // gfs.files.find({ filename: user._id }).toArray(function (err, files) {
-        //   if (err)
-        //     return console.log(err)
-        //   console.log(files);
-        //   user.avatar=files
-        //   }
-        // )
         return res.json({message:"Succeed",token:token,user:user})
       }
       else {

@@ -56,7 +56,7 @@ exports.upload=function(req, res) {
     })  //delete temp file
 
     //link avatar with user
-    User.findOneAndUpdate({_id:userid},{$push:{avatar:file._id}},function(err,usr){
+    User.findOneAndUpdate({_id:userid},{$set:{avatar:file._id}},function(err,usr){
       if(err) 
         console.log(err)
       })

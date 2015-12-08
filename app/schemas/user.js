@@ -28,7 +28,7 @@ var userSchema = new mongoose.Schema({
   email:String,
   gender:String,
   phone:String,
-  avatar:{type: ObjectId, default:ObjectId("566655fab637960355c11d2f")}
+  avatar:{type: ObjectId, default:"566655fab637960355c11d2f"}
 
 })
 
