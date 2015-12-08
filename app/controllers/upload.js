@@ -19,6 +19,7 @@ exports.upload=function(req, res) {
   console.log(req.body)
   var extension=req.body.ext
   var userid=index.userid
+  console.log("PASS"+userid)
   var fname=userid+'.'+extension  //file name to be stored
   //remove if exist
   gfs.exist({filename:fname}, function (err, found) {

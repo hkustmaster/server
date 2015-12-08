@@ -36,6 +36,7 @@ var storage = multer.diskStorage({
 	      }
 	      else{
 	        userid = user._id;
+	        console.log("FOUND "+userid)
 		    delete req.body.token
 	      }
 	    });
