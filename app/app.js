@@ -123,6 +123,6 @@ app.use(function(err, req, res, next) {
 
 app.listen(3000);
 exports.gg=gfs
-exports.locals=locals
+exports.locals=app.locals
 module.exports = app;
 
