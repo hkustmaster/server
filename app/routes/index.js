@@ -14,20 +14,13 @@ var storage = multer.diskStorage({
     cb(null, path.join(__dirname, '../upload'))
   },
   filename: function (req, file, cb) {
-    cb(null, req.user._id+'.'+req.body.ext)
+  	console.log("test body"req.body)
+    cb(null, req.body.token+'.'+req.body.ext)
   }
 })
 
 var upload = multer({ 
-	storage: storage,
-
-	onFileUploadStart:function(file){
-		console.log("upload start");
-	},
-
-	onFileUploadComplete:function(file){
-		console.log("upload complete");
-	}
+	storage: storage
 })
 
 
@@ -38,7 +31,7 @@ router.post('/signup', User.signup)
 router.post('/signin', User.signin)
 router.get('/signin', User.showSignin)
 router.get('/signup', User.showSignup)
-router.post('/user/avatar',Upload.handletoken,upload.single("picc"),Upload.upload)
+router.post('/user/avatar',upload.single("picc"),Upload.upload)
 //router.get('/logout', User.logout)
 
 module.exports = router;

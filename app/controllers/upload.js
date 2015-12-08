@@ -12,6 +12,7 @@ var tokenKey='together';
 
 
 exports.handletoken=function(req, res,next) {
+  console.log("Start handle")
   var token = req.body.token
   //decode the token
   if(!token)

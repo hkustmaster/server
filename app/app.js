@@ -60,7 +60,6 @@ app.use('/', routes);
 //       res.json({message:"Not Signed In"})
 //     }
 // })
-app.post("")//handle file upload indenpendently
 
 app.use(function(req,res,next){
   var token = req.body.token
