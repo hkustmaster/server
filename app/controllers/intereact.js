@@ -48,11 +48,13 @@ console.log(err)
 exports.vote=function(req,res){
 	var actid=req.body.actid
 	var thevote=req.body.vote
-	activity.update({hid:actid,participants:{$elemMatch:{id:req.user._id}}},{$set:{"participants.$.availdableAt":thevote}},function(err,act){
+	activity.findOneAndUpdate({hid:actid,participants:{$elemMatch:{id:req.user._id}}},{$set:{"participants.$.availdableAt":thevote}},function(err,act){
 		if(err)
 			res.json({message:"Server Error"})
-		else
+		if(act)
 			res.json({message:"Succeed"})
+		else
+			res.json({message:"No such activity or not in list"})
 	})
 }
 
