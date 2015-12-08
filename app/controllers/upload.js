@@ -48,7 +48,7 @@ exports.upload=function(req, res) {
   writestream.on('close', function (file) {
     console.log(file.filename);
     console.log("Write to DB successfully")
-    fs.unlink('../upload/'+fname, function(err){
+    fs.unlink(path.join(__dirname, '../upload/'+fname), function(err){
       if(err)
 
         console.log("delete temp err"+err)
