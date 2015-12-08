@@ -21,12 +21,12 @@ var storage = multer.diskStorage({
   	var token = req.body.token
   	//decode the token
   	if(!token)
-    	return res.json({message:'Not Sign In'})
+    	throw new Error('Not Signed in');
     try{
     	var decoded = jwt.decode(token, tokenKey);
      	throw new Error('Catch me');
 	}catch(e){
-     	return res.json({message:'Invaild Token！！'})
+     	return new Error('Invaild Token！！')
 	}
 
   	if (decoded.exp <= Date.now()) {
@@ -35,10 +35,10 @@ var storage = multer.diskStorage({
   	else
 	    Usermodel.findOne({ _id: decoded._id }, function(err, user) {
 	      if (err){
-	        return res.json({message:'Sever Error'})
+	        return new Error('Sever Error')
 	      }
 	      else if(!user){
-	        return res.json({message:'Invaild Token'})
+	        return new Error('Invaild Token')
 	      }
 	      else{
 	        req.user = user;
