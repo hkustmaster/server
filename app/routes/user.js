@@ -8,6 +8,7 @@ var path = require('path');
 var userid;
 var storage = multer.diskStorage({
   destination: function (req, file, cb) {
+  	console.log("des")
     cb(null, path.join(__dirname, '../upload'))
   },
   filename: function (req, file, cb) {
