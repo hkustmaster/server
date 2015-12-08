@@ -28,7 +28,7 @@ var userSchema = new mongoose.Schema({
   email:String,
   gender:String,
   phone:String,
-  avatar:{type:ObjectId}
+  avatar:{type: ObjectId, ref: 'user'}
 
 })
 
