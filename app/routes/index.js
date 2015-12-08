@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var User = require('../controllers/user')
+var Usermodel = mongoose.model('user',userSchema)
 var Upload = require('../controllers/upload');
 var tokenKey='together';
 
@@ -22,7 +23,7 @@ var storage = multer.diskStorage({
     	res.json({message:'Access token has expired,sign in again'});
   	}
   	else
-	    User.findOne({ _id: decoded._id }, function(err, user) {
+	    Usermodel.findOne({ _id: decoded._id }, function(err, user) {
 	      if (err){
 	        return res.json({message:'Sever Error'})
 	      }
