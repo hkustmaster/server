@@ -48,6 +48,7 @@ console.log(err)
 exports.vote=function(req,res){
 	var actid=req.body.actid
 	var thevote=req.body.vote
+	console.log(req.user._id)
 	activity.findOneAndUpdate({hid:actid,participants:{$elemMatch:{id:req.user._id}}},{$set:{"participants.$.availdableAt":thevote}},function(err,act){
 		if(err)
 			res.json({message:"Server Error"})
