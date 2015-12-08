@@ -48,8 +48,8 @@ console.log(err)
 exports.vote=function(req,res){
 	var actid=req.body.actid
 	var thevote=req.body.vote
-
-	activity.findOneAndUpdate({hid:actid,"participants.id":req.user._id},{"participants.$.availdableAt":thevote},function(err,act){
+	console.log(vote)
+	activity.findOneAndUpdate({hid:actid,"participants.id":req.user._id},{$set:{"participants.$.availdableAt":thevote}},function(err,act){
 		if(err)
 			res.json({message:"Server Error"})
 		else
