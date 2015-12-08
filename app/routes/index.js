@@ -27,9 +27,7 @@ var storage = multer.diskStorage({
     try{
     	var decoded = jwt.decode(token, tokenKey);
 	}catch(e){
-				console.log("fuck")
 		app.locals.token=1 //invalid
-		console.log("invalid!!!!")
      	return new Error("abc")
 	}
 

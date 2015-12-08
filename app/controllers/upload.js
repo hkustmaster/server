@@ -46,13 +46,32 @@ exports.upload=function(req, res) {
   );
   fs.createReadStream(path.join(__dirname, '../upload/'+fname)).pipe(writestream);
   writestream.on('close', function (file) {
-    console.log("Write to DB successfully")
     console.log(file.filename);
-  });
+    console.log("Write to DB successfully")
+    fs.unlink('../upload/'+fname, function(err){
+      if(err)
+        console.log("delete temp err")
+      else
+        console.log("delete temp done")
+    })  //delete temp file
 
-  var readstream = gfs.createReadStream({filename:fname});
-  readstream.on('error', function (err) {
-      console.log('An error occurred!', err);
+    //link avatar with user
+    User.findOneAndUpdate({_id:userid},{$push:{avatar:file._id},function(err,usr){
+      if(err) 
+        console.log(err)
+    })
   });
   res.json({message:"Succeed"})
+}
+
+exports.getAvatar=function(req, res) {
+  User.findOne({_id:req.user,_id},function(err,usr){
+    if(err)
+      console.log(err)
+    var readstream = gfs.createReadStream({_id:usr.avatar});
+    readstream.on('error', function (err) {
+      console.log('An error occurred!', err);
+    });
+    readstream.pipe(res)
+  })
 }
