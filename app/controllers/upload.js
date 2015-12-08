@@ -13,6 +13,8 @@ var tokenKey='together';
 
 
 exports.upload=function(req, res) {
+  if(app.locals.token==0||app.locals.token==1||app.locals.token==2)
+    return res.json({message:"Error Type"+app.locals.token})
   var gfs=app.gg
   console.log(req.file)
   console.log(req.body)

@@ -7,6 +7,7 @@ var tokenKey='together';
 var jwt = require('jwt-simple');
 var Upload = require('../controllers/upload');
 var Usermodel = mongoose.model('user',userSchema)
+var app=require('../app.js')
 
 
 
@@ -14,19 +15,20 @@ var multer  = require('multer')
 var path = require('path');
 var storage = multer.diskStorage({
   destination: function (req, file, cb) {
-  	console.log("des")
     cb(null, path.join(__dirname, '../upload'))
   },
   filename: function (req, file, cb) {
   	var token = req.body.token
   	//decode the token
-  	if(!token)
-    	throw new Error('Not Signed in');
+  	if(!token){
+  		app.locals.token=0  //not sign in
+  		return
+  	}
     try{
     	var decoded = jwt.decode(token, tokenKey);
-     	throw new Error('Catch me');
 	}catch(e){
-     	return new Error('Invaild Token！！')
+		app.locals.token=1 //invalid
+     	return
 	}
 
   	if (decoded.exp <= Date.now()) {
@@ -35,12 +37,15 @@ var storage = multer.diskStorage({
   	else
 	    Usermodel.findOne({ _id: decoded._id }, function(err, user) {
 	      if (err){
-	        return new Error('Sever Error')
+	      	app.locals.token=2
+	        return
 	      }
 	      else if(!user){
-	        return new Error('Invaild Token')
+	      	app.locals.token=1
+	        return 
 	      }
 	      else{
+	      	app.locals.token=3
 	        req.user = user;
 		    delete req.body.token
 		    console.log("test body"+req.body.token+"file"+file)
