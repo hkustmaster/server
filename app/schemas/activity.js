@@ -26,7 +26,7 @@ var activitySchema = new mongoose.Schema({
 	host:{type: ObjectId, ref: 'user'},
 	participants:[{
 		id:{type: ObjectId, ref: 'user'},
-		availdableAt:String,
+		availdableAt:String
 	}],
 	comments:[{type:ObjectId,ref:'comment'}],
 	createAt: {
