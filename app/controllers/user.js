@@ -63,12 +63,6 @@ exports.signup = function(req, res) {
       return res.json({message:"User Exists"});
     }
     else {
-      if(req.body.avatar){
-        //add avatar
-      }
-      else{
-        req.body.avatar="default"
-      }
       user = new User(req.body)
       user.save(function(err, user) {
         if (err) {
