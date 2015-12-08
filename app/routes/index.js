@@ -21,5 +21,5 @@ router.get('/signin', User.showSignin)
 router.get('/signup', User.showSignup)
 
 //router.get('/logout', User.logout)
-exports.userid=userid
+
 module.exports = router;
