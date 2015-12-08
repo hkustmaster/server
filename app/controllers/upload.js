@@ -29,6 +29,7 @@ var upload = multer({
   // The function should call `cb` with a boolean
   // to indicate if the file should be accepted
    var token = req.body.token
+   console.log("filter got!!!!!!! "+req.body.token)
     //decode the token
     if(!token){
       app.locals.token=0  //not sign in
