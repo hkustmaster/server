@@ -80,6 +80,9 @@ app.use(function(req,res,next){
       }
       else{
         req.user = user;
+        app.locals.user=user;
+        if(req.body.ext)
+          app.locals.ext=req.body.ext
 	      delete req.body.token
         next()
       }
