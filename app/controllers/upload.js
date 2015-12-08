@@ -145,7 +145,7 @@ var astorage = multer.diskStorage({
     afname=req.actid+req.user._id+file.originalname
     cb(null, afname)
   }
-})-
+})
 
 var aupload = multer({
  fileFilter:function (req, file, cb) {
