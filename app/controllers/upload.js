@@ -65,6 +65,7 @@ exports.upload=function(req, res) {
 }
 
 exports.getAvatar=function(req, res) {
+  var gfs=app.gg
   User.findOne({_id:req.user._id},function(err,usr){
     if(err)
       console.log(err)
