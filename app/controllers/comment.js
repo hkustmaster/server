@@ -1,5 +1,6 @@
 var mongoose = require('mongoose')
 var Comment = mongoose.model('Comment')
+var activity = require('../model/activity');
 
 // comment
 exports.post = function(req, res) {
@@ -23,7 +24,7 @@ exports.post = function(req, res) {
           console.log(err)
         }
 
-        es.json({message:"Succeed"})
+        res.json({message:"Succeed"})
       })
     })
   }
@@ -36,9 +37,14 @@ exports.post = function(req, res) {
     comment.save(function(err, comment) {
       if (err) {
         console.log(err)
+        res.json({message:"Server Error"})
       }
-
-      res.json({message:"Succeed"})
+      activity.findOneAndUpdate({id:activityId},{$push:{comments:comment._id}},function(err,act){
+        if(err)
+          res.json({message:"Server Error"})
+        else
+          res.json({message:"Succeed"})
+      })
     })
   }
 }
