@@ -7,6 +7,6 @@ var Comment = require('../controllers/comment')
 
 router.post('/comment/post',Comment.post)
 
-router.get('/comment/get/:id',Comment.getComments)
+router.post('/comment/list',Comment.getComments)
 
 module.exports = router;

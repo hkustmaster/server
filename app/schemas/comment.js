@@ -4,42 +4,35 @@ var ObjectId = Schema.Types.ObjectId
 
 var CommentSchema = new mongoose.Schema({
   activity: {type: ObjectId, ref: 'activity'},
-  from: {type: ObjectId, ref: 'user'},
+  from: {
+    id:{type: ObjectId, ref: 'user'},
+    name:String
+  }
   reply: [{
     from: {type: ObjectId, ref: 'user'},
     to: {type: ObjectId, ref: 'user'},
     content: String
   }],
   content: String,
-  meta: {
-    createAt: {
-      type: Date,
-      default: Date.now()
-    },
-    updateAt: {
-      type: Date,
-      default: Date.now()
-    }
+  createAt: {
+    type: Date,
+    default: Date.now()
   }
 })
 
 // var ObjectId = mongoose.Schema.Types.ObjectId
 CommentSchema.pre('save', function(next) {
   if (this.isNew) {
-    this.meta.createAt = this.meta.updateAt = Date.now()
+    this.meta.createAt = Date.now()
   }
-  else {
-    this.meta.updateAt = Date.now()
-  }
-
   next()
 })
 
 CommentSchema.statics = {
-  fetch: function(cb) {
+  fetch: function(id,cb) {
     return this
-      .find({})
-      .sort('meta.updateAt')
+      .find({activity:id})
+      .sort('createAt')
       .exec(cb)
   },
   findById: function(id, cb) {
