@@ -31,7 +31,7 @@ exports.post = function(req, res) {
     var comment = new Comment({
        content: req.body.content,
        from:req.user._id,
-       activityId : req.body.id
+       activity : req.body.id
     })
     comment.save(function(err, comment) {
       if (err) {
