@@ -46,7 +46,7 @@ exports.post = function(req, res) {
 //get comments of an activity
 exports.getComments=function(req,res){
   var activityId=req.body.id
-  Comment.find({activity:activityId}).sort("createAt").populate("from","name").exec(function(err,comments){
+  Comment.find({activity:activityId}).sort("createAt").populate("from.id","name").exec(function(err,comments){
     if(err)
       console.log(err)
     else
