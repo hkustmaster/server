@@ -186,14 +186,13 @@ var aupload = multer({
         }
       })
   }, 
-  storage: storage
+  storage: astorage
 }).single("picc")
 
 
 
 
 exports.uploadPic=function(req, res) {
-
   console.log("Store activity photo")
   var gfs=app.gg
   console.log(req.file)
@@ -214,11 +213,11 @@ exports.uploadPic=function(req, res) {
       }
     }
   );
-  fs.createReadStream(path.join(__dirname, '../upload/'+fname)).pipe(writestream);
+  fs.createReadStream(path.join(__dirname, '../upload/'+afname)).pipe(writestream);
   writestream.on('close', function (file) {
     console.log(file.filename);
     console.log("Write to DB successfully")
-    fs.unlink(path.join(__dirname, '../upload/'+fname), function(err){
+    fs.unlink(path.join(__dirname, '../upload/'+afname), function(err){
       if(err)
         console.log("delete temp err"+err)
       else
@@ -226,10 +225,23 @@ exports.uploadPic=function(req, res) {
     })  //delete temp file
 
     //link avatar with user
-    User.findOneAndUpdate({_id:userid},{$set:{avatar:file._id}},function(err,usr){
-      if(err) 
+    activity.findOneAndUpdate({id:actid},{$push:{pic:file._id}},function(err,act){
+      if(err){
         console.log(err)
+        return res.json({message:"Server Erorr"})
+      }
+
       })
     });
   res.json({message:"Succeed"})
+}
+exports.getPic=function(req, res) {
+  var gfs=app.gg
+  var readstream = gfs.createReadStream({_id:id});
+  readstream.on('error', function (err) {
+    console.log('An error occurred!', err);
+    res.json(message:"Server Erorr"+err)
+  });
+  readstream.pipe(res)
+  )
 }

@@ -96,4 +96,18 @@ POST /comment/list
 return {message:}
 
 
+獲取頭像：POST
 
+<form action="http://sigmoid.xyz:3000/user/getavatar" method="post">
+<input type="text" name="token">
+<input type="submit" value="Upload">
+</form>
+
+上傳頭像
+<form action="http://sigmoid.xyz:3000/user/avatar" enctype="multipart/form-data" method="post">
+<input type="text" name="token">
+<input type="text" name="ext" value="jpg">
+File <input type="file" name="picc" accept="image/*">
+
+<input type="submit" value="Upload">
+</form>
