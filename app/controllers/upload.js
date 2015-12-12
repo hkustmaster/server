@@ -240,7 +240,7 @@ exports.getPic=function(req, res) {
   var readstream = gfs.createReadStream({_id:id});
   readstream.on('error', function (err) {
     console.log('An error occurred!', err);
-    res.json(message:"Server Erorr"+err)
+    res.json({message:"Server Erorr"+err})
   });
   readstream.pipe(res)
   )
