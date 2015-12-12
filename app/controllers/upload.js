@@ -243,5 +243,4 @@ exports.getPic=function(req, res) {
     res.json({message:"Server Erorr"+err})
   });
   readstream.pipe(res)
-  )
 }
