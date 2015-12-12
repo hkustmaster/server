@@ -8,7 +8,7 @@ var mongoose =require('mongoose');
 var routes = require('./routes/index');
 var user=require('./routes/user')
 var activity = require('./routes/activity');
-var routes = require('./routes/comment');
+var comment= require('./routes/comment');
 var session = require('express-session');
 var jwt = require('jwt-simple');
 var mongoStore = require('connect-mongo')(session)
@@ -89,7 +89,7 @@ app.use(function(req,res,next){
 })
 app.use('/user',user)
 app.use('/activity',activity);
-app.use()
+app.use(comment)
 
 
 // catch 404 and forward to error handler
