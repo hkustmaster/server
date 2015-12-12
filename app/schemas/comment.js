@@ -7,7 +7,7 @@ var CommentSchema = new mongoose.Schema({
   from: {
     id:{type: ObjectId, ref: 'user'},
     name:String
-  }
+  },
   reply: [{
     from: {type: ObjectId, ref: 'user'},
     to: {type: ObjectId, ref: 'user'},
