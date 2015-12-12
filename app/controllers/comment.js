@@ -1,6 +1,6 @@
 var mongoose = require('mongoose')
 var Comment = mongoose.model('Comment')
-var activity = require('../model/activity');
+var activity = require('../models/activity');
 
 // comment
 exports.post = function(req, res) {
