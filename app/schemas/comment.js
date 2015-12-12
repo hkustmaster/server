@@ -23,7 +23,7 @@ var CommentSchema = new mongoose.Schema({
 // var ObjectId = mongoose.Schema.Types.ObjectId
 CommentSchema.pre('save', function(next) {
   if (this.isNew) {
-    this.meta.createAt = Date.now()
+    this.createAt = Date.now()
   }
   next()
 })
