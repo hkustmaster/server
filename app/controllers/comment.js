@@ -32,7 +32,7 @@ exports.post = function(req, res) {
        content: req.body.content,
        from:req.user._id,
        activityId : req.body.id
-    }})
+    })
     comment.save(function(err, comment) {
       if (err) {
         console.log(err)
