@@ -84,8 +84,16 @@ POST /activity/vote
 {token:"",actid:"",vote:String}
 return {message:}
 
-投票：1. 更新participant记录
 
-view message： 
+view comment：
+POST /comment/list
+ {token:"",id:""}
+return {message:}
+
+post comment:
+POST /comment/list
+ {token:"",id:"",content:""}
+return {message:}
+
 
 
