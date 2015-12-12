@@ -30,7 +30,7 @@ exports.post = function(req, res) {
   else {
     var comment = new Comment({
        content: req.body.content,
-       from.id:req.user._id,
+       "from.id":req.user._id,
        activity : req.body.id
     })
     comment.save(function(err, comment) {
