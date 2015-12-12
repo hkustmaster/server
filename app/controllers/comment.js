@@ -42,6 +42,8 @@ exports.post = function(req, res) {
       activity.findOneAndUpdate({id:activityId},{$push:{comments:comment._id}},function(err,act){
         if(err)
           res.json({message:"Server Error"})
+        else if(!act)
+          res.json({message:"Activity Not Found"})
         else
           res.json({message:"Succeed"})
       })
